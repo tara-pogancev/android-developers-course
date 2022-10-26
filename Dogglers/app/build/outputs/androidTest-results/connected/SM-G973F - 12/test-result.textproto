@@ -1,0 +1,1004 @@
+# 2022-10-26T08:07:52.367Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 19
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "grid_list_button_is_displayed"
+    start_time {
+      seconds: 1666771651
+      nanos: 88000000
+    }
+    end_time {
+      seconds: 1666771651
+      nanos: 859000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.ButtonTests-grid_list_button_is_displayed.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "clicking_horizontal_list_button_displays_horizontal_list"
+    start_time {
+      seconds: 1666771652
+      nanos: 312000000
+    }
+    end_time {
+      seconds: 1666771653
+      nanos: 310000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.ButtonTests-clicking_horizontal_list_button_displays_horizontal_list.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "clicking_grid_list_button_displays_grid_list"
+    start_time {
+      seconds: 1666771653
+      nanos: 819000000
+    }
+    end_time {
+      seconds: 1666771654
+      nanos: 741000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.ButtonTests-clicking_grid_list_button_displays_grid_list.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "clicking_vertical_list_button_displays_vertical_list"
+    start_time {
+      seconds: 1666771655
+      nanos: 267000000
+    }
+    end_time {
+      seconds: 1666771656
+      nanos: 106000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.ButtonTests-clicking_vertical_list_button_displays_vertical_list.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "horizontal_list_button_is_displayed"
+    start_time {
+      seconds: 1666771656
+      nanos: 524000000
+    }
+    end_time {
+      seconds: 1666771657
+      nanos: 15000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.ButtonTests-horizontal_list_button_is_displayed.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ButtonTests"
+    test_package: "com.example.dogglers"
+    test_method: "vertical_list_button_is_displayed"
+    start_time {
+      seconds: 1666771657
+      nanos: 475000000
+    }
+    end_time {
+      seconds: 1666771658
+      nanos: 325000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.ButtonTests-vertical_list_button_is_displayed.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "GridListTests"
+    test_package: "com.example.dogglers"
+    test_method: "recycler_view_item_count"
+    start_time {
+      seconds: 1666771658
+      nanos: 331000000
+    }
+    end_time {
+      seconds: 1666771658
+      nanos: 775000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.GridListTests-recycler_view_item_count.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "GridListTests"
+    test_package: "com.example.dogglers"
+    test_method: "grid_list_content_on_first_page"
+    start_time {
+      seconds: 1666771659
+      nanos: 186000000
+    }
+    end_time {
+      seconds: 1666771660
+      nanos: 34000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.GridListTests-grid_list_content_on_first_page.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "GridListTests"
+    test_package: "com.example.dogglers"
+    test_method: "vertical_scrolling"
+    start_time {
+      seconds: 1666771660
+      nanos: 44000000
+    }
+    end_time {
+      seconds: 1666771660
+      nanos: 692000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.GridListTests-vertical_scrolling.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "GridListTests"
+    test_package: "com.example.dogglers"
+    test_method: "grid_list_content_at_last_position"
+    start_time {
+      seconds: 1666771661
+      nanos: 208000000
+    }
+    end_time {
+      seconds: 1666771662
+      nanos: 30000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.GridListTests-grid_list_content_at_last_position.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "GridListTests"
+    test_package: "com.example.dogglers"
+    test_method: "grid_list_content_at_first_position"
+    start_time {
+      seconds: 1666771662
+      nanos: 32000000
+    }
+    end_time {
+      seconds: 1666771662
+      nanos: 641000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.GridListTests-grid_list_content_at_first_position.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "HorizontalListTests"
+    test_package: "com.example.dogglers"
+    test_method: "recycler_view_item_count"
+    start_time {
+      seconds: 1666771663
+      nanos: 48000000
+    }
+    end_time {
+      seconds: 1666771663
+      nanos: 550000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.HorizontalListTests-recycler_view_item_count.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "HorizontalListTests"
+    test_package: "com.example.dogglers"
+    test_method: "horizontal_scrolling"
+    start_time {
+      seconds: 1666771664
+      nanos: 20000000
+    }
+    end_time {
+      seconds: 1666771664
+      nanos: 842000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.HorizontalListTests-horizontal_scrolling.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "HorizontalListTests"
+    test_package: "com.example.dogglers"
+    test_method: "horizontal_scroll_content_at_last_position"
+    start_time {
+      seconds: 1666771665
+      nanos: 358000000
+    }
+    end_time {
+      seconds: 1666771666
+      nanos: 178000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.HorizontalListTests-horizontal_scroll_content_at_last_position.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "HorizontalListTests"
+    test_package: "com.example.dogglers"
+    test_method: "horizontal_scroll_content_at_first_position"
+    start_time {
+      seconds: 1666771666
+      nanos: 183000000
+    }
+    end_time {
+      seconds: 1666771666
+      nanos: 705000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.HorizontalListTests-horizontal_scroll_content_at_first_position.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "VerticalListTests"
+    test_package: "com.example.dogglers"
+    test_method: "recycler_view_item_count"
+    start_time {
+      seconds: 1666771667
+      nanos: 221000000
+    }
+    end_time {
+      seconds: 1666771667
+      nanos: 660000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.VerticalListTests-recycler_view_item_count.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "VerticalListTests"
+    test_package: "com.example.dogglers"
+    test_method: "vertical_scroll_content_at_last_position"
+    start_time {
+      seconds: 1666771668
+      nanos: 101000000
+    }
+    end_time {
+      seconds: 1666771668
+      nanos: 864000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.VerticalListTests-vertical_scroll_content_at_last_position.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "VerticalListTests"
+    test_package: "com.example.dogglers"
+    test_method: "vertical_scrolling"
+    start_time {
+      seconds: 1666771668
+      nanos: 895000000
+    }
+    end_time {
+      seconds: 1666771669
+      nanos: 498000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.VerticalListTests-vertical_scrolling.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "VerticalListTests"
+    test_package: "com.example.dogglers"
+    test_method: "vertical_scroll_content_at_first_position"
+    start_time {
+      seconds: 1666771669
+      nanos: 933000000
+    }
+    end_time {
+      seconds: 1666771670
+      nanos: 530000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\logcat-com.example.dogglers.VerticalListTests-vertical_scroll_content_at_first_position.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\Think\\Documents\\Android Projects\\android-developers-course\\Dogglers\\app\\build\\outputs\\androidTest-results\\connected\\SM-G973F - 12\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

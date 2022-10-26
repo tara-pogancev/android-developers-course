@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.example.dogglers.ButtonTests" tests="19" failures="0" errors="0" skipped="0" time="21.122" timestamp="2022-10-26T08:07:52" hostname="localhost">
+  <properties>
+    <property name="device" value="SM-G973F - 12" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="grid_list_button_is_displayed" classname="com.example.dogglers.ButtonTests" time="0.745" />
+  <testcase name="clicking_horizontal_list_button_displays_horizontal_list" classname="com.example.dogglers.ButtonTests" time="0.998" />
+  <testcase name="clicking_grid_list_button_displays_grid_list" classname="com.example.dogglers.ButtonTests" time="0.921" />
+  <testcase name="clicking_vertical_list_button_displays_vertical_list" classname="com.example.dogglers.ButtonTests" time="0.838" />
+  <testcase name="horizontal_list_button_is_displayed" classname="com.example.dogglers.ButtonTests" time="0.49" />
+  <testcase name="vertical_list_button_is_displayed" classname="com.example.dogglers.ButtonTests" time="0.851" />
+  <testcase name="recycler_view_item_count" classname="com.example.dogglers.GridListTests" time="0.44" />
+  <testcase name="grid_list_content_on_first_page" classname="com.example.dogglers.GridListTests" time="0.849" />
+  <testcase name="vertical_scrolling" classname="com.example.dogglers.GridListTests" time="0.641" />
+  <testcase name="grid_list_content_at_last_position" classname="com.example.dogglers.GridListTests" time="0.823" />
+  <testcase name="grid_list_content_at_first_position" classname="com.example.dogglers.GridListTests" time="0.615" />
+  <testcase name="recycler_view_item_count" classname="com.example.dogglers.HorizontalListTests" time="0.499" />
+  <testcase name="horizontal_scrolling" classname="com.example.dogglers.HorizontalListTests" time="0.817" />
+  <testcase name="horizontal_scroll_content_at_last_position" classname="com.example.dogglers.HorizontalListTests" time="0.821" />
+  <testcase name="horizontal_scroll_content_at_first_position" classname="com.example.dogglers.HorizontalListTests" time="0.519" />
+  <testcase name="recycler_view_item_count" classname="com.example.dogglers.VerticalListTests" time="0.436" />
+  <testcase name="vertical_scroll_content_at_last_position" classname="com.example.dogglers.VerticalListTests" time="0.762" />
+  <testcase name="vertical_scrolling" classname="com.example.dogglers.VerticalListTests" time="0.609" />
+  <testcase name="vertical_scroll_content_at_first_position" classname="com.example.dogglers.VerticalListTests" time="0.602" />
+</testsuite>
