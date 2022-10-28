@@ -1,0 +1,1221 @@
+10-28 12:55:36.216 17800 17832 I TestRunner: started: side_menu_item_content(com.example.lunchtray.MenuContentTests)
+10-28 12:55:36.218 11071 17857 I GOS:GameIntentService: onHandleIntent. GameIntentService. type: 15, pkgName: com.example.lunchtray
+10-28 12:55:36.219   954  1216 W SearchableInfo: Invalid searchable metadata for com.samsung.android.messaging/.ui.view.recipientspicker.PickerActivity: Search label must be a resource reference.
+10-28 12:55:36.221 19454 14990 I ExternalAccountType: [M] loadContactsXml : com.google.android.apps.plus
+10-28 12:55:36.222 19454 14990 E ExternalAccountType: [M] Package was found, but that doesn't contain the CONTACTS_STRUCTURE metadata
+10-28 12:55:36.226 24288 24524 I BluetoothAdapter: STATE_ON
+10-28 12:55:36.231 19208 30741 I ExternalAccountType: [D] Metadata loaded from: com.snapchat.android, com.snap.identity.enhancedcontacts.core.EnhancedContactsSyncService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.232 19208 30741 I ExternalAccountType: [D] loadContactsXml : com.whatsapp
+10-28 12:55:36.236 17800 17832 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-28 12:55:36.245 24288 24524 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+10-28 12:55:36.274 19208 30741 I ExternalAccountType: [D] Metadata loaded from: com.whatsapp, com.whatsapp.contact.sync.ContactsSyncAdapterService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.293 32329 32329 I ResourceOverlayService_0: onCreate() called. UserId: 0
+10-28 12:55:36.294 25095 25146 I AccountTypeModel.AccountTypeLoader: [C] finish accountsInBackground
+10-28 12:55:36.295 32329 32329 I SEP_UNION_SemUnionManager: getUnionService() : semeventdelegator
+10-28 12:55:36.296 32329 32329 I ResourceOverlayService_0: initManager thread creation
+10-28 12:55:36.296   954  3923 D SEP_UNION_SemDeviceInfoManagerService: registerPendingIntentForUriAsUser() uri = content://settings/global/device_provisioned, callingPackage = com.samsung.android.localeoverlaymanager, tag = , userId = 0
+10-28 12:55:36.297   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_ADDED, tag =
+10-28 12:55:36.299 32329 32329 I ResourceOverlayService_0: requestPendingActions() called - No pending actions!
+10-28 12:55:36.310 19208 30741 I ExternalAccountType: [D] loadContactsXml : com.google.android.apps.plus
+10-28 12:55:36.312 19208 30741 E ExternalAccountType: [D] Package was found, but that doesn't contain the CONTACTS_STRUCTURE metadata
+10-28 12:55:36.312 19208 30741 I AccountTypeModel.AccountTypeLoader: [D] finish add account type
+10-28 12:55:36.318 24288 24524 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+10-28 12:55:36.319 32306 32423 D AppListCacheIndexingManager: deletePackage : row = 1
+10-28 12:55:36.321 24288 24524 W ChimeraUtils: Module com.google.android.gms.nearby_en has empty metadata display_name_string_id
+10-28 12:55:36.325 32329 32329 I ResourceOverlayService_0: setProcessForeground: true
+10-28 12:55:36.325 32329 17869 I LocaleOverlayManager_0: Handler ready Handler (com.samsung.android.localeoverlaymanager.LocaleOverlayManager$OverlayHandler) {5eb1a31}
+10-28 12:55:36.330 32329 32329 E ResourceOverlayService_0: onStartCommand com.samsung.android.localeoverlaymanager.action.PACKAGE_ADDED manager -Thread[ResourceOverlayService,5,main]
+10-28 12:55:36.330 32329 32329 I PreferenceUtils: getPreferences() called with: userId = [0], context: com.samsung.android.localeoverlaymanager.ResourceOverlayService@40d4e97
+10-28 12:55:36.330 32329 32329 I ResourceOverlayService_0: handlePendingTask- packageName: None
+10-28 12:55:36.330 32329 32329 I ResourceOverlayService_0: onStartCommand: Package added intent. Data = package:com.example.lunchtray
+10-28 12:55:36.330 32329 32329 E ResourceOverlayService_0: requestPendingAction sending bundle Bundle[{added_package=com.example.lunchtray, pending_action=com.samsung.android.localeoverlaymanager.action.PACKAGE_ADDED}]
+10-28 12:55:36.331 32329 17869 I LocaleOverlayManager_0: handleMessage false msg { when=-1ms what=1 obj=Bundle[{added_package=com.example.lunchtray, pending_action=com.samsung.android.localeoverlaymanager.action.PACKAGE_ADDED}] target=com.samsung.android.localeoverlaymanager.LocaleOverlayManager$OverlayHandler }
+10-28 12:55:36.331 32329 17869 I LocaleOverlayManager_0: MESSAGE_PENDING_ACTION --com.samsung.android.localeoverlaymanager.action.PACKAGE_ADDED
+10-28 12:55:36.331 32329 17869 I LocaleOverlayManager_0: handleMessage false msg { when=0 what=3 obj=Bundle[{added_package=com.example.lunchtray, pending_action=com.samsung.android.localeoverlaymanager.action.PACKAGE_ADDED}] target=com.samsung.android.localeoverlaymanager.LocaleOverlayManager$OverlayHandler }
+10-28 12:55:36.331 32329 17869 I LocaleOverlayManager_0: handleMessage: MESSAGE_PARSE_SINGLE_PACKAGE. PackageName = [com.example.lunchtray]
+10-28 12:55:36.331 24389 24389 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-28 12:55:36.331 24389 24389 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-28 12:55:36.331 32329 17869 I PreferenceUtils: getPreferences() called with: userId = [0], context: android.app.Application@f8eb739
+10-28 12:55:36.336   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_ADDED, tag =
+10-28 12:55:36.341 11071 17857 I GOS:GameIntentService: onPackageChanged(). extras: Bundle[{changeType=1, userId=0, pkgName=com.example.lunchtray, type=15, packageName=com.example.lunchtray}]
+10-28 12:55:36.341 11071 17857 I GOS:GameIntentService: onPackageChanged(). changeType(REMOVED), pkgName(com.example.lunchtray), UserHandle(0), userId(0), Installed(true)
+10-28 12:55:36.341 11071 17857 I GOS:GameIntentService: onPackageChanged(), skip removing if the package is being updated
+10-28 12:55:36.344 32329 17869 I LocaleOverlayManager_0: hasZippedOverlaysPackage: com.example.lunchtray -- false
+10-28 12:55:36.344 32329 17869 I LocaleOverlayManager_0: Package is not supported for Locale Overlays: com.example.lunchtray
+10-28 12:55:36.344 26660  4876 I ExternalMethodFactory: get_home_mode
+10-28 12:55:36.344 32329 17869 I LocaleOverlayManager_0: cleanLocaleOverlayForDisable: com.samsung.android.localeoverlaymanager.OverlayManager@826286d, packageName : com.example.lunchtray
+10-28 12:55:36.346 32329 17869 I OverlayManager: getLocaleOverlayInfosForTarget []
+10-28 12:55:36.346 32329 17869 I LocaleOverlayManager_0: cleanLocaleOverlayForDisable() overlayPackages:[]
+10-28 12:55:36.346 32329 17869 I LocaleOverlayManager_0: handleTaskComplete -- callers: com.samsung.android.localeoverlaymanager.LocaleOverlayManager.cleanLocaleOverlayForDisable:475 com.samsung.android.localeoverlaymanager.LocaleOverlayManager.access$700:36
+10-28 12:55:36.346 32329 17869 I PreferenceUtils: getPreferences() called with: userId = [0], context: android.app.Application@f8eb739
+10-28 12:55:36.355 32329 17869 I LocaleOverlayManager_0: callbackObserver. mCurrentObserver: null
+10-28 12:55:36.356 32329 17869 I ResourceOverlayService_0: waitAndQuit called
+10-28 12:55:36.359   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_ADDED, tag =
+10-28 12:55:36.362 17835 17862 I RunestoneUtils: currentRubinState : OK, isEnabledInSupportedApps : true
+10-28 12:55:36.362   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_ADDED, tag =
+10-28 12:55:36.363 24288 17668 I Fitness : FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_REMOVED [CONTEXT service_id=17 ]
+10-28 12:55:36.364 32329 32329 I ResourceOverlayService_0: onDestroy
+10-28 12:55:36.364 32329 32329 I ResourceOverlayService_0: setProcessForeground: false
+10-28 12:55:36.370 32329 17869 I ResourceOverlayService_0: Stopself..
+10-28 12:55:36.375   954  3917 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.379   954  3917 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.385 26660  4876 I ExternalMethodFactory: get_home_mode
+10-28 12:55:36.386 19454 14990 I TelephonyDataSource: [M] getSimState(0) : 5
+10-28 12:55:36.387 19454 14990 I TelephonyDataSource: [M] slotId : 0CSim value : 0
+10-28 12:55:36.387 19454 14990 I SimContactModel: [M] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:36.388 19454 14990 I TelephonyDataSource: [M] getSimState(0) : 5
+10-28 12:55:36.388 19454 14990 I TelephonyDataSource: [M] slotId : 0CSim value : 0
+10-28 12:55:36.388 19454 14990 I SimContactModel: [M] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:36.390   954  3956 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.392   954  3956 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.393 24288 17875 I FontLog : Package com.example.lunchtray has no metadata [CONTEXT service_id=132 ]
+10-28 12:55:36.407 19208 30741 I AccountTypeModel.AccountTypeLoader: [D] finish accountsInBackground
+10-28 12:55:36.410 19454 14990 I TelephonyDataSource: [M] getSimState(1) : 1
+10-28 12:55:36.412   954  3925 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.413   954  3925 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.417 24389 24389 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-28 12:55:36.422 19454 14990 I TelephonyDataSource: [M] getSimState(0) : 5
+10-28 12:55:36.422 19454 14990 I TelephonyDataSource: [M] slotId : 0CSim value : 0
+10-28 12:55:36.425 19454 14990 I SimContactModel: [M] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:36.429 19454 14990 I TelephonyDataSource: [M] getSimState(0) : 5
+10-28 12:55:36.429 19454 14990 I TelephonyDataSource: [M] slotId : 0CSim value : 0
+10-28 12:55:36.434   388 23587 I PermissionControllerServiceImpl: Updating user sensitive for uid 10998
+10-28 12:55:36.441 19454 14990 I SimContactModel: [M] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:36.457   954  3952 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.458   954  3952 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.460 19454 14990 I TelephonyDataSource: [M] getSimState(1) : 1
+10-28 12:55:36.463   954  2451 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+10-28 12:55:36.468   954  1855 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.468   954  1855 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.474 19454 14990 I TelephonyDataSource: [M] getSimState(0) : 5
+10-28 12:55:36.474 19454 14990 I TelephonyDataSource: [M] slotId : 0CSim value : 0
+10-28 12:55:36.477 17800 17832 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10998; state: ENABLED
+10-28 12:55:36.479   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_ADDED, tag =
+10-28 12:55:36.479   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_ADDED, tag =
+10-28 12:55:36.482 32329 32329 I LocaleOverlayManager_0: quit() called
+10-28 12:55:36.482 32329 32329 I LocaleOverlayManager_0: quit() called no pending messages to remove
+10-28 12:55:36.483   954  1253 D SemNscXgbMsL1: Probability - Cloud gaming: [0.0067305434]
+10-28 12:55:36.483   954  1253 D SemNscXgbMsL1: Probability - Real time: [0.0100711575]
+10-28 12:55:36.483 27785 27785 I Routine@Core[3.5.02.25]: RoutineService: onCreate
+10-28 12:55:36.483   954  1253 D SemNscXgbMsL1: Probability - Non real time: [0.98571384]
+10-28 12:55:36.483   954  1253 D SemNscXgbMsL1: 1 sample inference time: 2.998154 msecs
+10-28 12:55:36.485   954  1253 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 0.92673 msecs
+10-28 12:55:36.485 19454 14990 I SimContactModel: [M] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:36.485 27785 27785 I SEP_UNION_SemUnionManager: getUnionService() : semeventdelegator
+10-28 12:55:36.486   954  1253 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.455808 msecs
+10-28 12:55:36.487 19454 14990 I TelephonyDataSource: [M] getSimState(0) : 5
+10-28 12:55:36.487 19454 14990 I TelephonyDataSource: [M] slotId : 0CSim value : 0
+10-28 12:55:36.487 19454 14990 I SimContactModel: [M] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:36.490   954   978 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.490   954   978 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.491 27785 27785 I SEP_UNION_SemUnionManager: getUnionService() : semeventdelegator
+10-28 12:55:36.492   954  2771 D PkgPredictorService-IpmAdcpController: create a new DexPreloadTask pkg:com.example.lunchtray  path:/data/app/~~bYME4l5PIdE1MtDJ631VJg==/com.example.lunchtray-0jf6KhKIJPe7ukwSf1eTcQ==
+10-28 12:55:36.492   954  2013 I SemDvfsHyPerManager: acquire hyper - AMS_APP_SWITCH/954@21, type = -999
+10-28 12:55:36.492 27785 27785 I SEP_UNION_SemUnionManager: getUnionService() : semeventdelegator
+10-28 12:55:36.493   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 475821  [954 / 21]    HINT : AMS_APP_SWITCH    list :
+10-28 12:55:36.493   620   810 I SurfaceFlinger: id=204832 createSurf (0x0),-1 flag=24004, Task=30462#0
+10-28 12:55:36.494 27785 27785 I Routine@Core[3.5.02.25]: SettingsWrapper: ultraPowerSavingMode: 0
+10-28 12:55:36.494 27785 27785 I Routine@Core[3.5.02.25]: RoutineService: onStartCommand: com.samsung.android.rotine.ACTION_PACKAGE_CHANGED
+10-28 12:55:36.495 27785 27785 I Routine@Core[3.5.02.25]: MetadataLoaderImpl: collectInBackground - packageName:com.example.lunchtray
+10-28 12:55:36.495 27785 27785 I Routine@Core[3.5.02.25]: MetadataSyncBacklog: add: null + com.example.lunchtray
+10-28 12:55:36.495 27785 27785 I Routine@Core[3.5.02.25]: Pref: putSharedPrefsData() key=meta_loading_target_package_name
+10-28 12:55:36.497 19454 14990 I TelephonyDataSource: [M] getSimState(1) : 1
+10-28 12:55:36.497  3825  3825 I SemDvfsHyPerManager: acquire hyper - APP_START_SHORT/3825@14, type = -999
+10-28 12:55:36.497   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7370894  [3825 / 14]    HINT : APP_START    list : [TIMEOUT / 1500]
+10-28 12:55:36.498   620   620 I SurfaceFlinger: SFWD update time=851585293089619
+10-28 12:55:36.504   954   977 D SecContentProvider: query(), uri = 30 selection = isLocalContactStorageAllowed
+10-28 12:55:36.504   954   977 D RestrictionPolicy: isLocalContactStorageAllowed
+10-28 12:55:36.504   954   977 D RestrictionPolicy: isLocalContactStorageAllowed(0) : true
+10-28 12:55:36.508   620  3677 I SurfaceFlinger: id=204833 createSurf (0x0),-1 flag=80004, ActivityRecord{7529b7e u0 com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity t30462}#0
+10-28 12:55:36.510   954  3919 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.511   954  3919 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.515   954  3919 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.515   954  3919 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.517 25095 25146 I TelephonyDataSource: [C] getSimState(0) : 5
+10-28 12:55:36.517 25095 25146 I TelephonyDataSource: [C] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:36.517 25095 25146 I TelephonyDataSource: [C] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:36.517 25095 25146 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+10-28 12:55:36.518   954  2773 D InputTransport: Input channel constructed: 'bebe673', fd=1637
+10-28 12:55:36.518   954  2773 D InputTransport: Input channel constructed: 'bebe673', fd=1638
+10-28 12:55:36.518   954  2773 D InputTransport: Input channel constructed: 'bebe673', fd=1639
+10-28 12:55:36.518 26660 26660 I BaseActivity: removeActivityFlags, flags : 16
+10-28 12:55:36.518 26660 26660 I BaseActivity: removeActivityFlags, flags : 6
+10-28 12:55:36.518 26660 26660 I DragController: endDrag
+10-28 12:55:36.518 26660 26660 W LauncherAppWidgetHost: setShouldListenFlag, mFlags:15 flag:resume on:false isFront:false
+10-28 12:55:36.519 26660 26660 I DecorView: notifyKeepScreenOnChanged: keepScreenOn=false
+10-28 12:55:36.519 25095 25146 I SimContactModel: [C] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:36.519 26660 26660 I SPayUpdater: updateSpayHandler launcher activity is paused false
+10-28 12:55:36.519 26660 26660 I BlurOperator: progress = 1.0, mBlurProgress = 1.0, forced = true, mForced = false
+10-28 12:55:36.519 26660 26660 I BlurOperator: mSetTime = 1666954507892, currentTimeMs = 1666954536519
+10-28 12:55:36.519 26660 26660 I BlurOperator: blurAmount = 0.125, mBgBlurAmount = 0.125, show = true, mPreBlur = 0.125, mDuration = 1
+10-28 12:55:36.520   620   810 I SurfaceFlinger: id=204834 createSurf (0x0),-1 flag=80004, bebe673 Splash Screen com.example.lunchtray#0
+10-28 12:55:36.521   954  2773 D InputTransport: Input channel destroyed: 'bebe673', fd=1639
+10-28 12:55:36.521  1348  1474 I ViewRootImpl@737783b[lunchtray]: setView = android.widget.FrameLayout@11b5d17 TM=true
+10-28 12:55:36.522 19208 30741 I TelephonyDataSource: [D] getSimState(0) : 5
+10-28 12:55:36.522 19208 30741 I TelephonyDataSource: [D] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:36.522 19208 30741 I TelephonyDataSource: [D] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:36.523 19208 30741 I TelephonyDataSource: [D] slotId : 0CSim value : 0
+10-28 12:55:36.523 19208 30741 I SimContactModel: [D] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:36.525 19208 30741 I TelephonyDataSource: [D] getSimState(0) : 5
+10-28 12:55:36.525 19208 30741 I TelephonyDataSource: [D] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:36.525 19208 30741 I TelephonyDataSource: [D] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:36.525 19208 30741 I TelephonyDataSource: [D] slotId : 0CSim value : 0
+10-28 12:55:36.525 19208 30741 I SimContactModel: [D] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:36.526   954  2773 I AppIconSolution: start to load, pkg=com.samsung.knox.securefolder, bg=126-126, dr=504-504, forDefault=false, density=0
+10-28 12:55:36.526 25095 25146 I TelephonyDataSource: [C] getSimState(0) : 5
+10-28 12:55:36.526 25095 25146 I TelephonyDataSource: [C] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:36.526 25095 25146 I TelephonyDataSource: [C] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:36.527 25095 25146 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+10-28 12:55:36.528   954  1401 D InputDispatcher: Focused application set to (0): 7529b7e
+10-28 12:55:36.528   954  2773 I AppIconSolution: scale down, pkg=com.samsung.knox.securefolder, dr=216-216, bg=126-126
+10-28 12:55:36.528   954  2773 I AppIconSolution: getIconScale, pkg=com.samsung.knox.securefolder, size=216, iconScale=IconScale[alpha=4, scale=0.59999996, isCrop=false]
+10-28 12:55:36.528   954  2773 I AppIconSolution: fromTheme2, pkg=com.samsung.knox.securefolder, bg=126-126, dr=216-216, tarScale=0.59999996, relScale=0.36346152, mask=false, isCropInTheme = false, isNight = false
+10-28 12:55:36.530 25095 25146 I SimContactModel: [C] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:36.534   954  1855 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.535   954  3936 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.535   954  3936 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.535   954  1855 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.537 19208 30741 I TelephonyDataSource: [D] getSimState(1) : 1
+10-28 12:55:36.538 17800 17884 D OpenGLRenderer: RenderThread::requireGlContext()
+10-28 12:55:36.541   954  3936 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.542 25095 25146 I TelephonyDataSource: [C] getSimState(1) : 1
+10-28 12:55:36.543   954  3936 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.544   954  3954 V WindowManager: Relayout Window{bebe673 u0 Splash Screen com.example.lunchtray}: viewVisibility=0 req=1080x2280 d0
+10-28 12:55:36.545   954  3936 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.545   620  3677 I SurfaceFlinger: id=204835 createSurf (1080x2280),-3 flag=40004, Splash Screen com.example.lunchtray$_1348#0
+10-28 12:55:36.545   954  3936 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.549   954  3954 V WindowManager: Relayout hash=bebe673, pid=1348: mAttrs={(0,0)(fillxfill) sim={adjust=pan} ty=APPLICATION_STARTING fmt=TRANSLUCENT wanim=0x1030001
+10-28 12:55:36.549   954  3954 V WindowManager:   fl=81030118
+10-28 12:55:36.549   954  3954 V WindowManager:   pfl=36000010
+10-28 12:55:36.549   954  3954 V WindowManager:   bhv=DEFAULT
+10-28 12:55:36.549   954  3954 V WindowManager:   fitSides= naviIconColor=0}
+10-28 12:55:36.550   954  1401 I AppIconSolution: start to load, pkg=com.samsung.knox.securefolder, bg=126-126, dr=504-504, forDefault=false, density=0
+10-28 12:55:36.551  1348  1474 I ViewRootImpl@737783b[lunchtray]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=28 res=0x7 s={true 515081492064} ch=true fn=-1
+10-28 12:55:36.551  1348  1537 D OpenGLRenderer: eglCreateWindowSurface
+10-28 12:55:36.552   954  1855 V WindowManager: Relayout Window{4ad90e6 u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity}: viewVisibility=0 req=1080x2280 d0
+10-28 12:55:36.553 19208 30741 I TelephonyDataSource: [D] getSimState(0) : 5
+10-28 12:55:36.553   954  1401 I AppIconSolution: scale down, pkg=com.samsung.knox.securefolder, dr=216-216, bg=126-126
+10-28 12:55:36.554  1348  1474 I ViewRootImpl@737783b[lunchtray]: [DP] dp(1) 0 android.view.ViewRootImpl.reportNextDraw:11420 android.view.ViewRootImpl.performTraversals:4193 android.view.ViewRootImpl.doTraversal:2919
+10-28 12:55:36.554 25095 25146 I TelephonyDataSource: [C] getSimState(0) : 5
+10-28 12:55:36.554 25095 25146 I TelephonyDataSource: [C] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:36.554 25095 25146 I TelephonyDataSource: [C] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:36.554   954  1855 V WindowManager: Relayout hash=4ad90e6, pid=26660: mAttrs={(0,0)(fillxfill) sim={adjust=nothing} layoutInDisplayCutoutMode=shortEdges ty=BASE_APPLICATION fmt=TRANSPARENT wanim=0x10302f2
+10-28 12:55:36.554   954  1855 V WindowManager:   fl=81910100
+10-28 12:55:36.554   954  1855 V WindowManager:   pfl=1e020040
+10-28 12:55:36.554   954  1855 V WindowManager:   vsysui=1700
+10-28 12:55:36.554   954  1855 V WindowManager:   bhv=SHOW_TRANSIENT_BARS_BY_SWIPE
+10-28 12:55:36.554   954  1855 V WindowManager:   fitSides= naviIconColor=0}
+10-28 12:55:36.554 25095 25146 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+10-28 12:55:36.554 25095 25146 I SimContactModel: [C] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:36.555 26660 26660 I ViewRootImpl@623994e[LauncherActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=13 res=0x1 s={true 515082573344} ch=false fn=6
+10-28 12:55:36.556   954  1401 I AppIconSolution: getIconScale, pkg=com.samsung.knox.securefolder, size=216, iconScale=IconScale[alpha=4, scale=0.59999996, isCrop=false]
+10-28 12:55:36.556   954  1401 I AppIconSolution: fromTheme2, pkg=com.samsung.knox.securefolder, bg=126-126, dr=216-216, tarScale=0.59999996, relScale=0.36346152, mask=false, isCropInTheme = false, isNight = false
+10-28 12:55:36.558 17800 17884 I libEGL  : EGL_ANDROID_blob_cache_path advertised, but unable to get eglSetBlobCachePathANDROID
+10-28 12:55:36.558   954  2773 D InputDispatcher: Focus left window (0): 4ad90e6 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity
+10-28 12:55:36.558 26660 26660 I ViewRootImpl@623994e[LauncherActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+10-28 12:55:36.558 26660 26660 I BaseActivity: removeActivityFlags, flags : 8
+10-28 12:55:36.561 25095 25146 I TelephonyDataSource: [C] getSimState(0) : 5
+10-28 12:55:36.561 25095 25146 I TelephonyDataSource: [C] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:36.561 25095 25146 I TelephonyDataSource: [C] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:36.561 25095 25146 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+10-28 12:55:36.561 25095 25146 I SimContactModel: [C] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:36.563 19208 30741 I TelephonyDataSource: [D] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:36.563 19208 30741 I TelephonyDataSource: [D] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:36.563 19208 30741 I TelephonyDataSource: [D] slotId : 0CSim value : 0
+10-28 12:55:36.563 19208 30741 I SimContactModel: [D] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:36.564   954  3912 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.564 17800 17884 D OpenGLRenderer: RenderThread::setGrContext()
+10-28 12:55:36.564 19208 30741 I TelephonyDataSource: [D] getSimState(0) : 5
+10-28 12:55:36.564 19208 30741 I TelephonyDataSource: [D] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:36.564 19208 30741 I TelephonyDataSource: [D] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:36.565 19208 30741 I TelephonyDataSource: [D] slotId : 0CSim value : 0
+10-28 12:55:36.565 19208 30741 I SimContactModel: [D] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:36.565   954  3912 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.567   954  3954 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.568  1348  1474 I ViewRootImpl@737783b[lunchtray]: [DP] pdf(0) 0 android.view.ViewRootImpl.lambda$addFrameCompleteCallbackIfNeeded$3$ViewRootImpl:4995 android.view.ViewRootImpl$$ExternalSyntheticLambda16.run:6 android.os.Handler.handleCallback:938
+10-28 12:55:36.568  1348  1474 I ViewRootImpl@737783b[lunchtray]: [DP] rdf()
+10-28 12:55:36.568  1348  1474 D ViewRootImpl@737783b[lunchtray]: reportDrawFinished (fn: -1)
+10-28 12:55:36.570  1348  1348 D FullscreenTaskListener: Fullscreen Task Appeared: #30462, caller=com.android.wm.shell.ShellTaskOrganizer.onTaskAppeared:387 com.android.wm.shell.ShellTaskOrganizer.onTaskAppeared:376 android.window.TaskOrganizer$1.lambda$onTaskAppeared$4$TaskOrganizer$1:297
+10-28 12:55:36.571   954  3954 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.571   620  3677 I SurfaceFlinger: id=204836 createSurf (0x0),-1 flag=24000, Surface(name=Task=1)/@0x4cdbfdb - animation-leash of app_transition#0
+10-28 12:55:36.574   954  1855 I AppIconSolution: start to load, pkg=com.samsung.knox.securefolder, bg=126-126, dr=504-504, forDefault=false, density=0
+10-28 12:55:36.574 26660 26660 I BadgeRenderer: Invalid count : 0
+10-28 12:55:36.574 26660 26660 I BadgeRenderer: Invalid count : 0
+10-28 12:55:36.575 25095 25146 I TelephonyDataSource: [C] getSimState(1) : 1
+10-28 12:55:36.576   620  3677 I SurfaceFlinger: id=204837 createSurf (0x0),-1 flag=24004, Surface(name=Task=30462)/@0xc2569a3 - animation-leash of app_transition#0
+10-28 12:55:36.578   954  1855 I AppIconSolution: scale down, pkg=com.samsung.knox.securefolder, dr=216-216, bg=126-126
+10-28 12:55:36.580   620  3677 I SurfaceFlinger: id=204838 createSurf (0x0),-1 flag=24000, Surface(name=2fa8401 StatusBar)/@0xf000e26 - animation-leash of insets_animation#1
+10-28 12:55:36.580 19208 30741 I TelephonyDataSource: [D] getSimState(1) : 1
+10-28 12:55:36.581   620  3677 I SurfaceFlinger: id=204839 createSurf (0x0),-1 flag=24000, Surface(name=be23078 NavigationBar0)/@0x50010bd - animation-leash of insets_animation#1
+10-28 12:55:36.583   954  1855 I AppIconSolution: getIconScale, pkg=com.samsung.knox.securefolder, size=216, iconScale=IconScale[alpha=4, scale=0.59999996, isCrop=false]
+10-28 12:55:36.583   954  1855 I AppIconSolution: fromTheme2, pkg=com.samsung.knox.securefolder, bg=126-126, dr=216-216, tarScale=0.59999996, relScale=0.36346152, mask=false, isCropInTheme = false, isNight = false
+10-28 12:55:36.584   954  2773 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.584  1348  1474 D InsetsSourceConsumer: ensureControlAlpha: for ITYPE_NAVIGATION_BAR on Splash Screen com.example.lunchtray
+10-28 12:55:36.584   954  2773 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.585  1348  1474 D InsetsSourceConsumer: ensureControlAlpha: for ITYPE_STATUS_BAR on Splash Screen com.example.lunchtray
+10-28 12:55:36.586 17800 17800 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@8d9138c in: PRE_ON_CREATE
+10-28 12:55:36.586 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@8d9138c
+10-28 12:55:36.590 19208 30741 I TelephonyDataSource: [D] getSimState(0) : 5
+10-28 12:55:36.590 19208 30741 I TelephonyDataSource: [D] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:36.590 19208 30741 I TelephonyDataSource: [D] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:36.590 19208 30741 I TelephonyDataSource: [D] slotId : 0CSim value : 0
+10-28 12:55:36.590 19208 30741 I SimContactModel: [D] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:36.591   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_ADDED, tag =
+10-28 12:55:36.592   620   620 I Layer   : id=204829 removeFromCurrentState Surface(name=2fa8401 StatusBar)/@0xf000e26 - animation-leash of insets_animation#0 (166)
+10-28 12:55:36.592   620   620 I Layer   : id=204830 removeFromCurrentState Surface(name=be23078 NavigationBar0)/@0x50010bd - animation-leash of insets_animation#0 (166)
+10-28 12:55:36.592   620   620 I SurfaceFlinger: id=204829 Removed Surface(name=2fa8401 StatusBar)/@0xf000e26 - animation-leash of insets_animation#0 (166)
+10-28 12:55:36.592   620   620 I SurfaceFlinger: id=204830 Removed Surface(name=be23078 NavigationBar0)/@0x50010bd - animation-leash of insets_animation#0 (166)
+10-28 12:55:36.593   620   620 I Layer   : id=204829 Destroyed Surface(name=2fa8401 StatusBar)/@0xf000e26 - animation-leash of insets_animation#0
+10-28 12:55:36.593   620   620 I Layer   : id=204830 Destroyed Surface(name=be23078 NavigationBar0)/@0x50010bd - animation-leash of insets_animation#0
+10-28 12:55:36.596   954  3936 D SecContentProvider: query(), uri = 30 selection = isLocalContactStorageAllowed
+10-28 12:55:36.596   954  3936 D RestrictionPolicy: isLocalContactStorageAllowed
+10-28 12:55:36.596   954  3936 D RestrictionPolicy: isLocalContactStorageAllowed(0) : true
+10-28 12:55:36.600 19208 30741 I TelephonyDataSource: [D] getSimState(0) : 5
+10-28 12:55:36.601 19208 30741 I TelephonyDataSource: [D] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:36.601 19208 30741 I TelephonyDataSource: [D] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:36.601 19208 30741 I TelephonyDataSource: [D] slotId : 0CSim value : 0
+10-28 12:55:36.601 19208 30741 I SimContactModel: [D] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:36.603   954  2451 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.604 25095 25146 I AccountTypeModel.AccountTypeLoader: [C] addKnoxAccountType
+10-28 12:55:36.604   954  2451 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.612 22308 22308 I Finsky  : [2] rfh.i(0): PackageMonitorReceiverImpl - Received: android.intent.action.PACKAGE_ADDED, [ZMGJ0rMU-HWcGQKAyOdb5cWcTBmr3v2qtotxHxmlu4g]
+10-28 12:55:36.612   620   620 D SurfaceFlinger: Display 0 HWC layers:
+10-28 12:55:36.612   620   620 D SurfaceFlinger:      CLIENT | 0x7843da8ad0 | 0100 | RGBx_8888    |  589.0    0.0 1651.0 2240.0 |    0    0 1080 2280 | Wallpaper BBQ wrapper#0
+10-28 12:55:36.612   620   620 D SurfaceFlinger:      CLIENT |              | 0000 |  Unknown  |    0.0    0.0    0.0    0.0 |    0    0 1080 2280 | OneUiHome-BlurLayer#0 (backgroundBlurRadius)
+10-28 12:55:36.612   620   620 D SurfaceFlinger:      DEVICE | 0x7843da6490 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    0    0 1080 2280 | com.sec.android.app.launcher/com.sec[...]activities.LauncherActivity$_26660#0
+10-28 12:55:36.612   620   620 D SurfaceFlinger:      DEVICE | 0x7843dba9b0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |   76  159 1004 2121 | Splash Screen com.example.lunchtray$_1348#0
+10-28 12:55:36.612   620   620 D SurfaceFlinger:      DEVICE | 0x7843db3a50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  112.0 |    0    0 1080  112 | StatusBar$_1348#0
+10-28 12:55:36.612   620   620 D SurfaceFlinger:      DEVICE | 0x7843dbc6f0 | 0100 | RGBA_8888    |    0.0    0.0   67.0  416.0 |    0  814   67 1230 | com.samsung.android.app.cocktailbars[...]arservice.CocktailBarService$_8198#0
+10-28 12:55:36.612   620   620 D SurfaceFlinger:      DEVICE | 0x7843dbe0d0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2154 1080 228
+10-28 12:55:36.612   620   620 D SurfaceFlinger: 0 | NavigationBar0$_1348#0
+10-28 12:55:36.612   620   620 D SurfaceFlinger:
+10-28 12:55:36.612 22308 22308 I Finsky  : [2] rfy.n(8): Invalidating cached PackageState for com.example.lunchtray
+10-28 12:55:36.613 19208 30741 I TelephonyDataSource: [D] getSimState(1) : 1
+10-28 12:55:36.616 24389  1455 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+10-28 12:55:36.620   954   978 I AppIconSolution: start to load, pkg=com.samsung.knox.securefolder, bg=126-126, dr=504-504, forDefault=false, density=0
+10-28 12:55:36.623   954  3936 D SecContentProvider: query(), uri = 30 selection = isLocalContactStorageAllowed
+10-28 12:55:36.623   954  3936 D RestrictionPolicy: isLocalContactStorageAllowed
+10-28 12:55:36.623   954  3936 D RestrictionPolicy: isLocalContactStorageAllowed(0) : true
+10-28 12:55:36.628   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_ADDED, tag =
+10-28 12:55:36.629   954  3912 I AppIconSolution: start to load, pkg=com.samsung.knox.securefolder, bg=126-126, dr=504-504, forDefault=false, density=0
+10-28 12:55:36.630 22308 22308 I Finsky  : [2] rfh.i(0): PackageMonitorReceiverImpl - Deduping intent android.intent.action.PACKAGE_ADDED
+10-28 12:55:36.631 19208 30741 I AccountTypeModel.AccountTypeLoader: [D] addKnoxAccountType
+10-28 12:55:36.633   954  1257 W SemWifiTransportLayerUtils: getApplicationCategory - IOException com.example.lunchtray
+10-28 12:55:36.633   954  1257 W System.err: java.io.FileNotFoundException: https://play.google.com/store/apps/details?id=com.example.lunchtray&hl=en
+10-28 12:55:36.633   954  1257 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:255)
+10-28 12:55:36.633   954  1257 W System.err: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getInputStream(DelegatingHttpsURLConnection.java:211)
+10-28 12:55:36.633   954  1257 W System.err: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:30)
+10-28 12:55:36.634   954  1257 W System.err: 	at com.samsung.android.server.wifi.tcp.SemWifiTransportLayerUtils.getApplicationCategory(SemWifiTransportLayerUtils.java:104)
+10-28 12:55:36.634   954  1257 W System.err: 	at com.samsung.android.server.wifi.tcp.SemWifiTransportLayerMonitor$TcpMonitorHandler.handleMessage(SemWifiTransportLayerMonitor.java:241)
+10-28 12:55:36.634   954  1257 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-28 12:55:36.634   954  1257 W System.err: 	at android.os.Looper.loopOnce(Looper.java:226)
+10-28 12:55:36.634   954  1257 W System.err: 	at android.os.Looper.loop(Looper.java:313)
+10-28 12:55:36.634   954  1257 W System.err: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-28 12:55:36.637   954  2773 I AppIconSolution: start to load, pkg=com.samsung.knox.securefolder, bg=126-126, dr=504-504, forDefault=false, density=0
+10-28 12:55:36.639 22308 16943 I Finsky  : [1596] kuz.run(18): Wrote row to frosting DB: 50162
+10-28 12:55:36.641   954  1257 D SemWifiTransportLayerMonitor.TcpMonitorHandler: MSG_SAVE_PACKAGE_INFO
+10-28 12:55:36.641   954  1257 D SemWifiTransportLayerFileManager: saveWifiPackageInfoToFile
+10-28 12:55:36.641   954  1257 D SemWifiTransportLayerFileManager: writeWifiPackageInfoList
+10-28 12:55:36.648   954  1015 I SemPersonaManager: SecureFolder personaId = 150
+10-28 12:55:36.650 27785 27785 I Routine@Core[3.5.02.25]: RoutineHistoryDumpImpl: insertHistory: [SERVICE_STATUS] [ACTION_ROUTINE_PACKAGE_CHANGED]
+10-28 12:55:36.651   954  2773 I AppIconSolution: scale down, pkg=com.samsung.knox.securefolder, dr=216-216, bg=126-126
+10-28 12:55:36.652   954  2773 I AppIconSolution: getIconScale, pkg=com.samsung.knox.securefolder, size=216, iconScale=IconScale[alpha=4, scale=0.59999996, isCrop=false]
+10-28 12:55:36.652   954  2773 I AppIconSolution: fromTheme2, pkg=com.samsung.knox.securefolder, bg=126-126, dr=216-216, tarScale=0.59999996, relScale=0.36346152, mask=false, isCropInTheme = false, isNight = false
+10-28 12:55:36.653 27785 27785 I Routine@Core[3.5.02.25]: MetadataLoaderJobService: onCreate
+10-28 12:55:36.653 27785 27785 I Routine@Core[3.5.02.25]: Pref: putSharedPrefsData() key=pref_metaloader_loading
+10-28 12:55:36.653   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_ADDED, tag =
+10-28 12:55:36.654   954   978 I AppIconSolution: scale down, pkg=com.samsung.knox.securefolder, dr=216-216, bg=126-126
+10-28 12:55:36.660 32306 32306 I AppListCacheReceiver: onReceive START action : com.samsung.android.settings.intent.action.PACKAGE_ADDED
+10-28 12:55:36.660 32306 32306 I AppListCacheReceiver: onReceive END
+10-28 12:55:36.661   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_ADDED, tag =
+10-28 12:55:36.661   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_ADDED, tag =
+10-28 12:55:36.662   954  3923 W system_server: Long monitor contention with owner main (954) at void com.android.server.sepunion.SemDeviceInfoManagerService.sendIntentAction(com.android.server.sepunion.eventdelegator.UnionEventListenerItem, android.content.Intent, int)(SemDeviceInfoManagerService.java:199) waiters=0 in void com.android.server.sepunion.SemDeviceInfoManagerService.registerPendingIntentForUriAsUser(android.net.Uri, android.app.PendingIntent, java.lang.String, int) for 361ms
+10-28 12:55:36.663 19208 30741 I AccountTypeModel.AccountTypeLoader: [D] addKnox2AccountType
+10-28 12:55:36.663   954  3923 D SEP_UNION_SemDeviceInfoManagerService: PendingIntentWithConditions added f=0
+10-28 12:55:36.664   954  3923 D SEP_UNION_SemDeviceInfoManagerService: unregisterPendingIntentForUriAsUser() uri = content://settings/global/device_provisioned, userId = 0
+10-28 12:55:36.665   954  2748 D PkgPredictorService-MultiUserPkgManager:  mInstalledPkgMapUid contain 10998
+10-28 12:55:36.666   954  1855 D SEP_UNION_SemDeviceInfoManagerService: registerPendingIntentInternal() action = android.intent.action.PACKAGE_CHANGED, android.intent.action.PACKAGE_ADDED, android.intent.action.PACKAGE_FULLY_REMOVED, android.intent.action.MY_PACKAGE_REPLACED, android.intent.action.PACKAGE_REPLACED, android.intent.action.PACKAGE_REMOVED, callingPackage = com.samsung.android.app.routines, userId = 0, flag = 0, conditions = null
+10-28 12:55:36.667   954  1400 I AppIconSolution: start to load, pkg=com.samsung.knox.securefolder, bg=126-126, dr=504-504, forDefault=false, density=0
+10-28 12:55:36.667   954  1855 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:36.667   954  1855 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:36.667   954  1855 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:36.668   954  1855 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:36.668   954  1855 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:36.668   954  1855 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:36.677 32306 32423 D AppListCacheIndexingManager: insertPackage() success
+10-28 12:55:36.677   954  2773 D SEP_UNION_SemDeviceInfoManagerService: registerPendingIntentInternal() action = android.intent.action.DATE_CHANGED, callingPackage = com.samsung.android.app.routines, userId = 0, flag = 0, conditions = null
+10-28 12:55:36.678   954   978 I AppIconSolution: getIconScale, pkg=com.samsung.knox.securefolder, size=216, iconScale=IconScale[alpha=4, scale=0.59999996, isCrop=false]
+10-28 12:55:36.678   954   978 I AppIconSolution: fromTheme2, pkg=com.samsung.knox.securefolder, bg=126-126, dr=216-216, tarScale=0.59999996, relScale=0.36346152, mask=false, isCropInTheme = false, isNight = false
+10-28 12:55:36.680   954  1257 D SemWifiTransportLayerMonitor.TcpMonitorHandler: MSG_SAVE_PACKAGE_INFO
+10-28 12:55:36.681   954  1257 D SemWifiTransportLayerFileManager: saveWifiPackageInfoToFile
+10-28 12:55:36.681   954  1257 D SemWifiTransportLayerFileManager: writeWifiPackageInfoList
+10-28 12:55:36.681   954  2773 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:36.683   954  1855 D SEP_UNION_SemDeviceInfoManagerService: registerPendingIntentInternal() action = android.intent.action.PACKAGE_DATA_CLEARED, callingPackage = com.samsung.android.app.routines, userId = 0, flag = 0, conditions = null
+10-28 12:55:36.684   954  3912 I AppIconSolution: scale down, pkg=com.samsung.knox.securefolder, dr=216-216, bg=126-126
+10-28 12:55:36.685   954  1855 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:36.686   954  1844 D SEP_UNION_SemDeviceInfoManagerService: registerPendingIntentInternal() action = com.samsung.android.theme.themecenter.THEME_APPLY, callingPackage = com.samsung.android.app.routines, userId = 0, flag = 0, conditions = null
+10-28 12:55:36.686   954  1844 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:36.689   954  3912 I AppIconSolution: getIconScale, pkg=com.samsung.knox.securefolder, size=216, iconScale=IconScale[alpha=4, scale=0.59999996, isCrop=false]
+10-28 12:55:36.689   954  3912 I AppIconSolution: fromTheme2, pkg=com.samsung.knox.securefolder, bg=126-126, dr=216-216, tarScale=0.59999996, relScale=0.36346152, mask=false, isCropInTheme = false, isNight = false
+10-28 12:55:36.693 25095 25146 I AccountTypeModel.AccountTypeLoader: [C] addKnox2AccountType
+10-28 12:55:36.696   954  1015 D EnterpriseDeviceManagerService: isMdmAdminPresentInternal() : MDM Admin Found - com.samsung.knox.securefolder
+10-28 12:55:36.698   954  1400 I AppIconSolution: scale down, pkg=com.samsung.knox.securefolder, dr=216-216, bg=126-126
+10-28 12:55:36.699   954  1400 I AppIconSolution: getIconScale, pkg=com.samsung.knox.securefolder, size=216, iconScale=IconScale[alpha=4, scale=0.59999996, isCrop=false]
+10-28 12:55:36.699   954  1400 I AppIconSolution: fromTheme2, pkg=com.samsung.knox.securefolder, bg=126-126, dr=216-216, tarScale=0.59999996, relScale=0.36346152, mask=false, isCropInTheme = false, isNight = false
+10-28 12:55:36.710 19208 30741 I AccountTypeModel.AccountTypeLoader: [D] addKnox3AccountType
+10-28 12:55:36.712 19454 14990 I SimModel: [M] isMultiSimModel : true
+10-28 12:55:36.712 19454 14990 I SimDataSource: [M] getSimIconIndex() iccTypeSlot : 2,0
+10-28 12:55:36.712 19454 14990 I SimDataSource: [M] getSimIconIndex() [0] nIndex : 0
+10-28 12:55:36.712 19454 14990 I SimDataSource: [M] getSimIcon(0) simIcon: 2131232650, iconIdx: 0
+10-28 12:55:36.714   954   978 I AppIconSolution: start to load, pkg=com.samsung.knox.securefolder, bg=126-126, dr=504-504, forDefault=false, density=0
+10-28 12:55:36.716   954  1855 D SecContentProvider: query(), uri = 30 selection = isLocalContactStorageAllowed
+10-28 12:55:36.716   954  1855 D RestrictionPolicy: isLocalContactStorageAllowed
+10-28 12:55:36.716   954  1855 D RestrictionPolicy: isLocalContactStorageAllowed(0) : true
+10-28 12:55:36.716 27785 27785 I Routine@Core[3.5.02.25]: RoutineService: onDestroy
+10-28 12:55:36.719   954  3912 I AppIconSolution: start to load, pkg=com.samsung.knox.securefolder, bg=126-126, dr=504-504, forDefault=false, density=0
+10-28 12:55:36.720   954  3920 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.720 26660  4876 I RecentModel: onTaskStackChangedBackground
+10-28 12:55:36.720   954  3920 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.722 26660  4876 I RecentTasksList: getTaskKeys, numTasks :3 callback : com.android.quickstep.-$$Lambda$RecentsModel$k1Mm-BV64Bc89eJHYugywZmW_Js@b6376aa
+10-28 12:55:36.723 19454 14990 I SimDataSource: [M] getSimIconIndex() iccTypeSlot : 2,0
+10-28 12:55:36.723 19454 14990 I SimDataSource: [M] getSimIconIndex() [1] nIndex : 12
+10-28 12:55:36.723 19454 14990 I SimDataSource: [M] getSimIcon(1) simIcon: 2131232653, iconIdx: 12
+10-28 12:55:36.726 26660 26792 I RecentTasksList: loadTasksInBackground() task id : 30394
+10-28 12:55:36.726 26660 26792 I RecentTasksList: loadTasksInBackground() task id : 30298
+10-28 12:55:36.726 26660 26792 I RecentTasksList: loadTasksInBackground() task id : 30462
+10-28 12:55:36.728   954  1855 D SecContentProvider: query(), uri = 30 selection = isLocalContactStorageAllowed
+10-28 12:55:36.728   954  1855 D RestrictionPolicy: isLocalContactStorageAllowed
+10-28 12:55:36.728   954  1855 D RestrictionPolicy: isLocalContactStorageAllowed(0) : true
+10-28 12:55:36.730  3825  4192 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3825@21, type = 1090523139
+10-28 12:55:36.730  3825  4192 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3825@23, type = 1090523139
+10-28 12:55:36.732   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7397802  [3825 / 21]    HINT :      list : [TABoost / 5]
+10-28 12:55:36.732   954  1855 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.733   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7405499  [3825 / 23]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+10-28 12:55:36.733   954  1855 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.733   954  3912 I AppIconSolution: scale down, pkg=com.samsung.knox.securefolder, dr=216-216, bg=126-126
+10-28 12:55:36.734   954  3912 I AppIconSolution: getIconScale, pkg=com.samsung.knox.securefolder, size=216, iconScale=IconScale[alpha=4, scale=0.59999996, isCrop=false]
+10-28 12:55:36.734   954  3912 I AppIconSolution: fromTheme2, pkg=com.samsung.knox.securefolder, bg=126-126, dr=216-216, tarScale=0.59999996, relScale=0.36346152, mask=false, isCropInTheme = false, isNight = false
+10-28 12:55:36.737 19454 14990 I ExternalAccountType: [M] loadContactsXml : com.viber.voip
+10-28 12:55:36.739 19454 14990 I ExternalAccountType: [M] Metadata loaded from: com.viber.voip, com.viber.service.contacts.contactbook.AccountContactbookService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.741 19208 30741 I AccountTypeModel.AccountTypeLoader: [D] addSecureFolderAccountType
+10-28 12:55:36.743 19454 14990 I ExternalAccountType: [M] loadContactsXml : com.samsung.android.email.provider
+10-28 12:55:36.751   954   978 I AppIconSolution: scale down, pkg=com.samsung.knox.securefolder, dr=216-216, bg=126-126
+10-28 12:55:36.752   954   954 I DomainFilter: onReceive() - Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.example.lunchtray flg=0x4000010 (has extras) }
+10-28 12:55:36.752   954   954 I DomainFilter: packageReplaced() - packageName: com.example.lunchtray oldUid: 10998 newUid:10998
+10-28 12:55:36.752   954   978 I AppIconSolution: getIconScale, pkg=com.samsung.knox.securefolder, size=216, iconScale=IconScale[alpha=4, scale=0.59999996, isCrop=false]
+10-28 12:55:36.752   954   978 I AppIconSolution: fromTheme2, pkg=com.samsung.knox.securefolder, bg=126-126, dr=216-216, tarScale=0.59999996, relScale=0.36346152, mask=false, isCropInTheme = false, isNight = false
+10-28 12:55:36.753   954   954 D SEP_UNION_SemDeviceInfoManagerService: onReceive : android.intent.action.PACKAGE_REPLACED, userId = 0
+10-28 12:55:36.753 19454 14990 E ExternalAccountType: [M] Package was found, but that doesn't contain the CONTACTS_STRUCTURE metadata
+10-28 12:55:36.754 19454 14990 I ExternalAccountType: [M] loadContactsXml : org.telegram.messenger
+10-28 12:55:36.755   954  1400 I AppIconSolution: start to load, pkg=com.samsung.knox.securefolder, bg=126-126, dr=504-504, forDefault=false, density=0
+10-28 12:55:36.758 19454 14990 I ExternalAccountType: [M] Metadata loaded from: org.telegram.messenger, org.telegram.messenger.ContactsSyncAdapterService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.759 19454 14990 I ExternalAccountType: [M] loadContactsXml : com.google.android.apps.tachyon
+10-28 12:55:36.759   954  3954 W system_server: Long monitor contention with owner android.bg (1021) at java.util.ArrayList com.android.server.accessibility.AccessibilityManagerService$AccessibilityDisplayListener.getValidDisplayList()(AccessibilityManagerService.java:4382) waiters=0 in java.util.List com.android.server.accessibility.AccessibilityManagerService.getEnabledAccessibilityServiceList(int, int) for 174ms
+10-28 12:55:36.762 19454 14990 I ExternalAccountType: [M] Metadata loaded from: com.google.android.apps.tachyon, com.google.android.apps.tachyon.contacts.sync.SyncService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.763 26660  4876 I TouchInteractionService: onSystemUiStateChanged, stateFlags : 131072
+10-28 12:55:36.763 26660 26660 I TouchInteractionService: onSystemUiFlagsChanged, userUnlocked
+10-28 12:55:36.764   954  1400 I AppIconSolution: scale down, pkg=com.samsung.knox.securefolder, dr=216-216, bg=126-126
+10-28 12:55:36.764 19454 14990 I ExternalAccountType: [M] loadContactsXml : com.facebook.orca
+10-28 12:55:36.764   954  1400 I AppIconSolution: getIconScale, pkg=com.samsung.knox.securefolder, size=216, iconScale=IconScale[alpha=4, scale=0.59999996, isCrop=false]
+10-28 12:55:36.764   954  1400 I AppIconSolution: fromTheme2, pkg=com.samsung.knox.securefolder, bg=126-126, dr=216-216, tarScale=0.59999996, relScale=0.36346152, mask=false, isCropInTheme = false, isNight = false
+10-28 12:55:36.765 24389  1455 I Icing   : Indexing done com.google.android.gms-apps
+10-28 12:55:36.765 19454 14990 I ExternalAccountType: [M] Metadata loaded from: com.facebook.orca, com.facebook.messaging.phonebookintegration.account.MessengerSyncAdapterService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.766 19454 14990 I ExternalAccountType: [M] loadContactsXml : com.skype.raider
+10-28 12:55:36.770   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_REPLACED, tag =
+10-28 12:55:36.771 17800 17800 I DecorView: [INFO] isPopOver=false, config=true
+10-28 12:55:36.771 17800 17800 I DecorView: updateCaptionType >> DecorView@ac9dc78[], isFloating=false, isApplication=true, hasWindowControllerCallback=true, hasWindowDecorCaption=false
+10-28 12:55:36.771 17800 17800 D DecorView: setCaptionType = 0, this = DecorView@ac9dc78[]
+10-28 12:55:36.771 25095 25146 I AccountTypeModel.AccountTypeLoader: [C] addKnox3AccountType
+10-28 12:55:36.775   954  3912 I AppIconSolution: start to load, pkg=com.samsung.knox.securefolder, bg=126-126, dr=504-504, forDefault=false, density=0
+10-28 12:55:36.777 19454 14990 I ExternalAccountType: [M] Metadata loaded from: com.skype.raider, com.skype4life.syncadapter.AccountService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.777 19454 14990 I ExternalAccountType: [M] loadContactsXml : com.microsoft.teams
+10-28 12:55:36.780 19454 14990 I ExternalAccountType: [M] Metadata loaded from: com.microsoft.teams, com.microsoft.skype.teams.calling.nativephonebookintegration.AccountService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.780 19454 14990 I ExternalAccountType: [M] loadContactsXml : com.snapchat.android
+10-28 12:55:36.783 17800 17800 I DecorView: getCurrentDensityDpi: from real metrics. densityDpi=420 msg=resources_loaded
+10-28 12:55:36.784 17800 17800 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@8d9138c in: CREATED
+10-28 12:55:36.785 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@8d9138c
+10-28 12:55:36.788 17800 17800 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@8d9138c in: STARTED
+10-28 12:55:36.788 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@8d9138c
+10-28 12:55:36.790   954  3912 I AppIconSolution: scale down, pkg=com.samsung.knox.securefolder, dr=216-216, bg=126-126
+10-28 12:55:36.791   954  3912 I AppIconSolution: getIconScale, pkg=com.samsung.knox.securefolder, size=216, iconScale=IconScale[alpha=4, scale=0.59999996, isCrop=false]
+10-28 12:55:36.791   954  3912 I AppIconSolution: fromTheme2, pkg=com.samsung.knox.securefolder, bg=126-126, dr=216-216, tarScale=0.59999996, relScale=0.36346152, mask=false, isCropInTheme = false, isNight = false
+10-28 12:55:36.795 19454 14990 I ExternalAccountType: [M] Metadata loaded from: com.snapchat.android, com.snap.identity.enhancedcontacts.core.EnhancedContactsSyncService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.796 19454 14990 I ExternalAccountType: [M] loadContactsXml : com.whatsapp
+10-28 12:55:36.796 19208 30741 I AccountTypeModel.AccountTypeLoader: [D] addSimAccountType
+10-28 12:55:36.797 19208 30741 I TelephonyDataSource: [D] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:36.797 19208 30741 I TelephonyDataSource: [D] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:36.797 19208 30741 I SimModel: [D] isMultiSimModel : true
+10-28 12:55:36.797 19208 30741 I TelephonyDataSource: [D] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:36.797 19208 30741 I TelephonyDataSource: [D] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:36.797 19208 30741 I SimDataSource: [D] getSimIconIndex() iccTypeSlot : 2,0
+10-28 12:55:36.797 19208 30741 I SimDataSource: [D] getSimIconIndex() [0] nIndex : 0
+10-28 12:55:36.797 19208 30741 I SimDataSource: [D] getSimIcon(0) simIcon: 2131231872, iconIdx: 0
+10-28 12:55:36.800   954   978 D SecContentProvider: query(), uri = 30 selection = isLocalContactStorageAllowed
+10-28 12:55:36.800   954   978 D RestrictionPolicy: isLocalContactStorageAllowed
+10-28 12:55:36.800   954   978 D RestrictionPolicy: isLocalContactStorageAllowed(0) : true
+10-28 12:55:36.802 19454 14990 I ExternalAccountType: [M] Metadata loaded from: com.whatsapp, com.whatsapp.contact.sync.ContactsSyncAdapterService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.806 19454 14990 I ExternalAccountType: [M] loadContactsXml : com.google.android.apps.plus
+10-28 12:55:36.807 19454 14990 E ExternalAccountType: [M] Package was found, but that doesn't contain the CONTACTS_STRUCTURE metadata
+10-28 12:55:36.808 11071 17897 I GOS:GameIntentService: onHandleIntent. GameIntentService. type: 15, pkgName: com.example.lunchtray
+10-28 12:55:36.813   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_REPLACED, tag =
+10-28 12:55:36.813   954  3919 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.816   954  3919 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.820  3892  5816 I SCS@AiSearch user 0: (AppsDataWorker) [pool-3-thread-4] entering in doWork():
+10-28 12:55:36.820  3892  5816 I SCS@AiSearch user 0: (AppsDataObserver) [pool-3-thread-4] entering in execute():
+10-28 12:55:36.820  3892  5816 I SCS@AiSearch user 0: (AppsDataObserver-CMD_UPDATE_LIST) changed package count: 1
+10-28 12:55:36.824 25095 25146 I AccountTypeModel.AccountTypeLoader: [C] addSecureFolderAccountType
+10-28 12:55:36.826   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_REPLACED, tag =
+10-28 12:55:36.827 27785 27785 I Routine@Core[3.5.02.25]: RoutineService: onCreate
+10-28 12:55:36.828 27785 27785 I SEP_UNION_SemUnionManager: getUnionService() : semeventdelegator
+10-28 12:55:36.833   954  3919 D SEP_UNION_SemDeviceInfoManagerService: registerPendingIntentInternal() action = android.intent.action.PACKAGE_CHANGED, android.intent.action.PACKAGE_ADDED, android.intent.action.PACKAGE_FULLY_REMOVED, android.intent.action.MY_PACKAGE_REPLACED, android.intent.action.PACKAGE_REPLACED, android.intent.action.PACKAGE_REMOVED, callingPackage = com.samsung.android.app.routines, userId = 0, flag = 0, conditions = null
+10-28 12:55:36.833 27785 27785 I SEP_UNION_SemUnionManager: getUnionService() : semeventdelegator
+10-28 12:55:36.833 27785 27785 I SEP_UNION_SemUnionManager: getUnionService() : semeventdelegator
+10-28 12:55:36.834 27785 27785 I Routine@Core[3.5.02.25]: SettingsWrapper: ultraPowerSavingMode: 0
+10-28 12:55:36.834 27785 27785 I Routine@Core[3.5.02.25]: RoutineService: onStartCommand: com.samsung.android.rotine.ACTION_PACKAGE_CHANGED
+10-28 12:55:36.834 27785 27785 I Routine@Core[3.5.02.25]: MetadataLoaderImpl: collectInBackground - packageName:com.example.lunchtray
+10-28 12:55:36.834   954  2451 I AppIconSolution: start to load, pkg=com.samsung.knox.securefolder, bg=126-126, dr=504-504, forDefault=false, density=0
+10-28 12:55:36.834 27785 27785 I Routine@Core[3.5.02.25]: MetadataSyncBacklog: add: com.example.lunchtray + com.example.lunchtray
+10-28 12:55:36.839   954  2451 I AppIconSolution: scale down, pkg=com.samsung.knox.securefolder, dr=216-216, bg=126-126
+10-28 12:55:36.839  3892  5816 I SCS@AiSearch user 0: (AppsDataObserver) [pool-3-thread-4] leaving from execute():  result is true
+10-28 12:55:36.839  3892  5816 I SCS@AiSearch user 0: (AppsDataWorker) [pool-3-thread-4] leaving from doWork():
+10-28 12:55:36.840   954  2451 I AppIconSolution: getIconScale, pkg=com.samsung.knox.securefolder, size=216, iconScale=IconScale[alpha=4, scale=0.59999996, isCrop=false]
+10-28 12:55:36.840   954  2451 I AppIconSolution: fromTheme2, pkg=com.samsung.knox.securefolder, bg=126-126, dr=216-216, tarScale=0.59999996, relScale=0.36346152, mask=false, isCropInTheme = false, isNight = false
+10-28 12:55:36.840 19208 30741 I SimModel: [D] CompleteActiveSubscriptionInfoList : 1
+10-28 12:55:36.840 19208 30741 I AccountTypeModel.AccountTypeLoader: [D] addSim2AccountType
+10-28 12:55:36.840 19208 30741 I TelephonyDataSource: [D] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:36.840 19208 30741 I TelephonyDataSource: [D] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:36.840 19208 30741 I SimDataSource: [D] getSimIconIndex() iccTypeSlot : 2,0
+10-28 12:55:36.840 19208 30741 I SimDataSource: [D] getSimIconIndex() [1] nIndex : 12
+10-28 12:55:36.840 19208 30741 I SimDataSource: [D] getSimIcon(1) simIcon: 2131231875, iconIdx: 12
+10-28 12:55:36.842  3892  3935 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=40226b3f-85c3-457e-b6de-5b28748803e7, tags={ com.samsung.android.scs.ai.search.scheduling.workers.AppsDataWorker, CMD_UPDATE_LIST } ]
+10-28 12:55:36.842 24389  1455 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+10-28 12:55:36.843 24389  1455 I Icing   : Indexing done com.google.android.gms-apps
+10-28 12:55:36.846   954  3920 D SecContentProvider: query(), uri = 30 selection = isLocalContactStorageAllowed
+10-28 12:55:36.846   954  3920 D RestrictionPolicy: isLocalContactStorageAllowed
+10-28 12:55:36.846   954  3920 D RestrictionPolicy: isLocalContactStorageAllowed(0) : true
+10-28 12:55:36.847 25095 25146 I AccountTypeModel.AccountTypeLoader: [C] addSimAccountType
+10-28 12:55:36.848 25095 25146 I TelephonyDataSource: [C] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:36.848 25095 25146 I TelephonyDataSource: [C] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:36.848 25095 25146 I SimModel: [C] isMultiSimModel : true
+10-28 12:55:36.848 25095 25146 I TelephonyDataSource: [C] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:36.848 25095 25146 I TelephonyDataSource: [C] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:36.848 25095 25146 I SimDataSource: [C] getSimIconIndex() iccTypeSlot : 2,0
+10-28 12:55:36.848   620  2717 I SurfaceFlinger: id=204840 createSurf (0x0),-1 flag=80004, ActivityRecord{e30175 u0 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity t30462}#0
+10-28 12:55:36.848 25095 25146 I SimDataSource: [C] getSimIconIndex() [0] nIndex : 0
+10-28 12:55:36.848 25095 25146 I SimDataSource: [C] getSimIcon(0) simIcon: 2131231890, iconIdx: 0
+10-28 12:55:36.851   954  2451 D SecContentProvider: query(), uri = 30 selection = isLocalContactStorageAllowed
+10-28 12:55:36.852   954  2451 D RestrictionPolicy: isLocalContactStorageAllowed
+10-28 12:55:36.852   954  2451 D RestrictionPolicy: isLocalContactStorageAllowed(0) : true
+10-28 12:55:36.856   954  3936 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.856   954  3912 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.861   954  3912 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.863   954  3936 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.865 19208 30741 I AccountTypeModel.AccountTypeLoader: [D] addSyncableAccountType
+10-28 12:55:36.871  1348  3766 I ViewRootImpl@737783b[lunchtray]: Resizing android.view.ViewRootImpl@4a31aed: frame=[0,0][1080,2280] reportDraw=false forceLayout=false backDropFrame=Rect(0, 0 - 1080, 2280)
+10-28 12:55:36.871  1348  1474 I ViewRootImpl@737783b[lunchtray]: handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2280] display=[0,0][1080,2280] backdrop=[0,0][1080,2280]} forceNextWindowRelayout=false displayId=0 frameChanged=false backdropFrameChanged=false configChanged=false displayChanged=false mNextDrawUseBlastSync=false mergedConfiguration={mGlobalConfig={1.1 220mcc1mnc [en_US,sr_RS] ldltr sw411dp w411dp h777dp 420dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2280) mAppBounds=Rect(0, 112 - 1080, 2154) mMaxBounds=Rect(0, 0 - 1080, 2280) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0 mPopOver=undefined mFreeformTaskPinningState=undefined} s.12130 fontWeightAdjustment=0 ff=0 bf=0 bts=0 desktop/d dm/n ?dc ?dcui ?dcaf enb/d themeSeq=0} mOverrideConfig={1.1 220mcc1mnc [en_US,sr_RS] ldltr sw411dp w411dp h777dp 420dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2280) mAppBounds=Rect(0, 112 - 1080, 2154) mMaxBounds=Rect(0, 0 - 1080, 2280) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mPopOver=off mFreeformTaskPinningState=unpinned} s.1 fontWeightAdjustment=0 ff=0 bf=0 bts=0 desktop/d dm/n dc/d ?dcui ?dcaf enb/d themeSeq=0}}
+10-28 12:55:36.871 17800 17800 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@8d9138c in: RESUMED
+10-28 12:55:36.871 25095 25146 I SimModel: [C] CompleteActiveSubscriptionInfoList : 1
+10-28 12:55:36.871 25095 25146 I AccountTypeModel.AccountTypeLoader: [C] addSim2AccountType
+10-28 12:55:36.872 25095 25146 I TelephonyDataSource: [C] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:36.872 25095 25146 I TelephonyDataSource: [C] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:36.872 25095 25146 I SimDataSource: [C] getSimIconIndex() iccTypeSlot : 2,0
+10-28 12:55:36.872 25095 25146 I SimDataSource: [C] getSimIconIndex() [1] nIndex : 12
+10-28 12:55:36.872 25095 25146 I SimDataSource: [C] getSimIcon(1) simIcon: 2131231893, iconIdx: 12
+10-28 12:55:36.872 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@8d9138c
+10-28 12:55:36.875   954  1400 D SecContentProvider: query(), uri = 30 selection = isLocalContactStorageAllowed
+10-28 12:55:36.875   954  1400 D RestrictionPolicy: isLocalContactStorageAllowed
+10-28 12:55:36.875   954  1400 D RestrictionPolicy: isLocalContactStorageAllowed(0) : true
+10-28 12:55:36.875   954  1015 D PersonaActivityHelper: Activity not in resumed state, do not run immediate lock
+10-28 12:55:36.878 19208 30741 I ExternalAccountType: [D] loadContactsXml : com.viber.voip
+10-28 12:55:36.879   954  2451 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:36.881   954  2451 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:36.883 19208 30741 I ExternalAccountType: [D] Metadata loaded from: com.viber.voip, com.viber.service.contacts.contactbook.AccountContactbookService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.883 17800 17800 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@8d9138c in: PAUSED
+10-28 12:55:36.883 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@8d9138c
+10-28 12:55:36.884 25095 25146 I AccountTypeModel.AccountTypeLoader: [C] addSyncableAccountType
+10-28 12:55:36.886 19208 30741 I ExternalAccountType: [D] loadContactsXml : com.samsung.android.email.provider
+10-28 12:55:36.898 19208 30741 E ExternalAccountType: [D] Package was found, but that doesn't contain the CONTACTS_STRUCTURE metadata
+10-28 12:55:36.899 19208 30741 I ExternalAccountType: [D] loadContactsXml : org.telegram.messenger
+10-28 12:55:36.900 25095 25146 I ExternalAccountType: [C] loadContactsXml : com.viber.voip
+10-28 12:55:36.902 25095 25146 I ExternalAccountType: [C] Metadata loaded from: com.viber.voip, com.viber.service.contacts.contactbook.AccountContactbookService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.916 25095 25146 I ExternalAccountType: [C] loadContactsXml : com.samsung.android.email.provider
+10-28 12:55:36.917   954  1115 I SensorService: [REARLIGHT] lux value : 84, code value : 0
+10-28 12:55:36.918   954  1844 D InputDispatcher: Focused application set to (0): e30175
+10-28 12:55:36.920 25095 25146 E ExternalAccountType: [C] Package was found, but that doesn't contain the CONTACTS_STRUCTURE metadata
+10-28 12:55:36.920 25095 25146 I ExternalAccountType: [C] loadContactsXml : org.telegram.messenger
+10-28 12:55:36.930 11071 17897 I GOS:GameIntentService: onPackageChanged(). extras: Bundle[{changeType=0, userId=0, pkgName=com.example.lunchtray, type=15, packageName=com.example.lunchtray}]
+10-28 12:55:36.930 11071 17897 I GOS:GameIntentService: onPackageChanged(). changeType(INSTALLED), pkgName(com.example.lunchtray), UserHandle(0), userId(0), Installed(true)
+10-28 12:55:36.933 19208 30741 I ExternalAccountType: [D] Metadata loaded from: org.telegram.messenger, org.telegram.messenger.ContactsSyncAdapterService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.933   954  1257 W SemWifiTransportLayerUtils: getApplicationCategory - IOException com.example.lunchtray
+10-28 12:55:36.933   954  1257 W System.err: java.io.FileNotFoundException: https://play.google.com/store/apps/details?id=com.example.lunchtray&hl=en
+10-28 12:55:36.933 19208 30741 I ExternalAccountType: [D] loadContactsXml : com.google.android.apps.tachyon
+10-28 12:55:36.940 25095 25146 I ExternalAccountType: [C] Metadata loaded from: org.telegram.messenger, org.telegram.messenger.ContactsSyncAdapterService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.940 25095 25146 I ExternalAccountType: [C] loadContactsXml : com.google.android.apps.tachyon
+10-28 12:55:36.941   954  1257 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:255)
+10-28 12:55:36.941   954  1257 W System.err: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getInputStream(DelegatingHttpsURLConnection.java:211)
+10-28 12:55:36.941   954  1257 W System.err: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:30)
+10-28 12:55:36.941   954  1257 W System.err: 	at com.samsung.android.server.wifi.tcp.SemWifiTransportLayerUtils.getApplicationCategory(SemWifiTransportLayerUtils.java:104)
+10-28 12:55:36.941   954  1257 W System.err: 	at com.samsung.android.server.wifi.tcp.SemWifiTransportLayerMonitor$TcpMonitorHandler.handleMessage(SemWifiTransportLayerMonitor.java:241)
+10-28 12:55:36.941   954  1257 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-28 12:55:36.941   954  1257 W System.err: 	at android.os.Looper.loopOnce(Looper.java:226)
+10-28 12:55:36.941   954  1257 W System.err: 	at android.os.Looper.loop(Looper.java:313)
+10-28 12:55:36.943   954  1257 W System.err: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-28 12:55:36.947 25095 25146 I ExternalAccountType: [C] Metadata loaded from: com.google.android.apps.tachyon, com.google.android.apps.tachyon.contacts.sync.SyncService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.947 11071 17897 I GOS:SystemEventReactor: checkReservedCategory() - reservedList is null or empty!
+10-28 12:55:36.949   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_REPLACED, tag =
+10-28 12:55:36.949 26660 26660 I ViewRootImpl@623994e[LauncherActivity]: handleAppVisibility mAppVisible=true visible=false
+10-28 12:55:36.949 25095 25146 I ExternalAccountType: [C] loadContactsXml : com.facebook.orca
+10-28 12:55:36.950  1348  1489 D WallpaperService: dispatchAppVisibility onVisibilityChanged(): false
+10-28 12:55:36.957  1348  1348 D WallpaperService: reportVisibility onVisibilityChanged visible: false
+10-28 12:55:36.957 25095 25146 I ExternalAccountType: [C] Metadata loaded from: com.facebook.orca, com.facebook.messaging.phonebookintegration.account.MessengerSyncAdapterService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.957  1348  1535 I ImageWallpaper:  onVisibilityChanged false , 0
+10-28 12:55:36.958 25095 25146 I ExternalAccountType: [C] loadContactsXml : com.skype.raider
+10-28 12:55:36.958   620   620 I Layer   : id=204836 removeFromCurrentState Surface(name=Task=1)/@0x4cdbfdb - animation-leash of app_transition#0 (165)
+10-28 12:55:36.958   620   620 I Layer   : id=51 removeFromCurrentState Task=1#0 (165)
+10-28 12:55:36.958   620   620 I Layer   : id=103 removeFromCurrentState Task=28634#0 (165)
+10-28 12:55:36.958   620   620 I Layer   : id=104 removeFromCurrentState ActivityRecord{7d8cfdc u0 com.sec.android.app.launcher/.activities.LauncherActivity t28634}#0 (165)
+10-28 12:55:36.958   620   620 I Layer   : id=57860 removeFromCurrentState 4ad90e6 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity#0 (165)
+10-28 12:55:36.958   620   620 I Layer   : id=204812 removeFromCurrentState com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_26660#0 (165)
+10-28 12:55:36.959   620   620 I Layer   : id=204815 removeFromCurrentState OneUiHome-BlurLayer#0 (165)
+10-28 12:55:36.959   620   620 I Layer   : id=21 removeFromCurrentState ImeContainer#0 (165)
+10-28 12:55:36.959   620   620 I Layer   : id=149178 removeFromCurrentState WindowToken{5ce3063 android.os.Binder@ec69e92}#0 (165)
+10-28 12:55:36.959   620   620 I Layer   : id=204817 removeFromCurrentState Surface(name=2188bee InputMethod)/@0xe151908 - animation-leash of insets_animation#0 (165)
+10-28 12:55:36.959   620   620 I Layer   : id=149179 removeFromCurrentState 2188bee InputMethod#0 (165)
+10-28 12:55:36.959   620   620 I Layer   : id=51 addToCurrentState Task=1#0 (165)
+10-28 12:55:36.959   620   620 I Layer   : id=103 addToCurrentState Task=28634#0 (165)
+10-28 12:55:36.959   620   620 I Layer   : id=104 addToCurrentState ActivityRecord{7d8cfdc u0 com.sec.android.app.launcher/.activities.LauncherActivity t28634}#0 (165)
+10-28 12:55:36.959   620   620 I Layer   : id=57860 addToCurrentState 4ad90e6 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity#0 (165)
+10-28 12:55:36.959   620   620 I Layer   : id=204812 addToCurrentState com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_26660#0 (165)
+10-28 12:55:36.959   620   620 I Layer   : id=204815 addToCurrentState OneUiHome-BlurLayer#0 (165)
+10-28 12:55:36.959   620   620 I Layer   : id=21 addToCurrentState ImeContainer#0 (165)
+10-28 12:55:36.959   620   620 I Layer   : id=149178 addToCurrentState WindowToken{5ce3063 android.os.Binder@ec69e92}#0 (165)
+10-28 12:55:36.959   620   620 I Layer   : id=204817 addToCurrentState Surface(name=2188bee InputMethod)/@0xe151908 - animation-leash of insets_animation#0 (165)
+10-28 12:55:36.959   620   620 I Layer   : id=149179 addToCurrentState 2188bee InputMethod#0 (165)
+10-28 12:55:36.959   620   620 I Layer   : id=204837 removeFromCurrentState Surface(name=Task=30462)/@0xc2569a3 - animation-leash of app_transition#0 (165)
+10-28 12:55:36.959   620   620 I SurfaceFlinger: id=204837 Removed Surface(name=Task=30462)/@0xc2569a3 - animation-leash of app_transition#0 (165)
+10-28 12:55:36.959   620   620 I SurfaceFlinger: id=204836 Removed Surface(name=Task=1)/@0x4cdbfdb - animation-leash of app_transition#0 (165)
+10-28 12:55:36.959 25095 25146 I ExternalAccountType: [C] Metadata loaded from: com.skype.raider, com.skype4life.syncadapter.AccountService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.959   620   620 I Layer   : id=204836 Destroyed Surface(name=Task=1)/@0x4cdbfdb - animation-leash of app_transition#0
+10-28 12:55:36.959   620   620 I Layer   : id=204837 Destroyed Surface(name=Task=30462)/@0xc2569a3 - animation-leash of app_transition#0
+10-28 12:55:36.960 19208 30741 I ExternalAccountType: [D] Metadata loaded from: com.google.android.apps.tachyon, com.google.android.apps.tachyon.contacts.sync.SyncService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.960 25095 25146 I ExternalAccountType: [C] loadContactsXml : com.microsoft.teams
+10-28 12:55:36.961 19208 30741 I ExternalAccountType: [D] loadContactsXml : com.facebook.orca
+10-28 12:55:36.962   620   620 D SurfaceFlinger: Display 0 HWC layers:
+10-28 12:55:36.962   620   620 D SurfaceFlinger:      DEVICE | 0x7843dba9b0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    0    0 1080 2280 | Splash Screen com.example.lunchtray$_1348#0
+10-28 12:55:36.962   620   620 D SurfaceFlinger:      DEVICE | 0x7843db3a50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  112.0 |    0    0 1080  112 | StatusBar$_1348#0
+10-28 12:55:36.962   620   620 D SurfaceFlinger:      DEVICE | 0x7843dbc6f0 | 0100 | RGBA_8888    |    0.0    0.0   67.0  416.0 |    0  814   67 1230 | com.samsung.android.app.cocktailbars[...]arservice.CocktailBarService$_8198#0
+10-28 12:55:36.962   620   620 D SurfaceFlinger:      DEVICE | 0x7843dbe0d0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2154 1080 2280 | NavigationBar0$_1348#0
+10-28 12:55:36.962   620   620 D SurfaceFlinger:
+10-28 12:55:36.967 25095 25146 I ExternalAccountType: [C] Metadata loaded from: com.microsoft.teams, com.microsoft.skype.teams.calling.nativephonebookintegration.AccountService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.968 25095 25146 I ExternalAccountType: [C] loadContactsXml : com.snapchat.android
+10-28 12:55:36.969   954  1257 D SemWifiPackageInfo: isSkipCategory - skip:NONE
+10-28 12:55:36.969   954  1257 D SemWifiTransportLayerMonitor.TcpMonitorHandler: MSG_SAVE_PACKAGE_INFO
+10-28 12:55:36.969   954  1257 D SemWifiTransportLayerFileManager: saveWifiPackageInfoToFile
+10-28 12:55:36.969   954  1257 D SemWifiTransportLayerFileManager: writeWifiPackageInfoList
+10-28 12:55:36.971   954  3956 V WindowManager: Relayout Window{4ad90e6 u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity}: viewVisibility=8 req=1080x2280 d0
+10-28 12:55:36.977 19208 30741 I ExternalAccountType: [D] Metadata loaded from: com.facebook.orca, com.facebook.messaging.phonebookintegration.account.MessengerSyncAdapterService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.977 19208 30741 I ExternalAccountType: [D] loadContactsXml : com.skype.raider
+10-28 12:55:36.979 25095 25146 I ExternalAccountType: [C] Metadata loaded from: com.snapchat.android, com.snap.identity.enhancedcontacts.core.EnhancedContactsSyncService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.979 25095 25146 I ExternalAccountType: [C] loadContactsXml : com.whatsapp
+10-28 12:55:36.984 19208 30741 I ExternalAccountType: [D] Metadata loaded from: com.skype.raider, com.skype4life.syncadapter.AccountService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.985 19208 30741 I ExternalAccountType: [D] loadContactsXml : com.microsoft.teams
+10-28 12:55:36.986   954  3956 V WindowManager: Relayout hash=4ad90e6, pid=26660: mAttrs={(0,0)(fillxfill) sim={adjust=nothing} layoutInDisplayCutoutMode=shortEdges ty=BASE_APPLICATION fmt=TRANSPARENT wanim=0x10302f2
+10-28 12:55:36.986   954  3956 V WindowManager:   fl=81910100
+10-28 12:55:36.986   954  3956 V WindowManager:   pfl=1e020040
+10-28 12:55:36.986   954  3956 V WindowManager:   vsysui=1700
+10-28 12:55:36.986   954  3956 V WindowManager:   bhv=SHOW_TRANSIENT_BARS_BY_SWIPE
+10-28 12:55:36.986   954  3956 V WindowManager:   fitSides= naviIconColor=0}
+10-28 12:55:36.986 17800 17800 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@67277af in: PRE_ON_CREATE
+10-28 12:55:36.987   954  1253 D SemNscXgbMsL1: Probability - Cloud gaming: [0.0064814435]
+10-28 12:55:36.987   954  1253 D SemNscXgbMsL1: Probability - Real time: [0.012373659]
+10-28 12:55:36.987   954  1253 D SemNscXgbMsL1: Probability - Non real time: [0.970347]
+10-28 12:55:36.987   954  1253 D SemNscXgbMsL1: 1 sample inference time: 0.479692 msecs
+10-28 12:55:36.987 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+10-28 12:55:36.988 25095 25146 I ExternalAccountType: [C] Metadata loaded from: com.whatsapp, com.whatsapp.contact.sync.ContactsSyncAdapterService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.990   954  1253 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 3.07227 msecs
+10-28 12:55:36.991 26660 26660 I ViewRootImpl@623994e[LauncherActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)8 dur=20 res=0x5 s={false 0} ch=true fn=7
+10-28 12:55:36.992   954  1253 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.677462 msecs
+10-28 12:55:36.999 19208 30741 I ExternalAccountType: [D] Metadata loaded from: com.microsoft.teams, com.microsoft.skype.teams.calling.nativephonebookintegration.AccountService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:36.999 19208 30741 I ExternalAccountType: [D] loadContactsXml : com.snapchat.android
+10-28 12:55:37.000 25095 25146 I ExternalAccountType: [C] loadContactsXml : com.google.android.apps.plus
+10-28 12:55:37.000 25095 25146 E ExternalAccountType: [C] Package was found, but that doesn't contain the CONTACTS_STRUCTURE metadata
+10-28 12:55:37.000   954   978 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:37.000 25095 25146 I AccountTypeModel.AccountTypeLoader: [C] finish add account type
+10-28 12:55:37.001   954   978 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:37.005 19454 14990 I TelephonyDataSource: [M] getSimState(0) : 5
+10-28 12:55:37.006 19208 30741 I ExternalAccountType: [D] Metadata loaded from: com.snapchat.android, com.snap.identity.enhancedcontacts.core.EnhancedContactsSyncService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:37.006 19454 14990 I TelephonyDataSource: [M] slotId : 0CSim value : 0
+10-28 12:55:37.006 19454 14990 I SimContactModel: [M] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:37.006 19208 30741 I ExternalAccountType: [D] loadContactsXml : com.whatsapp
+10-28 12:55:37.007 19454 14990 I TelephonyDataSource: [M] getSimState(0) : 5
+10-28 12:55:37.007 19454 14990 I TelephonyDataSource: [M] slotId : 0CSim value : 0
+10-28 12:55:37.008 19454 14990 I SimContactModel: [M] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:37.017 19208 30741 I ExternalAccountType: [D] Metadata loaded from: com.whatsapp, com.whatsapp.contact.sync.ContactsSyncAdapterService, android.provider.CONTACTS_STRUCTURE
+10-28 12:55:37.020 19208 30741 I ExternalAccountType: [D] loadContactsXml : com.google.android.apps.plus
+10-28 12:55:37.023 17800 17800 I DecorView: [INFO] isPopOver=false, config=true
+10-28 12:55:37.023 17800 17800 I DecorView: updateCaptionType >> DecorView@ce7c8f0[], isFloating=false, isApplication=true, hasWindowControllerCallback=true, hasWindowDecorCaption=false
+10-28 12:55:37.024 17800 17800 D DecorView: setCaptionType = 0, this = DecorView@ce7c8f0[]
+10-28 12:55:37.024 19208 30741 E ExternalAccountType: [D] Package was found, but that doesn't contain the CONTACTS_STRUCTURE metadata
+10-28 12:55:37.024 19208 30741 I AccountTypeModel.AccountTypeLoader: [D] finish add account type
+10-28 12:55:37.025 17800 17800 I DecorView: getCurrentDensityDpi: from real metrics. densityDpi=420 msg=resources_loaded
+10-28 12:55:37.027 17800 17800 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@67277af in: CREATED
+10-28 12:55:37.027 17800 17800 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@67277af
+10-28 12:55:37.028   954   978 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:37.028   954   978 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:37.030 26660 26660 I ViewRootImpl@623994e[LauncherActivity]: stopped(true) old=false
+10-28 12:55:37.031 26660 26660 I BaseActivity: removeActivityFlags, flags : 17
+10-28 12:55:37.032 19454 14990 I TelephonyDataSource: [M] getSimState(1) : 1
+10-28 12:55:37.032 17800 17800 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@67277af in: STARTED
+10-28 12:55:37.032 17800 17800 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@67277af
+10-28 12:55:37.033 26660 26792 I IMM_LC  : hsifw() - flags=0, caller=android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:1846 android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:1815 com.android.launcher3.util.UiThreadHelper$UiCallbacks.handleMessage:103 android.os.Handler.dispatchMessage:102 android.os.Looper.loopOnce:226
+10-28 12:55:37.033 26660 26792 I IMM_LC  : hideSoftInputFromWindow - mService.hideSoftInput
+10-28 12:55:37.033 17800 17800 D LifecycleMonitor: Lifecycle status change: androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@67277af in: RESUMED
+10-28 12:55:37.033 17800 17800 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity@67277af
+10-28 12:55:37.033   954  1015 I SemPersonaManager: SecureFolder personaId = 150
+10-28 12:55:37.034 26660 26660 W LauncherAppWidgetHost: setShouldListenFlag, mFlags:7 flag:start on:false isFront:false
+10-28 12:55:37.037   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_REPLACED, tag =
+10-28 12:55:37.038   954  1401 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:37.038   954  1401 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:37.040   954  1272 I AppWidgetServiceImpl: stopListening callbacks : null
+10-28 12:55:37.041 26660 26660 W LauncherAppWidgetHost: stopListening, mFlags:2 isFront:false
+10-28 12:55:37.041   954  1021 D EnterpriseDeviceManagerService: onPackageUpdateFinished - packageName: com.example.lunchtray, uid: 10998
+10-28 12:55:37.041 26660 26660 W Launcher.NotificationListener: removeNotificationsChangedListener
+10-28 12:55:37.041 26660 26660 I BadgeCountUpdaterImpl: onNotificationsChangedDisConnected
+10-28 12:55:37.041 26660 26660 I Launcher.NotificationListener: unregisterObserver, this is not notificationService!!
+10-28 12:55:37.041   954  1021 D EnterpriseDeviceManagerService: Package has changed for user 0
+10-28 12:55:37.041   954  1021 D EnterpriseDeviceManagerService: Admin package name: com.samsung.android.kgclient
+10-28 12:55:37.042   620   620 D Layer   : setBackgroundBlurRadius ## OneUiHome-BlurLayer#0, backgroundBlurRadius=0
+10-28 12:55:37.042   620  2722 D NativeSemDvfsManager: acquire:: timeout = 2000 mIsAcquired = 1  mTagName : SurfaceFlinger
+10-28 12:55:37.042   620   620 I SurfaceFlinger: id=204815 Removed OneUiHome-BlurLayer#0 (163)
+10-28 12:55:37.043  8198  8198 I AppsEdge.PanelContainer: onPackageChanged
+10-28 12:55:37.043   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_REPLACED, tag =
+10-28 12:55:37.044 26660 26660 I Launcher.Model: isValidStateInKnoxMode:false user:UserHandle{0}
+10-28 12:55:37.044 26660 26793 I PackageUpdatedTask: mAllAppsList.updatePackage com.example.lunchtray
+10-28 12:55:37.045   620  2722 E NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::acquire()
+10-28 12:55:37.046   954   977 W system_server: Long monitor contention with owner android.sm (1216) at void com.android.server.search.SearchManagerService$MyPackageMonitor._updateSearchables(int)(SearchManagerService.java:251) waiters=0 in com.android.server.search.Searchables com.android.server.search.SearchManagerService.getSearchables(int, boolean) for 418ms
+10-28 12:55:37.048   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 1314010  [620 / 1000]    HINT : SF_GPU_MINLOCK    list : [TIMEOUT / 2000]
+10-28 12:55:37.053 26660 26792 I LiveIconUpdateEventHandler: LiveIcon onStop
+10-28 12:55:37.054 26660 26792 I LiveIconUpdateEventHandler: cancelMinuteChangeAlarm
+10-28 12:55:37.056 26660 26792 I LiveIconUpdateEventHandler: cancelDateChangeAlarm
+10-28 12:55:37.057 19454 14990 I TelephonyDataSource: [M] getSimState(0) : 5
+10-28 12:55:37.058 19454 14990 I TelephonyDataSource: [M] slotId : 0CSim value : 0
+10-28 12:55:37.058 19454 14990 I SimContactModel: [M] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:37.059 19454 14990 I TelephonyDataSource: [M] getSimState(0) : 5
+10-28 12:55:37.059 19454 14990 I TelephonyDataSource: [M] slotId : 0CSim value : 0
+10-28 12:55:37.059 19454 14990 I SimContactModel: [M] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:37.064   954   977 D InputTransport: Input channel constructed: '5bae096', fd=1712
+10-28 12:55:37.064   954   977 D InputTransport: Input channel constructed: '5bae096', fd=1713
+10-28 12:55:37.064   954   977 D InputTransport: Input channel constructed: '5bae096', fd=1714
+10-28 12:55:37.064   954  3923 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:37.065   529  1586 W statsd  : StatsPullerManager: Unknown tagId 150001
+10-28 12:55:37.065   529  1586 E statsd  : Gauge Stats puller failed for tag: 150001 at 2957186274930005
+10-28 12:55:37.065   529  1586 W statsd  : StatsPullerManager: Unknown tagId 150002
+10-28 12:55:37.065   529  1586 E statsd  : Gauge Stats puller failed for tag: 150002 at 2957186274930005
+10-28 12:55:37.065   529  1586 W statsd  : StatsPullerManager: Unknown tagId 150003
+10-28 12:55:37.065   529  1586 E statsd  : Gauge Stats puller failed for tag: 150003 at 2957186274930005
+10-28 12:55:37.065   529  1586 W statsd  : StatsPullerManager: Unknown tagId 150004
+10-28 12:55:37.065   529  1586 E statsd  : Gauge Stats puller failed for tag: 150004 at 2957186274930005
+10-28 12:55:37.065   529  1586 W statsd  : StatsPullerManager: Unknown tagId 150005
+10-28 12:55:37.065   529  1586 E statsd  : Gauge Stats puller failed for tag: 150005 at 2957186274930005
+10-28 12:55:37.065   529  1586 W statsd  : StatsPullerManager: Unknown tagId 150006
+10-28 12:55:37.065   529  1586 E statsd  : Gauge Stats puller failed for tag: 150006 at 2957186274930005
+10-28 12:55:37.065   954  3923 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:37.067   620   643 D TimeStats: Cleared global stats
+10-28 12:55:37.067   620  2717 I SurfaceFlinger: id=204841 createSurf (0x0),-1 flag=80004, 5bae096 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity#0
+10-28 12:55:37.069   954   977 D InputTransport: Input channel destroyed: '5bae096', fd=1714
+10-28 12:55:37.070 19454 14990 I TelephonyDataSource: [M] getSimState(1) : 1
+10-28 12:55:37.071   954  3923 D SecContentProvider: query(), uri = 17 selection = isSettingsChangesAllowed
+10-28 12:55:37.071 25095 25146 I AccountTypeModel.AccountTypeLoader: [C] finish accountsInBackground
+10-28 12:55:37.072 19208 30741 I AccountTypeModel.AccountTypeLoader: [D] finish accountsInBackground
+10-28 12:55:37.072 17800 17800 I ViewRootImpl@645f1a1[FragmentScenario$EmptyFragmentActivity]: setView = com.android.internal.policy.DecorView@ce7c8f0 TM=true
+10-28 12:55:37.075   954  1015 D EnterpriseDeviceManagerService: isMdmAdminPresentInternal() : MDM Admin Found - com.samsung.knox.securefolder
+10-28 12:55:37.076   620   620 I Layer   : id=204812 removeFromCurrentState com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_26660#0 (164)
+10-28 12:55:37.076   620   620 I Layer   : id=204815 removeFromCurrentState OneUiHome-BlurLayer#0 (164)
+10-28 12:55:37.077 17800 17800 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@8d9138c in: STOPPED
+10-28 12:55:37.077 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@8d9138c
+10-28 12:55:37.080   954  3923 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:37.081   954  3923 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:37.086   954   977 W Settings: Setting notification_bubbles has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+10-28 12:55:37.087 26660 26793 I AppIconSolution: start to load, pkg=com.example.lunchtray, bg=126-126, dr=189-189, forDefault=false, density=0
+10-28 12:55:37.089 19454 14990 I TelephonyDataSource: [M] getSimState(0) : 5
+10-28 12:55:37.089 19454 14990 I TelephonyDataSource: [M] slotId : 0CSim value : 0
+10-28 12:55:37.090 19454 14990 I SimContactModel: [M] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:37.090 26660 26793 I AppIconSolution: getIconScale, pkg=com.example.lunchtray, size=189, iconScale=IconScale[alpha=1, scale=0.59999996, isCrop=false]
+10-28 12:55:37.090 26660 26793 I AppIconSolution: fromTheme2, pkg=com.example.lunchtray, bg=126-126, dr=189-189, tarScale=0.59999996, relScale=0.40427807, mask=false, isCropInTheme = false, isNight = false
+10-28 12:55:37.091 26660 26793 I LauncherActivityInfo: packageName: com.example.lunchtray, useThemeIcon: true, height: 126, width: 126, density: 640
+10-28 12:55:37.093 19454 14990 I TelephonyDataSource: [M] getSimState(0) : 5
+10-28 12:55:37.093 19454 14990 I TelephonyDataSource: [M] slotId : 0CSim value : 0
+10-28 12:55:37.093 19454 14990 I SimContactModel: [M] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:37.094   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_REPLACED, tag =
+10-28 12:55:37.097   954  3923 V WindowManager: Relayout Window{5bae096 u0 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity}: viewVisibility=0 req=1080x2280 d0
+10-28 12:55:37.098   620  2717 I SurfaceFlinger: id=204842 createSurf (1x1),-3 flag=40004, com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity$_17800#0
+10-28 12:55:37.100 26660 26792 I LiveIconUpdateEventHandler: unregisterReceiver
+10-28 12:55:37.103   620  2717 I SurfaceFlinger: id=204843 createSurf (0x0),-1 flag=24000, Surface(name=2fa8401 StatusBar)/@0xf000e26 - animation-leash of insets_animation#0
+10-28 12:55:37.103 11071 17903 I GOS:GameIntentService: onHandleIntent. GameIntentService. type: 15, pkgName: com.example.lunchtray
+10-28 12:55:37.104 26660  4876 I ExternalMethodFactory: get_home_mode
+10-28 12:55:37.105   620  2717 I SurfaceFlinger: id=204844 createSurf (0x0),-1 flag=24000, Surface(name=be23078 NavigationBar0)/@0x50010bd - animation-leash of insets_animation#0
+10-28 12:55:37.107 32621 17904 I AppsEdge.Service: changeItem() removed=false
+10-28 12:55:37.107 32621 17904 I AppsEdge.DBHelper: getFavoriteItems : true
+10-28 12:55:37.107   954  3923 V WindowManager: Relayout hash=5bae096, pid=17800: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030303
+10-28 12:55:37.107   954  3923 V WindowManager:   fl=81810100
+10-28 12:55:37.107   954  3923 V WindowManager:   pfl=12020040
+10-28 12:55:37.107   954  3923 V WindowManager:   apr=LIGHT_NAVIGATION_BARS
+10-28 12:55:37.107   954  3923 V WindowManager:   bhv=DEFAULT
+10-28 12:55:37.107   954  3923 V WindowManager:   fitSides= naviIconColor=0
+10-28 12:55:37.107   954  3923 V WindowManager:   sfl=100000}
+10-28 12:55:37.112   954  3936 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:37.113   954  3936 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:37.116 17800 17800 I ViewRootImpl@645f1a1[FragmentScenario$EmptyFragmentActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=12 res=0x7 s={true 515079896304} ch=true fn=-1
+10-28 12:55:37.117 32621 17904 I AppsEdge.DBHelper: type=0 pos=0 id=1
+10-28 12:55:37.119   550   626 I display : getColorModes:: Supported color modes (3)
+10-28 12:55:37.119   550   626 I display : 	[0] mode 0
+10-28 12:55:37.119   550   626 I display : 	[1] mode 7
+10-28 12:55:37.119   550   626 I display : 	[2] mode 9
+10-28 12:55:37.119   620  2717 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 0: Unsupported (8)
+10-28 12:55:37.119   620   643 I SurfaceFlinger: id=204812 Removed com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_26660#0 (167)
+10-28 12:55:37.119 17800 17800 I ViewRootImpl@645f1a1[FragmentScenario$EmptyFragmentActivity]: [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:11420 android.view.ViewRootImpl.performTraversals:4193 android.view.ViewRootImpl.doTraversal:2919
+10-28 12:55:37.120 19454 14990 I TelephonyDataSource: [M] getSimState(1) : 1
+10-28 12:55:37.120 17800 17884 D hw-ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+10-28 12:55:37.122   954  1054 D AnalyticsContainerHandler: handleMessage : { when=-1ms what=1 target=com.android.server.knox.KnoxAnalyticsContainer$AnalyticsHandler }
+10-28 12:55:37.122 17800 17884 D OpenGLRenderer: eglCreateWindowSurface
+10-28 12:55:37.123 32621 17904 I AppsEdge.DBHelper: type=0 pos=1 id=5
+10-28 12:55:37.124   529   535 E statsd  : Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->10999[I] (10)0x30000->Icing[S]
+10-28 12:55:37.125   529   535 E statsd  : Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->10999[I] (10)0x30000->Icing[S]
+10-28 12:55:37.126   620   620 I Layer   : id=204812 Destroyed com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_26660#0
+10-28 12:55:37.126   620   620 I Layer   : id=204815 Destroyed OneUiHome-BlurLayer#0
+10-28 12:55:37.126   529   535 E statsd  : Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->10999[I] (10)0x30000->Icing[S]
+10-28 12:55:37.127   529   535 E statsd  : Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->10999[I] (10)0x30000->Icing[S]
+10-28 12:55:37.128   529   535 E statsd  : Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->10999[I] (10)0x30000->Icing[S]
+10-28 12:55:37.128   529   535 E statsd  : Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->10999[I] (10)0x30000->Icing[S]
+10-28 12:55:37.128   414   414 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+10-28 12:55:37.129 17800 17905 I Gralloc4: mapper 4.x is not supported
+10-28 12:55:37.129   414   414 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device VINTF manifest.
+10-28 12:55:37.129 17800 17905 W Gralloc3: mapper 3.x is not supported
+10-28 12:55:37.131   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_REPLACED, tag =
+10-28 12:55:37.131   954   954 D SEP_UNION_SemDeviceInfoManagerService: sendIntentAction() action = android.intent.action.PACKAGE_REPLACED, tag =
+10-28 12:55:37.132   954  3919 W system_server: Long monitor contention with owner main (954) at void com.android.server.sepunion.SemDeviceInfoManagerService.sendIntentAction(com.android.server.sepunion.eventdelegator.UnionEventListenerItem, android.content.Intent, int)(SemDeviceInfoManagerService.java:199) waiters=0 in void com.android.server.sepunion.SemDeviceInfoManagerService.registerPendingIntentInternal(android.content.IntentFilter, android.app.PendingIntent, int, java.util.List, java.lang.String, int, boolean) for 298ms
+10-28 12:55:37.132   954  3919 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:37.132   954  3919 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:37.132   954  3919 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:37.132   954  3919 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:37.132   954  3919 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:37.133   954  3919 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:37.133   954  3919 D SEP_UNION_SemDeviceInfoManagerService: registerPendingIntentInternal() action = android.intent.action.DATE_CHANGED, callingPackage = com.samsung.android.app.routines, userId = 0, flag = 0, conditions = null
+10-28 12:55:37.133   954  3919 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:37.133   954  3919 D SEP_UNION_SemDeviceInfoManagerService: registerPendingIntentInternal() action = android.intent.action.PACKAGE_DATA_CLEARED, callingPackage = com.samsung.android.app.routines, userId = 0, flag = 0, conditions = null
+10-28 12:55:37.133   954  3919 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:37.133   954  1401 D SEP_UNION_SemDeviceInfoManagerService: registerPendingIntentInternal() action = com.samsung.android.theme.themecenter.THEME_APPLY, callingPackage = com.samsung.android.app.routines, userId = 0, flag = 0, conditions = null
+10-28 12:55:37.134   954  1401 D SEP_UNION_SemDeviceInfoManagerService: Same PendingIntent is in com.samsung.android.app.routines
+10-28 12:55:37.135 26660   491 I RecentModel: onTaskStackChangedBackground
+10-28 12:55:37.135 17800 17905 I gralloc : Arm Module v1.0
+10-28 12:55:37.137   414   414 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@4.0::IAllocator/default in either framework or device VINTF manifest.
+10-28 12:55:37.137 17800 17905 W Gralloc4: allocator 4.x is not supported
+10-28 12:55:37.137   414   414 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@3.0::IAllocator/default in either framework or device VINTF manifest.
+10-28 12:55:37.137 17800 17905 W Gralloc3: allocator 3.x is not supported
+10-28 12:55:37.138 26660 26793 I WidgetsModel: EasyModeWidget will be excluded on WidgetList.
+10-28 12:55:37.138 32621 17904 I AppsEdge.DBHelper: type=0 pos=2 id=6
+10-28 12:55:37.139   529   535 E statsd  : Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->10999[I] (10)0x30000->Icing[S]
+10-28 12:55:37.139   954   954 D ApplicationPolicy: No requested permission found.
+10-28 12:55:37.139   954   954 D ApplicationPolicy: No requested permission found.
+10-28 12:55:37.140   529   535 E statsd  : Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->10999[I] (10)0x30000->Icing[S]
+10-28 12:55:37.140   529   535 E statsd  : Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->10999[I] (10)0x30000->Icing[S]
+10-28 12:55:37.141   529   535 E statsd  : Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->10999[I] (10)0x30000->Icing[S]
+10-28 12:55:37.142   620   620 I Layer   : id=204838 removeFromCurrentState Surface(name=2fa8401 StatusBar)/@0xf000e26 - animation-leash of insets_animation#1 (165)
+10-28 12:55:37.142   620   620 I Layer   : id=204839 removeFromCurrentState Surface(name=be23078 NavigationBar0)/@0x50010bd - animation-leash of insets_animation#1 (165)
+10-28 12:55:37.142   620   620 I SurfaceFlinger: id=204838 Removed Surface(name=2fa8401 StatusBar)/@0xf000e26 - animation-leash of insets_animation#1 (165)
+10-28 12:55:37.142   620   620 I SurfaceFlinger: id=204839 Removed Surface(name=be23078 NavigationBar0)/@0x50010bd - animation-leash of insets_animation#1 (165)
+10-28 12:55:37.143   620   620 I Layer   : id=204838 Destroyed Surface(name=2fa8401 StatusBar)/@0xf000e26 - animation-leash of insets_animation#1
+10-28 12:55:37.143   620   620 I Layer   : id=204839 Destroyed Surface(name=be23078 NavigationBar0)/@0x50010bd - animation-leash of insets_animation#1
+10-28 12:55:37.145   954  2773 D InputDispatcher: Focus request (0): 5bae096 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity but waiting because NOT_VISIBLE
+10-28 12:55:37.146   529  1586 E statsd  : Stats puller failed for tag: 10101 at 2957189194587541
+10-28 12:55:37.149 27785 27785 I Routine@Core[3.5.02.25]: RoutineHistoryDumpImpl: insertHistory: [SERVICE_STATUS] [ACTION_ROUTINE_PACKAGE_CHANGED]
+10-28 12:55:37.150 26660  4876 I ExternalMethodFactory: get_home_mode
+10-28 12:55:37.150 27785 27785 I Routine@Core[3.5.02.25]: RoutineService: onDestroy
+10-28 12:55:37.155   529  1586 W statsd  : StateTracker not found for state atom 202001
+10-28 12:55:37.156  8198  8198 I Utils   : HomePackage : com.sec.android.app.launcher, resumePackageName : com.example.lunchtray
+10-28 12:55:37.159   954  1844 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:37.159 26660 26793 I PackageUpdatedTask: modified, appInfo : AppInfo(id=267 type=APP hidden=0 container=all_apps screen=2 rank=19 rankOfList=-1 user=UserHandle{0} title=Lunch Tray componentName=ComponentInfo{com.example.lunchtray/com.example.lunchtray.MainActivity} screenType=0)
+10-28 12:55:37.159   954  1844 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:37.163 26660 26793 I AppsModelWriter: updateItems(start) : needToNormalize = true
+10-28 12:55:37.163 26660 26793 I AppsModelWriter: updateItems(start) > needToBind = true
+10-28 12:55:37.163 26660 26793 I AppsModelWriter: updateItems(start)> 0, 267, 0, -102, 2, 19, UserHandle{0}, 0, Lunch Tray, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems : [matched = true] col = 4, raw : 5
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 28, 2, -102, 0, 0, UserHandle{0}, 0, Samsung, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 38, 2, -102, 0, 1, UserHandle{0}, 0, Google, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 47, 2, -102, 0, 2, UserHandle{0}, 0, Microsoft aplikacije, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 176, 2, -102, 0, 3, UserHandle{0}, 0, Misc, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 60, 0, -102, 0, 4, UserHandle{0}, 0, Calculator, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 56, 0, -102, 0, 5, UserHandle{0}, 0, Clock, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 55, 0, -102, 0, 6, UserHandle{0}, 0, Gallery, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 54, 0, -102, 0, 7, UserHandle{0}, 0, Camera, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 58, 0, -102, 0, 8, UserHandle{0}, 0, Settings, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 63, 0, -102, 0, 9, UserHandle{0}, 0, Game Launcher, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 187, 0, -102, 0, 10, UserHandle{0}, 0, Audify Music Player, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 183, 0, -102, 0, 11, UserHandle{0}, 0, Deezer, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 50, 0, -102, 0, 12, UserHandle{0}, 0, Play Store, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 146, 0, -102, 0, 13, UserHandle{0}, 0, Calendar, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 79, 0, -102, 0, 14, UserHandle{0}, 0, Translate, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 170, 0, -102, 0, 15, UserHandle{0}, 0, Keep Notes, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 43, 0, -102, 0, 16, UserHandle{0}, 0, YouTube, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 41, 0, -102, 0, 17, UserHandle{0}, 0, Gmail, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 44, 0, -102, 0, 18, UserHandle{0}, 0, Drive, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 42, 0, -102, 0, 19, UserHandle{0}, 0, Maps, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 214, 0, -102, 1, 0, UserHandle{0}, 0, Instagram, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 67, 0, -102, 1, 1, UserHandle{0}, 0, Viber, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 124, 0, -102, 1, 2, UserHandle{0}, 0, Discord, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 165, 0, -102, 1, 3, UserHandle{0}, 0, Twitter, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 226, 0, -102, 1, 4, UserHandle{0}, 0, Messenger, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 53, 0, -102, 1, 5, UserHandle{0}, 0, Facebook, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 142, 0, -102, 1, 6, UserHandle{0}, 0, Trello, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 247, 0, -102, 1, 7, UserHandle{0}, 0, Telegram, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 72, 0, -102, 1, 8, UserHandle{0}, 0, Pinterest, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 71, 0, -102, 1, 9, UserHandle{0}, 0, mBanking, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 127, 0, -102, 1, 10, UserHandle{0}, 0, D&D Beyond, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 185, 0, -102, 1, 11, UserHandle{0}, 0, GitHub, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 220, 0, -102, 1, 12, UserHandle{0}, 0, Lady Pill Reminder, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 78, 0, -102, 1, 13, UserHandle{0}, 0, Flo, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 98, 0, -102, 1, 14, UserHandle{0}, 0, GuitarTuna, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 107, 0, -102, 1, 15, UserHandle{0}, 0, Fiverr, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 84, 0, -102, 1, 16, UserHandle{0}, 0, Bus NS, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 225, 0, -102, 1, 17, UserHandle{0}, 0, NSmart, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 73, 0, -102, 1, 18, UserHandle{0}, 0, Yettel, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 49, 0, -102, 1, 19, UserHandle{0}, 0, LinkedIn, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 193, 0, -102, 2, 0, UserHandle{0}, 0, Glovo, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 197, 0, -102, 2, 1, UserHandle{0}, 0, Wolt, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 211, 0, -102, 2, 2, UserHandle{0}, 0, BlaBlaCar, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 217, 0, -102, 2, 3, UserHandle{0}, 0, Snapchat, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 188, 0, -102, 2, 4, UserHandle{0}, 0, WhatsApp, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 195, 0, -102, 2, 5, UserHandle{0}, 0, Signal, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 216, 0, -102, 2, 6, UserHandle{0}, 0, Forest, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 207, 0, -102, 2, 7, UserHandle{0}, 0, Money manager, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 222, 0, -102, 2, 8, UserHandle{0}, 0, Preview, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 223, 0, -102, 2, 9, UserHandle{0}, 0, Srbija voz, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 224, 0, -102, 2, 10, UserHandle{0}, 0, Dream, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 228, 0, -102, 2, 11, UserHandle{0}, 0, Reddit, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 233, 0, -102, 2, 12, UserHandle{0}, 0, Notes by Cats, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 240, 0, -102, 2, 13, UserHandle{0}, 0, DeNoise - Calming Sounds, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 250, 0, -102, 2, 14, UserHandle{0}, 0, Slack, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 251, 0, -102, 2, 15, UserHandle{0}, 0, Skype, -1, -1
+10-28 12:55:37.164 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 262, 0, -102, 2, 16, UserHandle{0}, 0, RTS Planeta, -1, -1
+10-28 12:55:37.165 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 265, 0, -102, 2, 17, UserHandle{0}, 0, Cupcake, -1, -1
+10-28 12:55:37.165 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 266, 0, -102, 2, 18, UserHandle{0}, 0, Sports, -1, -1
+10-28 12:55:37.165 26660 26793 I AppsModelWriter: normalizeVisibleItems(visibleItems)> 0, 267, 0, -102, 2, 19, UserHandle{0}, 0, Lunch Tray, -1, -1
+10-28 12:55:37.165 26660 26793 I AppsModelWriter: updateItems(end) : updateItem> 0, 267, 0, -102, 2, 19, UserHandle{0}, 0, Lunch Tray, -1, -1
+10-28 12:55:37.166 25095 25146 I TelephonyDataSource: [C] getSimState(0) : 5
+10-28 12:55:37.166 25095 25146 I TelephonyDataSource: [C] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:37.166 25095 25146 I TelephonyDataSource: [C] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:37.167 25095 25146 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+10-28 12:55:37.167 25095 25146 I SimContactModel: [C] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:37.169 25095 25146 I TelephonyDataSource: [C] getSimState(0) : 5
+10-28 12:55:37.169 25095 25146 I TelephonyDataSource: [C] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:37.169 25095 25146 I TelephonyDataSource: [C] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:37.169 25095 25146 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+10-28 12:55:37.169 25095 25146 I SimContactModel: [C] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:37.171   954   977 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:37.171   954   977 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:37.171 27785 27785 I Routine@Core[3.5.02.25]: MetadataLoaderJobService: onStartJob: collectPackageInBG - com.example.lunchtray
+10-28 12:55:37.172 27785 27785 I Routine@Core[3.5.02.25]: MetadataSyncHistory: latest : 3.5.02.25, currentVersion : 3.5.02.25
+10-28 12:55:37.172 27785 27785 I Routine@Core[3.5.02.25]: MetadataSyncHistory: latest : 3.5.02.25, currentVersion : 3.5.02.25
+10-28 12:55:37.172 27785 27785 I Routine@Core[3.5.02.25]: MetadataLoaderJobService: packageName : com.example.lunchtray, forced : true
+10-28 12:55:37.172 27785 28110 I Routine@Core[3.5.02.25]: MetadataLoadManager: collect: com.example.lunchtray
+10-28 12:55:37.172 27785 28110 I Routine@Core[3.5.02.25]: MetadataLoadManager: collectWithCollectors - com.example.lunchtray
+10-28 12:55:37.174   954   977 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:37.174   954   977 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:37.174 11071 17903 I GOS:GameIntentService: onPackageChanged(). extras: Bundle[{changeType=8, userId=0, pkgName=com.example.lunchtray, type=15, packageName=com.example.lunchtray}]
+10-28 12:55:37.174 11071 17903 I GOS:GameIntentService: onPackageChanged(). changeType(REPLACED), pkgName(com.example.lunchtray), UserHandle(0), userId(0), Installed(true)
+10-28 12:55:37.175  8198  8198 I Utils   : HomePackage : com.sec.android.app.launcher, resumePackageName : com.example.lunchtray
+10-28 12:55:37.176 27785 28110 I Routine@Core[3.5.02.25]: CommandSdkMetadataCollector: collectCondition rawItems=0
+10-28 12:55:37.178 19208 30741 I TelephonyDataSource: [D] getSimState(0) : 5
+10-28 12:55:37.178 19208 30741 I TelephonyDataSource: [D] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:37.178 19208 30741 I TelephonyDataSource: [D] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:37.178 19208 30741 I TelephonyDataSource: [D] slotId : 0CSim value : 0
+10-28 12:55:37.178 19208 30741 I SimContactModel: [D] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:37.178 19208 30741 I TelephonyDataSource: [D] getSimState(0) : 5
+10-28 12:55:37.178 19208 30741 I TelephonyDataSource: [D] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:37.179 19208 30741 I TelephonyDataSource: [D] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:37.179 19208 30741 I TelephonyDataSource: [D] slotId : 0CSim value : 0
+10-28 12:55:37.179 19208 30741 I SimContactModel: [D] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:37.179 25095 25146 I TelephonyDataSource: [C] getSimState(1) : 1
+10-28 12:55:37.180 27785 28110 I Routine@Core[3.5.02.25]: CommandSdkMetadataCollector: collectAction rawItems=0
+10-28 12:55:37.181 26660 26660 I AppsModelWriter: bindAppsItems() - visibleAddItems : 0, visibleUpdateItems : 1, removeItems : 0
+10-28 12:55:37.182 26660 26660 I Launcher.AppsContainerView: bindAppsUpdates() => add: 0, update: 1, remove: 0
+10-28 12:55:37.182 26660 26660 I Launcher.AppsPagedView: UpdateItems => id: 267, rank: 19, screenId: 2, cellX: 3, cellY: 4, container: -102, dirty: false, title: Lunch Tray, isFolder: false, user: UserHandle{0}, disabled: false, screenType: 0
+10-28 12:55:37.182 32306 32306 I AppListCacheReceiver: onReceive START action : com.samsung.android.settings.intent.action.PACKAGE_REPLACED
+10-28 12:55:37.182 32306 32306 I AppListCacheReceiver: onReceive END
+10-28 12:55:37.183 26660 26793 I PostPositionOperator: addAllItems() - All
+10-28 12:55:37.183 26660 26793 I PostPositionOperator: addItem() - , isWidgetOnly : false
+10-28 12:55:37.183   954  1844 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:37.184   954  1844 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:37.184   954  3919 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:37.184 27785 28110 E Routine@Core[3.5.02.25]: ContentSetter: deleteRoutines: id=[]
+10-28 12:55:37.184   954  3919 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:37.187   472 19283 E keystore2: keystore2::metrics_store: pull_metrics_callback: Error getting storage stat: In with_transaction.
+10-28 12:55:37.187   472 19283 E keystore2: keystore2::metrics_store: pull_metrics_callback: Error getting storage stat: In with_transaction.
+10-28 12:55:37.187   472 19283 E keystore2: keystore2::metrics_store: pull_metrics_callback: Error getting storage stat: In with_transaction.
+10-28 12:55:37.188   472 19283 E keystore2: keystore2::metrics_store: pull_metrics_callback: Error getting storage stat: In with_transaction.
+10-28 12:55:37.188   472 19283 E keystore2: keystore2::metrics_store: pull_metrics_callback: Error getting storage stat: In with_transaction.
+10-28 12:55:37.188   472 19283 E keystore2: keystore2::metrics_store: pull_metrics_callback: Error getting storage stat: In with_transaction.
+10-28 12:55:37.188   472 19283 E keystore2: keystore2::metrics_store: pull_metrics_callback: Error getting storage stat: In with_transaction.
+10-28 12:55:37.188   472 19283 E keystore2: keystore2::metrics_store: pull_metrics_callback: Error getting storage stat: In with_transaction.
+10-28 12:55:37.188   472 19283 E keystore2: keystore2::metrics_store: pull_metrics_callback: Error getting storage stat: In with_transaction.
+10-28 12:55:37.188   472 19283 E keystore2: keystore2::metrics_store: pull_metrics_callback: Error getting storage stat: In with_transaction.
+10-28 12:55:37.188   472 19283 E keystore2: keystore2::metrics_store: pull_metrics_callback: Error getting storage stat: In with_transaction.
+10-28 12:55:37.188   472 19283 E keystore2: keystore2::metrics_store: pull_metrics_callback: Error getting storage stat: In with_transaction.
+10-28 12:55:37.194 27785 28110 E Routine@Core[3.5.02.25]: ContentSetter: deleteRoutines: id=[]
+10-28 12:55:37.194 27785 28110 I Routine@Core[3.5.02.25]: ConflictItemConverter: convertConflictActions - 0
+10-28 12:55:37.194 27785 28110 I Routine@Core[3.5.02.25]: Pref: removeSharedPrefsData() key=meta_loading_target_package_name
+10-28 12:55:37.195 19208 30741 I TelephonyDataSource: [D] getSimState(1) : 1
+10-28 12:55:37.199   954  2451 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:37.199 17800 17800 I ViewRootImpl@645f1a1[FragmentScenario$EmptyFragmentActivity]: [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$addFrameCompleteCallbackIfNeeded$3$ViewRootImpl:4995 android.view.ViewRootImpl$$ExternalSyntheticLambda16.run:6 android.os.Handler.handleCallback:938
+10-28 12:55:37.199 17800 17800 I ViewRootImpl@645f1a1[FragmentScenario$EmptyFragmentActivity]: [DP] rdf()
+10-28 12:55:37.200 17800 17800 D ViewRootImpl@645f1a1[FragmentScenario$EmptyFragmentActivity]: reportDrawFinished (fn: -1)
+10-28 12:55:37.202 17800 17800 D InsetsSourceConsumer: ensureControlAlpha: for ITYPE_NAVIGATION_BAR on com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity
+10-28 12:55:37.202 17800 17800 D InsetsSourceConsumer: ensureControlAlpha: for ITYPE_STATUS_BAR on com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity
+10-28 12:55:37.204   620  2717 I SurfaceFlinger: id=204845 createSurf (0x0),-1 flag=24000, Surface(name=5bae096 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity)/@0xe36c664 - animation-leash of starting_reveal#0
+10-28 12:55:37.217  1348  2147 I ViewRootImpl@737783b[lunchtray]: mWNT: t = android.view.SurfaceControl$Transaction@bd53d70 fN = 2 android.view.SyncRtSurfaceTransactionApplier.applyTransaction:94 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$SyncRtSurfaceTransactionApplier:71 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+10-28 12:55:37.217  1348  2147 I ViewRootImpl@737783b[lunchtray]: mWNT: merge t to BBQ
+10-28 12:55:37.217  1348  2147 I ViewRootImpl@737783b[lunchtray]: mWNT: t = android.view.SurfaceControl$Transaction@72378e9 fN = 2 android.view.SyncRtSurfaceTransactionApplier.applyTransaction:94 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$SyncRtSurfaceTransactionApplier:71 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+10-28 12:55:37.217  1348  2147 I ViewRootImpl@737783b[lunchtray]: mWNT: merge t to BBQ
+10-28 12:55:37.223   954  2451 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:37.228   954  3954 D InputDispatcher: Focus entered window (0): 5bae096 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity
+10-28 12:55:37.228  1348  2148 I ViewRootImpl@737783b[lunchtray]: mWNT: t = android.view.SurfaceControl$Transaction@627a96e fN = 3 android.view.SyncRtSurfaceTransactionApplier.applyTransaction:94 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$SyncRtSurfaceTransactionApplier:71 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+10-28 12:55:37.228  1348  2148 I ViewRootImpl@737783b[lunchtray]: mWNT: merge t to BBQ
+10-28 12:55:37.234 17800 17800 I ample.lunchtra: Waiting for a blocking GC ClassLinker
+10-28 12:55:37.234   620   620 D SurfaceFlinger: Display 0 HWC layers:
+10-28 12:55:37.234   620   620 D SurfaceFlinger:      DEVICE | 0x7843db74d0 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    0    0 1080 2280 | com.example.lunchtray/androidx.fragm[...]nario$EmptyFragmentActivity$_17800#0
+10-28 12:55:37.234   620   620 D SurfaceFlinger:      DEVICE | 0x7843dbc150 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    0    0 1080 2280 | Splash Screen com.example.lunchtray$_1348#0
+10-28 12:55:37.234   620   620 D SurfaceFlinger:      DEVICE | 0x7843db3a50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  112.0 |    0    0 1080  112 | StatusBar$_1348#0
+10-28 12:55:37.234   620   620 D SurfaceFlinger:      DEVICE | 0x7843dbc6f0 | 0100 | RGBA_8888    |    0.0    0.0   67.0  416.0 |    0  814   67 1230 | com.samsung.android.app.cocktailbars[...]arservice.CocktailBarService$_8198#0
+10-28 12:55:37.234   620   620 D SurfaceFlinger:      DEVICE | 0x7843dafd90 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2154 1080 2280 | NavigationBar0$_1348#0
+10-28 12:55:37.234   620   620 D SurfaceFlinger:
+10-28 12:55:37.240 25095 25146 I TelephonyDataSource: [C] getSimState(0) : 5
+10-28 12:55:37.240 25095 25146 I TelephonyDataSource: [C] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:37.240 25095 25146 I TelephonyDataSource: [C] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:37.240 25095 25146 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+10-28 12:55:37.240 25095 25146 I SimContactModel: [C] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:37.244  1348  2147 I ViewRootImpl@737783b[lunchtray]: mWNT: t = android.view.SurfaceControl$Transaction@d96d80f fN = 4 android.view.SyncRtSurfaceTransactionApplier.applyTransaction:94 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$SyncRtSurfaceTransactionApplier:71 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+10-28 12:55:37.244  1348  2147 I ViewRootImpl@737783b[lunchtray]: mWNT: merge t to BBQ
+10-28 12:55:37.244 32306 32423 D AppListCacheIndexingManager: insertPackage() success
+10-28 12:55:37.246 17800 17800 I ample.lunchtra: WaitForGcToComplete blocked ClassLinker on Background for 12.530ms
+10-28 12:55:37.247 25095 25146 I TelephonyDataSource: [C] getSimState(0) : 5
+10-28 12:55:37.247 25095 25146 I TelephonyDataSource: [C] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:37.247 25095 25146 I TelephonyDataSource: [C] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:37.247 25095 25146 I TelephonyDataSource: [C] slotId : 0CSim value : 0
+10-28 12:55:37.247 25095 25146 I SimContactModel: [C] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:37.250   954  3920 I SemDvfsHyPerManager: acquire hyper - AMS_RESUME_TAIL/954@19, type = -999
+10-28 12:55:37.250   954  3920 I SemDvfsHyPerManager: acquire hyper - AMS_ACT_LAZY/954@20, type = -999
+10-28 12:55:37.250   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 473870  [954 / 19]    HINT : AMS_RESUME_TAIL    list :
+10-28 12:55:37.251 19208 30741 I TelephonyDataSource: [D] getSimState(0) : 5
+10-28 12:55:37.251 19208 30741 I TelephonyDataSource: [D] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:37.251 19208 30741 I TelephonyDataSource: [D] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:37.251   566   611 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 475821
+10-28 12:55:37.251 19208 30741 I TelephonyDataSource: [D] slotId : 0CSim value : 0
+10-28 12:55:37.254   954  1259 D SemWifiSwitchForIndividualAppsService: isPackageException - result:3, com.example.lunchtray
+10-28 12:55:37.257   954   971 I system_server: Background concurrent copying GC freed 688659(43MB) AllocSpace objects, 62(7780KB) LOS objects, 15% free, 133MB/157MB, paused 447us,530us total 1.179s
+10-28 12:55:37.258 17800 17800 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10998; state: ENABLED
+10-28 12:55:37.252 19208 30741 I SimContactModel: [D] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:37.261  1348  1537 D OpenGLRenderer: setSurface called with nullptr
+10-28 12:55:37.261  1348  1537 D OpenGLRenderer: setSurface() destroyed EGLSurface
+10-28 12:55:37.261  1348  1537 D OpenGLRenderer: destroyEglSurface
+10-28 12:55:37.261   954  3920 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:37.262 17800 17800 D ScrollView: initGoToTop
+10-28 12:55:37.263   954  3920 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:37.263   954  3956 V WindowManager: Relayout Window{bebe673 u0 Splash Screen com.example.lunchtray}: viewVisibility=8 req=1080x2280 d0
+10-28 12:55:37.264 26660 26660 W SuggestedAppsViewImpl: pending predictedApps : 9, alpha: 0.0, overview: false
+10-28 12:55:37.265 19208 30741 I TelephonyDataSource: [D] getSimState(0) : 5
+10-28 12:55:37.265 19208 30741 I TelephonyDataSource: [D] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:37.265 19208 30741 I TelephonyDataSource: [D] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:37.265 19208 30741 I TelephonyDataSource: [D] slotId : 0CSim value : 0
+10-28 12:55:37.265 19208 30741 I SimContactModel: [D] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:37.270   954  3936 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:37.270   954  3936 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:37.271   620  2717 I SurfaceFlinger: id=204846 createSurf (0x0),-1 flag=24000, Surface(name=bebe673 Splash Screen com.example.lunchtray)/@0x7b4fc29 - animation-leash of window_animation#0
+10-28 12:55:37.271 27785 27801 W id.app.routine: Reducing the number of considered missed Gc histogram windows from 321 to 100
+10-28 12:55:37.275   954  3956 V WindowManager: Relayout hash=bebe673, pid=1348: mAttrs={(0,0)(fillxfill) sim={adjust=pan} ty=APPLICATION_STARTING fmt=TRANSLUCENT wanim=0x1030001
+10-28 12:55:37.275   954  3956 V WindowManager:   fl=81030118
+10-28 12:55:37.275   954  3956 V WindowManager:   pfl=36000010
+10-28 12:55:37.275   954  3956 V WindowManager:   bhv=DEFAULT
+10-28 12:55:37.275   954  3956 V WindowManager:   fitSides= naviIconColor=0}
+10-28 12:55:37.276 19208 30741 I TelephonyDataSource: [D] getSimState(1) : 1
+10-28 12:55:37.276 25095 25146 I TelephonyDataSource: [C] getSimState(1) : 1
+10-28 12:55:37.276  1348  1474 I ViewRootImpl@737783b[lunchtray]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)8 dur=12 res=0x5 s={false 0} ch=true fn=5
+10-28 12:55:37.276  1348  1474 I ViewRootImpl@737783b[lunchtray]: dispatchDetachedFromWindow
+10-28 12:55:37.276   954  3920 D InputTransport: Input channel destroyed: 'bebe673', fd=1637
+10-28 12:55:37.276   954  3920 W InputManager-JNI: Input channel object 'bebe673 Splash Screen com.example.lunchtray (client)' was disposed without first being removed with the input manager!
+10-28 12:55:37.276   954  3920 D InputTransport: Input channel destroyed: 'bebe673', fd=1638
+10-28 12:55:37.278   954  3956 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:37.278   954  3956 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:37.278  1348  1474 D InputTransport: Input channel destroyed: 'bebe673', fd=295
+10-28 12:55:37.280 27785 27785 I Routine@Core[3.5.02.25]: Pref: putSharedPrefsData() key=routine_meta_data_loading_statue
+10-28 12:55:37.287 26660 26793 I WidgetsModel: EasyModeWidget will be excluded on WidgetList.
+10-28 12:55:37.288 19208 30741 I TelephonyDataSource: [D] getSimState(0) : 5
+10-28 12:55:37.288 19208 30741 I TelephonyDataSource: [D] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:37.288 19208 30741 I TelephonyDataSource: [D] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:37.288 19208 30741 I TelephonyDataSource: [D] slotId : 0CSim value : 0
+10-28 12:55:37.288 19208 30741 I SimContactModel: [D] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:37.289 19208 30741 I TelephonyDataSource: [D] getSimState(0) : 5
+10-28 12:55:37.289 19208 30741 I TelephonyDataSource: [D] isMultiSimModel - getActiveModemCount() : 2
+10-28 12:55:37.289 19208 30741 I TelephonyDataSource: [D] CscFeatureUtil.isSupportEsim() :false, FloatingFeatureUtil.isSupportEmbeddedSim() : false, slotSwitch :
+10-28 12:55:37.289 19208 30741 I TelephonyDataSource: [D] slotId : 0CSim value : 0
+10-28 12:55:37.289 19208 30741 I SimContactModel: [D] isSimActivatedEnabled(0) return true : max = 1000 EmailDbSupported :false
+10-28 12:55:37.293   620   620 I Layer   : id=204845 removeFromCurrentState Surface(name=5bae096 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity)/@0xe36c664 - animation-leash of starting_reveal#0 (165)
+10-28 12:55:37.295 27785 27785 I Routine@Core[3.5.02.25]: NotificationUpdateServiceUtils: requestUpdateNotification
+10-28 12:55:37.306 27785 27785 I Routine@Core[3.5.02.25]: DatabaseJobIntentService: Stop no more task
+10-28 12:55:37.309 27785 27785 I Routine@Core[3.5.02.25]: MetadataLoaderJobService: metadataLoadingFinished: collectPackageInBG - com.example.lunchtray
+10-28 12:55:37.315   954   973 W System  : A resource failed to call release.
+10-28 12:55:37.316   954  3919 D SecContentProvider2: query(), uri = 18 selection = isCopyContactToSimAllowed
+10-28 12:55:37.316   954  3919 D SecContentProvider2: isCopyContactToSimAllowed = true
+10-28 12:55:37.316 27785 27785 I Routine@Core[3.5.02.25]: MetadataLoaderJobService: onDestroy
+10-28 12:55:37.318 26660 26793 I PostPositionOperator: addItem() - com.example.lunchtray, isWidgetOnly : true
+10-28 12:55:37.318 26660 26793 W PackageUpdatedTask: refreshSearchLayout return, operation is not matched
+10-28 12:55:37.320 19208 30741 I TelephonyDataSource: [D] getSimState(1) : 1
+10-28 12:55:37.320   530   658 D IptablesRestoreController: [iptables debug]iptables-restore execute *filter
+10-28 12:55:37.320   530   658 D IptablesRestoreController: -nvx -L tetherctrl_counters
+10-28 12:55:37.320   530   658 D IptablesRestoreController: COMMIT
+10-28 12:55:37.321 32403 32403 I Routine@Ui[3.5.02.25]: MetadataSyncHistory: latest : 3.5.02.25, currentVersion : 3.5.02.25
+10-28 12:55:37.323   530   658 D IptablesRestoreController: [iptables debug]iptables-restore execute done, res : 0
+10-28 12:55:37.323   530   658 D IptablesRestoreController: [iptables debug]iptables-restore execute *filter
+10-28 12:55:37.323   530   658 D IptablesRestoreController: -nvx -L tetherctrl_counters
+10-28 12:55:37.323   530   658 D IptablesRestoreController: COMMIT
+10-28 12:55:37.325   530   658 D IptablesRestoreController: [iptables debug]iptables-restore execute done, res : 0
+10-28 12:55:37.330  1348  1348 D NavigationBar: onSystemBarAttributesChanged() -  displayId:0, appearance:16 (APPEARANCE_LIGHT_NAVIGATION_BARS ), navbarColorManagedByIme:false
+10-28 12:55:37.330  1348  1348 V Navbar.Store: handleEvent [EventType] GET_BOOL_REGION_SAMPLING_ENABLED [Module] LightBarController  KEYS_DEFAULT=false
+10-28 12:55:37.330  1348  1348 V Navbar.Store: --[Band]COLOR_PACK_GET_REGION_SAMPLING_ENABLED
+10-28 12:55:37.330  1348  1348 V Navbar.Store: ----getValue(BOOL_REGION_SAMPLING_ENABLED)=false
+10-28 12:55:37.334 32534 32534 I FILP/PackageIntentReceiver: action : com.samsung.android.provider.filterprovider.INTENT_PACKAGE_ADDED
+10-28 12:55:37.334 32534 32534 I FILP/PackageIntentReceiver: pkgName : com.example.lunchtray.test
+10-28 12:55:37.334 32534 32534 E FILP/PackageIntentReceiver: This package does not have permission
+10-28 12:55:37.343   620   620 I Layer   : id=204835 removeFromCurrentState Splash Screen com.example.lunchtray$_1348#0 (165)
+10-28 12:55:37.343   620   620 I Layer   : id=204834 removeFromCurrentState bebe673 Splash Screen com.example.lunchtray#0 (165)
+10-28 12:55:37.343   620   620 I Layer   : id=204846 removeFromCurrentState Surface(name=bebe673 Splash Screen com.example.lunchtray)/@0x7b4fc29 - animation-leash of window_animation#0 (165)
+10-28 12:55:37.343   620   620 I SurfaceFlinger: id=204834 Removed bebe673 Splash Screen com.example.lunchtray#0 (165)
+10-28 12:55:37.343   620   620 I SurfaceFlinger: id=204835 Removed Splash Screen com.example.lunchtray$_1348#0 (165)
+10-28 12:55:37.343   620   620 I SurfaceFlinger: id=204846 Removed Surface(name=bebe673 Splash Screen com.example.lunchtray)/@0x7b4fc29 - animation-leash of window_animation#0 (165)
+10-28 12:55:37.344   620   620 I Layer   : id=204846 Destroyed Surface(name=bebe673 Splash Screen com.example.lunchtray)/@0x7b4fc29 - animation-leash of window_animation#0
+10-28 12:55:37.344   620   620 I Layer   : id=204834 Destroyed bebe673 Splash Screen com.example.lunchtray#0
+10-28 12:55:37.345   620   620 I Layer   : id=204835 Destroyed Splash Screen com.example.lunchtray$_1348#0
+10-28 12:55:37.347   620   620 D SurfaceFlinger: Display 0 HWC layers:
+10-28 12:55:37.347   620   620 D SurfaceFlinger:      DEVICE | 0x7843db74d0 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    0    0 1080 2280 | com.example.lunchtray/androidx.fragm[...]nario$EmptyFragmentActivity$_17800#0
+10-28 12:55:37.347   620   620 D SurfaceFlinger:      DEVICE | 0x7843db3a50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  112.0 |    0    0 1080  112 | StatusBar$_1348#0
+10-28 12:55:37.347   620   620 D SurfaceFlinger:      DEVICE | 0x7843dbc6f0 | 0100 | RGBA_8888    |    0.0    0.0   67.0  416.0 |    0  814   67 1230 | com.samsung.android.app.cocktailbars[...]arservice.CocktailBarService$_8198#0
+10-28 12:55:37.347   620   620 D SurfaceFlinger:      DEVICE | 0x7843dafd90 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2154 1080 2280 | NavigationBar0$_1348#0
+10-28 12:55:37.347   620   620 D SurfaceFlinger:
+10-28 12:55:37.355 24953 24953 I ContentBlock.Receiver: onReceive is called
+10-28 12:55:37.355 24953 24953 I ContentBlock.Receiver: shouldHandleAction is false
+10-28 12:55:37.359 24953 24953 E SixBlocklistData: isBlockedByBlocklist: no blocklist was stored
+10-28 12:55:37.369 24953 24953 I ContentBlock.Receiver: onReceive is called
+10-28 12:55:37.369 16026 16077 I DeviceAppInfoWork: refreshDeviceAppInfoForAccount done.
+10-28 12:55:37.369 24953 24953 I ContentBlock.Receiver: shouldHandleAction is false
+10-28 12:55:37.380 24953 24953 E SixBlocklistData: isBlockedByBlocklist: no blocklist was stored
+10-28 12:55:37.388 24953 24953 I ContentBlock.Receiver: onReceive is called
+10-28 12:55:37.388 24953 24953 I ContentBlock.Receiver: handleAction action: android.intent.action.PACKAGE_REPLACED, packageName: com.example.lunchtray
+10-28 12:55:37.388 24953 24953 I ContentBlock.Receiver: handleAction is finished
+10-28 12:55:37.388 24953 24953 I ContentBlock.Receiver: onReceive is finished
+10-28 12:55:37.395 16026 16075 I DeviceAppInfoWork: refreshDeviceAppInfoForAccount done.
+10-28 12:55:37.395 24953 24953 E SixBlocklistData: isBlockedByBlocklist: no blocklist was stored
+10-28 12:55:37.396 17800 17832 D EventInjectionStrategy: Creating injection strategy with input manager.
+10-28 12:55:37.396 24953 24953 E SixPackageReceiver: isSixAppToHandle - No apps were retrieved!
+10-28 12:55:37.397 17800 17832 W ample.lunchtra: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (unsupported, reflection, allowed)
+10-28 12:55:37.397 17800 17832 W ample.lunchtra: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (unsupported, reflection, allowed)
+10-28 12:55:37.397 17800 17832 W ample.lunchtra: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (unsupported, reflection, allowed)
+10-28 12:55:37.401 16026 16073 I DeviceAppInfoWork: refreshDeviceAppInfoForAccount done.
+10-28 12:55:37.403   954  1401 V WindowManager: Relayout Window{5bae096 u0 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity}: viewVisibility=0 req=1080x2280 d0
+10-28 12:55:37.404   954  1401 V WindowManager: Relayout hash=5bae096, pid=17800: mAttrs={(0,0)(fillxfill) sim={adjust=resize forwardNavigation} ty=BASE_APPLICATION wanim=0x1030303
+10-28 12:55:37.404   954  1401 V WindowManager:   fl=81810100
+10-28 12:55:37.404   954  1401 V WindowManager:   pfl=12020040
+10-28 12:55:37.404   954  1401 V WindowManager:   apr=LIGHT_NAVIGATION_BARS
+10-28 12:55:37.404   954  1401 V WindowManager:   bhv=DEFAULT
+10-28 12:55:37.404   954  1401 V WindowManager:   fitSides= naviIconColor=0
+10-28 12:55:37.404   954  1401 V WindowManager:   sfl=100000}
+10-28 12:55:37.407 17800 17800 I ViewRootImpl@645f1a1[FragmentScenario$EmptyFragmentActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=4 res=0x1 s={true 515079896304} ch=false fn=2
+10-28 12:55:37.407 16026 16075 I DeviceAppInfoWork: refreshDeviceAppInfoForAccount done.
+10-28 12:55:37.408 17800 17800 D ScrollView:  onsize change changed
+10-28 12:55:37.412 16026 16084 W SearchServiceCore: Abort, client detached.
+10-28 12:55:37.414 17800 17800 I ViewRootImpl@645f1a1[FragmentScenario$EmptyFragmentActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+10-28 12:55:37.417 17800 17800 D InputMethodManager: startInputInner - Id : 0
+10-28 12:55:37.418 17800 17800 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+10-28 12:55:37.418   954  3936 D InputMethodManagerService: DESKTOP MODE! : 2
+10-28 12:55:37.418   954  3936 D InputMethodManagerService: NOT IN KNOX DESKTOP MODE!
+10-28 12:55:37.418   954  3936 V InputMethodManagerService: getDisplayIdOfInputMethodWindowToBeAdded : 0
+10-28 12:55:37.419   954  3936 D InputTransport: Input channel constructed: 'ClientS', fd=1574
+10-28 12:55:37.419   954  3936 D InputTransport: Input channel constructed: 'ClientS', fd=1630
+10-28 12:55:37.419   954  3936 D InputTransport: Input channel destroyed: 'ClientS', fd=1630
+10-28 12:55:37.421   954  1855 W InputMethodManagerService: onSessionCreated
+10-28 12:55:37.423   954  1855 D InputMethodManagerService: checkDisplayOfStartInputAndUpdateKeyboard display Id 0last 0
+10-28 12:55:37.423   954  1855 D InputTransport: Input channel constructed: 'ClientS', fd=1573
+10-28 12:55:37.423 19204 19204 D InputMethodService: checkDisplayOfStartInputAndUpdateKeyboard display Id 0last 0
+10-28 12:55:37.425   954  1855 D InputTransport: Input channel destroyed: 'ClientS', fd=1573
+10-28 12:55:37.426   620   810 I SurfaceFlinger: id=204847 createSurf (0x0),-1 flag=24004, Surface(name=2188bee InputMethod)/@0xe151908 - animation-leash of insets_animation#1
+10-28 12:55:37.428 24288 25241 I FontLog : Received query Noto Color Emoji Compat, URI content://com.google.android.gms.fonts [CONTEXT service_id=132 ]
+10-28 12:55:37.428 24288 25241 I FontLog : Query [emojicompat-emoji-font] resolved to {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} [CONTEXT service_id=132 ]
+10-28 12:55:37.432 24288 25241 I FontLog : Fetch {Noto Color Emoji Compat, wdth 100.0, wght 400, ital 0.0, bestEffort false} end status Status{statusCode=SUCCESS, resolution=null} [CONTEXT service_id=132 ]
+10-28 12:55:37.441 24288 25241 I FontLog : Pulling font file for id = 19, cache size = 4 [CONTEXT service_id=132 ]
+10-28 12:55:37.444   620   620 I Layer   : id=204817 removeFromCurrentState Surface(name=2188bee InputMethod)/@0xe151908 - animation-leash of insets_animation#0 (163)
+10-28 12:55:37.444   620   620 I SurfaceFlinger: id=204817 Removed Surface(name=2188bee InputMethod)/@0xe151908 - animation-leash of insets_animation#0 (163)
+10-28 12:55:37.444   620   620 I Layer   : id=204817 Destroyed Surface(name=2188bee InputMethod)/@0xe151908 - animation-leash of insets_animation#0
+10-28 12:55:37.445 24288 25241 I FontLog : Pulling font file for id = 19, cache size = 4 [CONTEXT service_id=132 ]
+10-28 12:55:37.452 17835 17835 I Process : Sending signal. PID: 17835 SIG: 9
+10-28 12:55:37.461 17800 17800 D InputMethodManager: startInputInner - Id : 0
+10-28 12:55:37.463   954  1855 D InputMethodManagerServicePhysicalKey: isConnectedDexOnPC false
+10-28 12:55:37.463   954  1855 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+10-28 12:55:37.467 19204 19204 E FullInputEventModel: onStartInput event aborted: al1: could not obtain extracted text (class al1)
+10-28 12:55:37.478 17800 17800 W ample.lunchtra: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (unsupported, reflection, allowed)
+10-28 12:55:37.478 17800 17800 W ample.lunchtra: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (unsupported, reflection, allowed)
+10-28 12:55:37.478 17800 17800 W ample.lunchtra: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (unsupported, reflection, allowed)
+10-28 12:55:37.480  8198  8198 I Utils   : isCurrentUser current = 0, ownerId = 0
+10-28 12:55:37.483 32403 17914 I Routine@Ui[3.5.02.25]: RoutineStateManager: getRoutineState: routineId=2, state=READY
+10-28 12:55:37.483 32403 17914 I Routine@Ui[3.5.02.25]: NotificationUpdateService: computeEnabledRoutine: routineId=2(uuid=491439, name=Work), isRunning=false
+10-28 12:55:37.483 32403 17914 I Routine@Ui[3.5.02.25]: NotificationUpdateService: getValidRunningAction: actions.size=2
+10-28 12:55:37.483 17800 17800 W ample.lunchtra: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (unsupported, reflection, allowed)
+10-28 12:55:37.483 17800 17800 W ample.lunchtra: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+10-28 12:55:37.483 32403 17914 I Routine@Ui[3.5.02.25]: TASKD/ActionTaskDispatcherImpl: getLabelByParameterValues: actionId=volume(instanceId=5(uuid=157860, routineId=2))
+10-28 12:55:37.483 17800 17800 W ample.lunchtra: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (unsupported, reflection, allowed)
+10-28 12:55:37.483 32403 17914 I Routine@Ui[3.5.02.25]: TASKD/ActionTaskAdapterFactory: createActionTaskAdapter - action tag(volume)
+10-28 12:55:37.485  8198  8198 I TrayVisibilityController: getComputedTrayVisible : keyguardState = 1
+10-28 12:55:37.485  8198  8198 I TrayVisibilityController: updateTrayVisible: State=1 visible=1 mCurrentVisible=1 specificMode=0
+10-28 12:55:37.485  8198  8198 I TrayStateController: onNotifyUpdateTray: state=0
+10-28 12:55:37.486 32403 17914 W Routine@Ui[3.5.02.25]: NotificationUpdateService: computeEnabledRoutine : secure item in actions. break. actionId=trust_lock(instanceId=28(uuid=346874, routineId=2))
+10-28 12:55:37.488 32403 17914 I Routine@Ui[3.5.02.25]: RoutineStateManager: getRoutineState: routineId=3, state=READY
+10-28 12:55:37.488 32403 17914 I Routine@Ui[3.5.02.25]: NotificationUpdateService: computeEnabledRoutine: routineId=3(uuid=468487, name=Save battery at night), isRunning=false
+10-28 12:55:37.488 32403 17914 I Routine@Ui[3.5.02.25]: NotificationUpdateService: getValidRunningAction: actions.size=2
+10-28 12:55:37.488 32403 17914 I Routine@Ui[3.5.02.25]: TASKD/ActionTaskDispatcherImpl: getLabelByParameterValues: actionId=upsm_on(instanceId=6(uuid=787109, routineId=3))
+10-28 12:55:37.488 32403 17914 I Routine@Ui[3.5.02.25]: TASKD/ActionTaskAdapterFactory: createActionTaskAdapter - action tag(upsm_on)
+10-28 12:55:37.488 17800 17800 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Summer Salad"}' assertion on view view.getId() is <2131231137/com.example.lunchtray:id/salad>
+10-28 12:55:37.490 32403 17914 I Routine@Ui[3.5.02.25]: RoutineStateManager: getRoutineState: routineId=4, state=RUNNING
+10-28 12:55:37.490 32403 17914 I Routine@Ui[3.5.02.25]: NotificationUpdateService: computeEnabledRoutine: routineId=4(uuid=516154, name=Home), isRunning=true
+10-28 12:55:37.490 32403 17914 I Routine@Ui[3.5.02.25]: NotificationUpdateService: getValidRunningAction: actions.size=2
+10-28 12:55:37.490 32403 17914 W Routine@Ui[3.5.02.25]: NotificationUpdateService: computeEnabledRoutine : secure item in actions. break. actionId=trust_lock(instanceId=8(uuid=406292, routineId=4))
+10-28 12:55:37.491 17800 17800 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Heirloom tomatoes"}' assertion on view view.getId() is <2131231138/com.example.lunchtray:id/salad_description>
+10-28 12:55:37.491 32403 17914 I Routine@Ui[3.5.02.25]: RoutineStateManager: getRoutineState: routineId=11, state=READY
+10-28 12:55:37.491 32403 17914 I Routine@Ui[3.5.02.25]: NotificationUpdateService: computeEnabledRoutine: routineId=11(uuid=914432, name=Before bed), isRunning=false
+10-28 12:55:37.492 32403 17914 E outineUIProces: No package ID ff found for ID 0xffffffff.
+10-28 12:55:37.492 32403 17914 I Routine@Ui[3.5.02.25]: PackageUtils: getStringFromAnotherPackage: can not found res=com.samsung.android.app.routines-1
+10-28 12:55:37.492 32403 17914 I Routine@Ui[3.5.02.25]: NotificationUpdateService: getValidRunningAction: actions.size=4
+10-28 12:55:37.492 32403 17914 I Routine@Ui[3.5.02.25]: TASKD/ActionTaskDispatcherImpl: getLabelByParameterValues: actionId=volume(instanceId=21(uuid=857374, routineId=11))
+10-28 12:55:37.492 32403 17914 I Routine@Ui[3.5.02.25]: TASKD/ActionTaskAdapterFactory: createActionTaskAdapter - action tag(volume)
+10-28 12:55:37.493   954  1253 D SemNscXgbMsL1: Probability - Cloud gaming: [0.007999399]
+10-28 12:55:37.493   954  1253 D SemNscXgbMsL1: Probability - Real time: [0.013398018]
+10-28 12:55:37.493   954  1253 D SemNscXgbMsL1: Probability - Non real time: [0.98399216]
+10-28 12:55:37.493   954  1253 D SemNscXgbMsL1: 1 sample inference time: 0.249461 msecs
+10-28 12:55:37.493   954  1253 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 0.314577 msecs
+10-28 12:55:37.494   954  1253 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 0.287577 msecs
+10-28 12:55:37.495 17800 17800 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "$2.50"}' assertion on view view.getId() is <2131231139/com.example.lunchtray:id/salad_price>
+10-28 12:55:37.497 32403 17914 I Routine@Ui[3.5.02.25]: NotificationUpdateService: computeEnabledRoutine : routineList.size= 4, mRoutineNotiInfoList=4
+10-28 12:55:37.497 32403 17914 I Routine@Ui[3.5.02.25]: NotificationUpdateService: updateNotificationImpl
+10-28 12:55:37.497 32403 17914 I Routine@Ui[3.5.02.25]: Pref: putSharedPrefsData() key=update_noti_time
+10-28 12:55:37.497 17800 17800 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Butternut Squash"}' assertion on view view.getId() is <2131231186/com.example.lunchtray:id/soup>
+10-28 12:55:37.499 17800 17800 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Roasted butternut squash"}' assertion on view view.getId() is <2131231187/com.example.lunchtray:id/soup_description>
+10-28 12:55:37.502 17800 17800 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "$3.00"}' assertion on view view.getId() is <2131231188/com.example.lunchtray:id/soup_price>
+10-28 12:55:37.504 17800 17800 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Spicy Potatoes"}' assertion on view view.getId() is <2131231120/com.example.lunchtray:id/potatoes>
+10-28 12:55:37.506 17800 17800 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Marble potatoes"}' assertion on view view.getId() is <2131231118/com.example.lunchtray:id/potato_description>
+10-28 12:55:37.507   954  3954 D ApplicationPolicy: isStatusBarNotificationAllowedAsUser: packageName = com.samsung.android.app.routines,userId = 0
+10-28 12:55:37.507   954  3954 D ApplicationPolicy: isStatusBarNotificationAllowedAsUser: packageName = com.samsung.android.app.routines,userId = 0
+10-28 12:55:37.507 17800 17800 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "$2.00"}' assertion on view view.getId() is <2131231119/com.example.lunchtray:id/potato_price>
+10-28 12:55:37.508 32403 17914 I Routine@Ui[3.5.02.25]: NotificationUpdateService: updateNotificationImpl: running activatedItemCount: 1
+10-28 12:55:37.508 32403 17914 I Routine@Ui[3.5.02.25]: NotificationUpdateService: requestUpdateFaceWidget: 1
+10-28 12:55:37.509 17800 17800 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Coconut Rice"}' assertion on view view.getId() is <2131231127/com.example.lunchtray:id/rice>
+10-28 12:55:37.512 17800 17800 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "Rice, coconut milk"}' assertion on view view.getId() is <2131231128/com.example.lunchtray:id/rice_description>
+10-28 12:55:37.514 17800 17800 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing "$1.50"}' assertion on view view.getId() is <2131231129/com.example.lunchtray:id/rice_price>
+10-28 12:55:37.515   954  1024 I libprocessgroup: Successfully killed process cgroup uid 10079 pid 17835 in 0ms
+10-28 12:55:37.515   531   531 I Zygote  : Process 17835 exited due to signal 9 (Killed)
+10-28 12:55:37.515 17800 17832 I TestRunner: finished: side_menu_item_content(com.example.lunchtray.MenuContentTests)

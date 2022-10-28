@@ -1,0 +1,50 @@
+10-28 12:55:38.761 17800 17832 I TestRunner: started: initializationError(com.example.lunchtray.NavigationTests)
+10-28 12:55:38.763 17800 17832 E TestRunner: failed: initializationError(com.example.lunchtray.NavigationTests)
+10-28 12:55:38.763 17800 17832 E TestRunner: ----- begin exception -----
+10-28 12:55:38.764 17800 17832 E TestRunner: java.lang.RuntimeException: Failed to instantiate test runner class androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner
+10-28 12:55:38.764 17800 17832 E TestRunner: Test class class com.example.lunchtray.NavigationTests is malformed. (1 problems):
+10-28 12:55:38.764 17800 17832 E TestRunner: java.lang.Exception: No runnable methods
+10-28 12:55:38.764 17800 17832 E TestRunner:
+10-28 12:55:38.764 17800 17832 E TestRunner:
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.throwInitializationError(AndroidJUnit4.java:129)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.loadRunner(AndroidJUnit4.java:121)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.loadRunner(AndroidJUnit4.java:82)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.<init>(AndroidJUnit4.java:56)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at androidx.test.internal.runner.junit4.AndroidAnnotatedBuilder.runnerForClass(AndroidAnnotatedBuilder.java:63)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at androidx.test.internal.runner.AndroidRunnerBuilder.runnerForClass(AndroidRunnerBuilder.java:153)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at androidx.test.internal.runner.TestLoader$ScanningRunnerBuilder.runnerForClass(TestLoader.java:144)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at androidx.test.internal.runner.TestLoader.doCreateRunner(TestLoader.java:73)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at androidx.test.internal.runner.TestLoader.getRunnersFor(TestLoader.java:105)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at androidx.test.internal.runner.TestRequestBuilder.build(TestRequestBuilder.java:804)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.buildRequest(AndroidJUnitRunner.java:613)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:411)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2261)
+10-28 12:55:38.764 17800 17832 E TestRunner: Caused by: java.lang.reflect.InvocationTargetException
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at androidx.test.ext.junit.runners.AndroidJUnit4.loadRunner(AndroidJUnit4.java:112)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	... 18 more
+10-28 12:55:38.764 17800 17832 E TestRunner: Caused by: org.junit.runners.model.InitializationError
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at org.junit.runners.ParentRunner.validate(ParentRunner.java:418)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at org.junit.runners.ParentRunner.<init>(ParentRunner.java:84)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at org.junit.runners.BlockJUnit4ClassRunner.<init>(BlockJUnit4ClassRunner.java:65)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner.<init>(AndroidJUnit4ClassRunner.java:43)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	at androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner.<init>(AndroidJUnit4ClassRunner.java:48)
+10-28 12:55:38.764 17800 17832 E TestRunner: 	... 21 more
+10-28 12:55:38.764 17800 17832 E TestRunner: ----- end exception -----
+10-28 12:55:38.766   620   620 I Layer   : id=204866 removeFromCurrentState ActivityRecord{348ddf8 u0 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity t30463}#0 (179)
+10-28 12:55:38.766   620   620 I Layer   : id=204858 removeFromCurrentState Task=30463#0 (179)
+10-28 12:55:38.766   620   620 I Layer   : id=204907 removeFromCurrentState Task=30463#1 (179)
+10-28 12:55:38.766   620   620 I SurfaceFlinger: id=204866 Removed ActivityRecord{348ddf8 u0 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity t30463}#0 (179)
+10-28 12:55:38.766   620   620 I SurfaceFlinger: id=204907 Removed Task=30463#1 (179)
+10-28 12:55:38.766   620   620 I Layer   : id=204907 Destroyed Task=30463#1
+10-28 12:55:38.766   620   620 I Layer   : id=204866 Destroyed ActivityRecord{348ddf8 u0 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity t30463}#0
+10-28 12:55:38.767 26660 26660 I BadgeRenderer: Invalid count : 0
+10-28 12:55:38.767 17800 17832 I TestRunner: finished: initializationError(com.example.lunchtray.NavigationTests)

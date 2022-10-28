@@ -1,0 +1,927 @@
+10-28 12:55:59.343 17800 17832 I TestRunner: started: order_reset_after_cancel_from_checkout(com.example.lunchtray.OrderFunctionalityTests)
+10-28 12:55:59.344 17800 17884 D OpenGLRenderer: setSurface called with nullptr
+10-28 12:55:59.344 17800 17800 I ViewRootImpl@e072a36[FragmentScenario$EmptyFragmentActivity]: dispatchDetachedFromWindow
+10-28 12:55:59.344 26660 26660 I BadgeCountUpdaterImpl: onChange
+10-28 12:55:59.344   954  3923 D InputTransport: Input channel destroyed: '5036747', fd=1480
+10-28 12:55:59.345   954  3923 W InputManager-JNI: Input channel object '5036747 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (client)' was disposed without first being removed with the input manager!
+10-28 12:55:59.345   954  3923 D InputTransport: Input channel destroyed: '5036747', fd=1492
+10-28 12:55:59.345  2308  2321 I BadgeProvider: query, [selection] : package=?
+10-28 12:55:59.347 26660 26660 I BadgeCountUpdaterImpl: onChange
+10-28 12:55:59.348  2308  2308 I BadgeProvider: sendNotify entered. [uri] : content://com.sec.badge/apps
+10-28 12:55:59.348  2308  2308 I BadgeProvider: sendNotify, [notify] : null
+10-28 12:55:59.348  2308  2308 I BadgeProvider: update, getCallingPackage() : com.sec.android.provider.badge
+10-28 12:55:59.348  2308  2308 I BadgeProvider: update, [uri] : content://com.sec.badge/apps
+10-28 12:55:59.348  2308  2308 I BadgeProvider: update, [uri.query] : null
+10-28 12:55:59.348 17800 17800 D InputTransport: Input channel destroyed: '5036747', fd=89
+10-28 12:55:59.348  2308  2308 I BadgeProvider: update, [BadgeCount] : badgecount=0
+10-28 12:55:59.348  2308  2308 I BadgeProvider: update, [UpdateCount] : 1
+10-28 12:55:59.349  2308  2321 E DatabaseUtils: Writing exception to parcel
+10-28 12:55:59.349  2308  2321 E DatabaseUtils: java.lang.SecurityException: Permission Denial: writing com.sec.android.provider.badge.BadgeProvider uri content://com.sec.badge/apps?notify=true from pid=18961, uid=10814 requires com.sec.android.provider.badge.permission.WRITE, or grantUriPermission()
+10-28 12:55:59.349  2308  2321 E DatabaseUtils: 	at android.content.ContentProvider.enforceWritePermissionInner(ContentProvider.java:1019)
+10-28 12:55:59.349  2308  2321 E DatabaseUtils: 	at android.content.ContentProvider.semEnforceWritePermission(ContentProvider.java:945)
+10-28 12:55:59.349  2308  2321 E DatabaseUtils: 	at android.content.ContentProvider$Transport.enforceWritePermission(ContentProvider.java:726)
+10-28 12:55:59.349  2308  2321 E DatabaseUtils: 	at android.content.ContentProvider$Transport.update(ContentProvider.java:458)
+10-28 12:55:59.349  2308  2321 E DatabaseUtils: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:231)
+10-28 12:55:59.349  2308  2321 E DatabaseUtils: 	at android.os.Binder.execTransactInternal(Binder.java:1215)
+10-28 12:55:59.349  2308  2321 E DatabaseUtils: 	at android.os.Binder.execTransact(Binder.java:1179)
+10-28 12:55:59.353   620   643 I SurfaceFlinger: id=205142 createSurf (0x0),-1 flag=24004, Task=30473#1
+10-28 12:55:59.353 17800 17832 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+10-28 12:55:59.360 26660 26660 I RecentsView: onTaskRemoved() taskId : 30473
+10-28 12:55:59.360 26660 26660 I RecentsView: onTaskRemoved() taskId : 30473
+10-28 12:55:59.362   620   620 I Layer   : id=205127 removeFromCurrentState com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity$_17800#0 (175)
+10-28 12:55:59.362   620   620 I Layer   : id=205126 removeFromCurrentState 5036747 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity#0 (175)
+10-28 12:55:59.362   620   620 I Layer   : id=205142 removeFromCurrentState Task=30473#1 (175)
+10-28 12:55:59.362   620   620 I Layer   : id=205125 removeFromCurrentState ActivityRecord{9375a2d u0 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity t30473}#0 (175)
+10-28 12:55:59.362   620   620 I Layer   : id=205117 removeFromCurrentState Task=30473#0 (175)
+10-28 12:55:59.362   620   620 I SurfaceFlinger: id=205125 Removed ActivityRecord{9375a2d u0 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity t30473}#0 (175)
+10-28 12:55:59.363   620   620 I SurfaceFlinger: id=205142 Removed Task=30473#1 (175)
+10-28 12:55:59.363   620   620 I SurfaceFlinger: id=205126 Removed 5036747 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity#0 (175)
+10-28 12:55:59.363   620   620 I SurfaceFlinger: id=205127 Removed com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity$_17800#0 (175)
+10-28 12:55:59.363   620   620 I Layer   : id=205142 Destroyed Task=30473#1
+10-28 12:55:59.363   620   620 I Layer   : id=205127 Destroyed com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity$_17800#0
+10-28 12:55:59.363   620   620 I Layer   : id=205125 Destroyed ActivityRecord{9375a2d u0 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity t30473}#0
+10-28 12:55:59.363   620   620 I Layer   : id=205126 Destroyed 5036747 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity#0
+10-28 12:55:59.368   954  2013 I SemDvfsHyPerManager: acquire hyper - AMS_APP_SWITCH/954@21, type = -999
+10-28 12:55:59.368   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 475821  [954 / 21]    HINT : AMS_APP_SWITCH    list :
+10-28 12:55:59.370   620   810 I SurfaceFlinger: id=205143 createSurf (0x0),-1 flag=24004, Task=30474#0
+10-28 12:55:59.370   954  2771 D PkgPredictorService-IpmAdcpController: create a new DexPreloadTask pkg:com.example.lunchtray  path:/data/app/~~bYME4l5PIdE1MtDJ631VJg==/com.example.lunchtray-0jf6KhKIJPe7ukwSf1eTcQ==
+10-28 12:55:59.371  3825  3825 I SemDvfsHyPerManager: acquire hyper - APP_START_SHORT/3825@14, type = -999
+10-28 12:55:59.371   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7370894  [3825 / 14]    HINT : APP_START    list : [TIMEOUT / 1500]
+10-28 12:55:59.373   620   643 I SurfaceFlinger: id=205144 createSurf (0x0),-1 flag=80004, ActivityRecord{17ab494 u0 com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity t30474}#0
+10-28 12:55:59.381   529   535 E statsd  : Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->10998[I] (10)0x30000->*launch*[S]
+10-28 12:55:59.382   529   535 E statsd  : Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->10998[I] (10)0x30000->*launch*[S]
+10-28 12:55:59.385   954  1844 I SemDvfsHyPerManager: acquire hyper - AMS_APP_LAUNCH/954@18, type = -999
+10-28 12:55:59.385   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 472896  [954 / 18]    HINT : AMS_APP_LAUNCH    list :
+10-28 12:55:59.386  3825  3825 I SemDvfsHyPerManager: acquire hyper - APP_START/3825@15, type = -999
+10-28 12:55:59.386   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7374735  [3825 / 15]    HINT : APP_START    list :
+10-28 12:55:59.387 26660 26660 I BaseActivity: removeActivityFlags, flags : 16
+10-28 12:55:59.387   954  3954 D InputTransport: Input channel constructed: '7c53e39', fd=1480
+10-28 12:55:59.387   954  3954 D InputTransport: Input channel constructed: '7c53e39', fd=1492
+10-28 12:55:59.387 26660 26660 I BaseActivity: removeActivityFlags, flags : 6
+10-28 12:55:59.387   954  3954 D InputTransport: Input channel constructed: '7c53e39', fd=1493
+10-28 12:55:59.387 26660 26660 I DragController: endDrag
+10-28 12:55:59.387 26660 26660 W LauncherAppWidgetHost: setShouldListenFlag, mFlags:15 flag:resume on:false isFront:false
+10-28 12:55:59.388   620   643 I SurfaceFlinger: id=205145 createSurf (0x0),-1 flag=80004, 7c53e39 Splash Screen com.example.lunchtray#0
+10-28 12:55:59.389 26660 26660 I DecorView: notifyKeepScreenOnChanged: keepScreenOn=false
+10-28 12:55:59.389 26660 26660 I SPayUpdater: updateSpayHandler launcher activity is paused false
+10-28 12:55:59.389 26660 26660 I BlurOperator: progress = 1.0, mBlurProgress = 1.0, forced = true, mForced = false
+10-28 12:55:59.389 26660 26660 I BlurOperator: mSetTime = 1666954558401, currentTimeMs = 1666954559389
+10-28 12:55:59.389 26660 26660 I BlurOperator: blurAmount = 0.125, mBgBlurAmount = 0.125, show = true, mPreBlur = 0.125, mDuration = 1
+10-28 12:55:59.389   954  3954 D InputTransport: Input channel destroyed: '7c53e39', fd=1493
+10-28 12:55:59.390  1348  1474 I ViewRootImpl@fed002d[lunchtray]: setView = android.widget.FrameLayout@baf53b0 TM=true
+10-28 12:55:59.400   954  3923 D InputDispatcher: Focused application set to (0): 17ab494
+10-28 12:55:59.412   954  1844 V WindowManager: Relayout Window{7c53e39 u0 Splash Screen com.example.lunchtray}: viewVisibility=0 req=1080x2280 d0
+10-28 12:55:59.413   620   643 I SurfaceFlinger: id=205146 createSurf (1080x2280),-3 flag=40004, Splash Screen com.example.lunchtray$_1348#0
+10-28 12:55:59.414   954  2772 D InputDispatcher: Focus left window (0): 4ad90e6 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity
+10-28 12:55:59.417   954  3923 V WindowManager: Relayout Window{4ad90e6 u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity}: viewVisibility=0 req=1080x2280 d0
+10-28 12:55:59.417   954  1844 V WindowManager: Relayout hash=7c53e39, pid=1348: mAttrs={(0,0)(fillxfill) sim={adjust=pan} ty=APPLICATION_STARTING fmt=TRANSLUCENT wanim=0x1030001
+10-28 12:55:59.417   954  1844 V WindowManager:   fl=81030118
+10-28 12:55:59.417   954  1844 V WindowManager:   pfl=36000010
+10-28 12:55:59.417   954  1844 V WindowManager:   bhv=DEFAULT
+10-28 12:55:59.417   954  1844 V WindowManager:   fitSides= naviIconColor=0}
+10-28 12:55:59.419  1348  1474 I ViewRootImpl@fed002d[lunchtray]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=22 res=0x7 s={true 515082538464} ch=true fn=-1
+10-28 12:55:59.419  1348  1537 D OpenGLRenderer: eglCreateWindowSurface
+10-28 12:55:59.421   954  3923 V WindowManager: Relayout hash=4ad90e6, pid=26660: mAttrs={(0,0)(fillxfill) sim={adjust=nothing} layoutInDisplayCutoutMode=shortEdges ty=BASE_APPLICATION fmt=TRANSPARENT wanim=0x10302f2
+10-28 12:55:59.421   954  3923 V WindowManager:   fl=81910100
+10-28 12:55:59.421   954  3923 V WindowManager:   pfl=1e020040
+10-28 12:55:59.421   954  3923 V WindowManager:   vsysui=1700
+10-28 12:55:59.421   954  3923 V WindowManager:   bhv=SHOW_TRANSIENT_BARS_BY_SWIPE
+10-28 12:55:59.421   954  3923 V WindowManager:   fitSides= naviIconColor=0}
+10-28 12:55:59.421  1348  1474 I ViewRootImpl@fed002d[lunchtray]: [DP] dp(1) 0 android.view.ViewRootImpl.reportNextDraw:11420 android.view.ViewRootImpl.performTraversals:4193 android.view.ViewRootImpl.doTraversal:2919
+10-28 12:55:59.422 17800 17800 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735 in: PRE_ON_CREATE
+10-28 12:55:59.422 26660 26660 I ViewRootImpl@623994e[LauncherActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=13 res=0x1 s={true 515081858304} ch=false fn=26
+10-28 12:55:59.422 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.423 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.423 26660 26660 I ViewRootImpl@623994e[LauncherActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+10-28 12:55:59.423 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.423 26660 26660 I BaseActivity: removeActivityFlags, flags : 8
+10-28 12:55:59.423 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.423 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.423 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.423 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.423 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.423 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.423 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.423 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.430   954  1015 I SemPersonaManager: SecureFolder personaId = 150
+10-28 12:55:59.433  1348  1474 I ViewRootImpl@fed002d[lunchtray]: [DP] pdf(0) 0 android.view.ViewRootImpl.lambda$addFrameCompleteCallbackIfNeeded$3$ViewRootImpl:4995 android.view.ViewRootImpl$$ExternalSyntheticLambda16.run:6 android.os.Handler.handleCallback:938
+10-28 12:55:59.433  1348  1474 I ViewRootImpl@fed002d[lunchtray]: [DP] rdf()
+10-28 12:55:59.433  1348  1474 D ViewRootImpl@fed002d[lunchtray]: reportDrawFinished (fn: -1)
+10-28 12:55:59.434 26660 26660 I BadgeRenderer: Invalid count : 0
+10-28 12:55:59.435 26660 26660 I BadgeRenderer: Invalid count : 0
+10-28 12:55:59.437  1348  1348 D FullscreenTaskListener: Fullscreen Task Appeared: #30474, caller=com.android.wm.shell.ShellTaskOrganizer.onTaskAppeared:387 com.android.wm.shell.ShellTaskOrganizer.onTaskAppeared:376 android.window.TaskOrganizer$1.lambda$onTaskAppeared$4$TaskOrganizer$1:297
+10-28 12:55:59.438   620   810 I SurfaceFlinger: id=205147 createSurf (0x0),-1 flag=24000, Surface(name=Task=1)/@0x4cdbfdb - animation-leash of app_transition#0
+10-28 12:55:59.440   954  1015 D EnterpriseDeviceManagerService: isMdmAdminPresentInternal() : MDM Admin Found - com.samsung.knox.securefolder
+10-28 12:55:59.441   620   810 I SurfaceFlinger: id=205148 createSurf (0x0),-1 flag=24004, Surface(name=Task=30474)/@0x9527a9 - animation-leash of app_transition#0
+10-28 12:55:59.444   620   810 I SurfaceFlinger: id=205149 createSurf (0x0),-1 flag=24000, Surface(name=2fa8401 StatusBar)/@0xf000e26 - animation-leash of insets_animation#1
+10-28 12:55:59.446   620   810 I SurfaceFlinger: id=205150 createSurf (0x0),-1 flag=24000, Surface(name=be23078 NavigationBar0)/@0x50010bd - animation-leash of insets_animation#1
+10-28 12:55:59.449 26660 27026 I TouchInteractionService: onSystemUiStateChanged, stateFlags : 131072
+10-28 12:55:59.449 26660 26660 I TouchInteractionService: onSystemUiFlagsChanged, userUnlocked
+10-28 12:55:59.450  1348  1474 D InsetsSourceConsumer: ensureControlAlpha: for ITYPE_NAVIGATION_BAR on Splash Screen com.example.lunchtray
+10-28 12:55:59.451  1348  1474 D InsetsSourceConsumer: ensureControlAlpha: for ITYPE_STATUS_BAR on Splash Screen com.example.lunchtray
+10-28 12:55:59.457  8198  8198 I Utils   : HomePackage : com.sec.android.app.launcher, resumePackageName : com.example.lunchtray
+10-28 12:55:59.460 29247 29377 I Rubin   : [1290] LoggingEventHelper.notifyUpdatedWithValue(LoggingEventHelper.java:58) : Notify AppUsageLogger's database is updated.
+10-28 12:55:59.463   620   620 I Layer   : id=205134 removeFromCurrentState Surface(name=2fa8401 StatusBar)/@0xf000e26 - animation-leash of insets_animation#0 (179)
+10-28 12:55:59.463   620   620 I Layer   : id=76 removeFromCurrentState 2fa8401 StatusBar#0 (179)
+10-28 12:55:59.463   620   620 I Layer   : id=84 removeFromCurrentState StatusBar$_1348#0 (179)
+10-28 12:55:59.463   620   620 I Layer   : id=76 addToCurrentState 2fa8401 StatusBar#0 (179)
+10-28 12:55:59.463   620   620 I Layer   : id=84 addToCurrentState StatusBar$_1348#0 (179)
+10-28 12:55:59.463   620   620 I Layer   : id=205135 removeFromCurrentState Surface(name=be23078 NavigationBar0)/@0x50010bd - animation-leash of insets_animation#0 (179)
+10-28 12:55:59.463   620   620 I SurfaceFlinger: id=205134 Removed Surface(name=2fa8401 StatusBar)/@0xf000e26 - animation-leash of insets_animation#0 (179)
+10-28 12:55:59.463   620   620 I SurfaceFlinger: id=205135 Removed Surface(name=be23078 NavigationBar0)/@0x50010bd - animation-leash of insets_animation#0 (179)
+10-28 12:55:59.463   620   620 I Layer   : id=205134 Destroyed Surface(name=2fa8401 StatusBar)/@0xf000e26 - animation-leash of insets_animation#0
+10-28 12:55:59.463   620   620 I Layer   : id=205135 Destroyed Surface(name=be23078 NavigationBar0)/@0x50010bd - animation-leash of insets_animation#0
+10-28 12:55:59.465 17800 17800 I DecorView: [INFO] isPopOver=false, config=true
+10-28 12:55:59.465 17800 17800 I DecorView: updateCaptionType >> DecorView@e3d14a3[], isFloating=false, isApplication=true, hasWindowControllerCallback=true, hasWindowDecorCaption=false
+10-28 12:55:59.465 17800 17800 D DecorView: setCaptionType = 0, this = DecorView@e3d14a3[]
+10-28 12:55:59.468 17800 17800 I DecorView: getCurrentDensityDpi: from real metrics. densityDpi=420 msg=resources_loaded
+10-28 12:55:59.469 17800 17800 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735 in: CREATED
+10-28 12:55:59.469 29247 29377 I Rubin   : [1290] ExercisingWithCmhMonitor.isSatisfiedByCmh(ExercisingWithCmhMonitor.java:121) : isSatisfiedByCmh is false
+10-28 12:55:59.469 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.469 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.469 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.469 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.469 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.469 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.469 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.469 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.469 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.470 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.470 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.471 17800 17800 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735 in: STARTED
+10-28 12:55:59.471 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.471 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.472 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.472 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.472 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.472 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.472 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.472 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.472 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.472 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.472 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.476   620   643 I SurfaceFlinger: id=205151 createSurf (0x0),-1 flag=80004, ActivityRecord{8aa4d19 u0 com.example.lunchtray/.MainActivity t30474}#0
+10-28 12:55:59.484   620   620 D SurfaceFlinger: Display 0 HWC layers:
+10-28 12:55:59.484   620   620 D SurfaceFlinger:      CLIENT | 0x7843da8ad0 | 0100 | RGBx_8888    |  589.0    0.0 1651.0 2240.0 |    0    0 1080 2280 | Wallpaper BBQ wrapper#0
+10-28 12:55:59.484   620   620 D SurfaceFlinger:      CLIENT |              | 0000 |  Unknown  |    0.0    0.0    0.0    0.0 |    0    0 1080 2280 | OneUiHome-BlurLayer#0 (backgroundBlurRadius)
+10-28 12:55:59.484   620   620 D SurfaceFlinger:      DEVICE | 0x7843dab110 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    0    0 1080 2280 | com.sec.android.app.launcher/com.sec[...]activities.LauncherActivity$_26660#0
+10-28 12:55:59.484   620   620 D SurfaceFlinger:      DEVICE | 0x7843dbff30 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |   67  141 1013 2139 | Splash Screen com.example.lunchtray$_1348#0
+10-28 12:55:59.484   620   620 D SurfaceFlinger:      DEVICE | 0x7843dbca50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  112.0 |    0    0 1080  112 | StatusBar$_1348#0
+10-28 12:55:59.484   620   620 D SurfaceFlinger:      DEVICE | 0x7843dbc6f0 | 0100 | RGBA_8888    |    0.0    0.0   67.0  416.0 |    0  814   67 1230 | com.samsung.android.app.cocktailbars[...]arservice.CocktailBarService$_8198#0
+10-28 12:55:59.484   620   620 D SurfaceFlinger:      DEVICE | 0x7843dafd90 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2154 1080 228
+10-28 12:55:59.484   620   620 D SurfaceFlinger: 0 | NavigationBar0$_1348#0
+10-28 12:55:59.484   620   620 D SurfaceFlinger:
+10-28 12:55:59.499  1348  2954 I ViewRootImpl@fed002d[lunchtray]: Resizing android.view.ViewRootImpl@f467229: frame=[0,0][1080,2280] reportDraw=false forceLayout=false backDropFrame=Rect(0, 0 - 1080, 2280)
+10-28 12:55:59.499  1348  1474 I ViewRootImpl@fed002d[lunchtray]: handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2280] display=[0,0][1080,2280] backdrop=[0,0][1080,2280]} forceNextWindowRelayout=false displayId=0 frameChanged=false backdropFrameChanged=false configChanged=false displayChanged=false mNextDrawUseBlastSync=false mergedConfiguration={mGlobalConfig={1.1 220mcc1mnc [en_US,sr_RS] ldltr sw411dp w411dp h777dp 420dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2280) mAppBounds=Rect(0, 112 - 1080, 2154) mMaxBounds=Rect(0, 0 - 1080, 2280) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0 mPopOver=undefined mFreeformTaskPinningState=undefined} s.12130 fontWeightAdjustment=0 ff=0 bf=0 bts=0 desktop/d dm/n ?dc ?dcui ?dcaf enb/d themeSeq=0} mOverrideConfig={1.1 220mcc1mnc [en_US,sr_RS] ldltr sw411dp w411dp h777dp 420dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2280) mAppBounds=Rect(0, 112 - 1080, 2154) mMaxBounds=Rect(0, 0 - 1080, 2280) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mPopOver=off mFreeformTaskPinningState=unpinned} s.1 fontWeightAdjustment=0 ff=0 bf=0 bts=0 desktop/d dm/n dc/d ?dcui ?dcaf enb/d themeSeq=0}}
+10-28 12:55:59.500 17800 17800 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735 in: RESUMED
+10-28 12:55:59.501 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.501 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.501 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.501 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.501 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.501 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.501 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.501 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.501 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.501 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.501 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.502   954  1015 D PersonaActivityHelper: Activity not in resumed state, do not run immediate lock
+10-28 12:55:59.503 17800 17800 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735 in: PAUSED
+10-28 12:55:59.503 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.503 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.504 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.504 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.504 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.504 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.504 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.504 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.504 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.504 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.504 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.513   954   971 I system_server: NativeAlloc concurrent copying GC freed 439772(19MB) AllocSpace objects, 32(672KB) LOS objects, 17% free, 115MB/139MB, paused 177us,247us total 303.557ms
+10-28 12:55:59.515   954  1253 D SemNscXgbMsL1: Probability - Cloud gaming: [0.054484986]
+10-28 12:55:59.515   954  1253 D SemNscXgbMsL1: Probability - Real time: [0.0035159546]
+10-28 12:55:59.515   954  1253 D SemNscXgbMsL1: Probability - Non real time: [0.9914882]
+10-28 12:55:59.515   954  1253 D SemNscXgbMsL1: 1 sample inference time: 0.264307 msecs
+10-28 12:55:59.516   954  1253 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 0.333692 msecs
+10-28 12:55:59.516   954  1253 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 0.291154 msecs
+10-28 12:55:59.516   954  1844 D InputDispatcher: Focused application set to (0): 8aa4d19
+10-28 12:55:59.520   954   973 W System  : A resource failed to call release.
+10-28 12:55:59.520   954   973 W System  : A resource failed to call close.
+10-28 12:55:59.522   954   973 W System  : A resource failed to call release.
+10-28 12:55:59.522   620   643 I SurfaceFlinger: id=205091 Removed Task=30472#0 (178)
+10-28 12:55:59.522   954   973 W System  : A resource failed to call close.
+10-28 12:55:59.523   954   973 W System  : A resource failed to call release.
+10-28 12:55:59.523   620   643 I SurfaceFlinger: id=205066 Removed Task=30471#0 (178)
+10-28 12:55:59.523   954   973 W System  : A resource failed to call close.
+10-28 12:55:59.524   954   973 W System  : A resource failed to call release.
+10-28 12:55:59.524   620   643 I SurfaceFlinger: id=205040 Removed Task=30470#0 (178)
+10-28 12:55:59.524   954   973 W System  : A resource failed to call close.
+10-28 12:55:59.524   954   973 W System  : A resource failed to call close.
+10-28 12:55:59.525   954   973 W System  : A resource failed to call close.
+10-28 12:55:59.526   954  1015 I SemPersonaManager: SecureFolder personaId = 150
+10-28 12:55:59.530   620   620 I Layer   : id=205066 Destroyed Task=30471#0
+10-28 12:55:59.530   620   620 I Layer   : id=205040 Destroyed Task=30470#0
+10-28 12:55:59.530   620   620 I Layer   : id=205091 Destroyed Task=30472#0
+10-28 12:55:59.531   954  1015 D EnterpriseDeviceManagerService: isMdmAdminPresentInternal() : MDM Admin Found - com.samsung.knox.securefolder
+10-28 12:55:59.532 17800 17800 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@29f9415 in: PRE_ON_CREATE
+10-28 12:55:59.532 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.532 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.533 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.533 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.533 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+10-28 12:55:59.533 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+10-28 12:55:59.533 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+10-28 12:55:59.533 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+10-28 12:55:59.533 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was DESTROYED
+10-28 12:55:59.533 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.533 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+10-28 12:55:59.534  8198  8198 I Utils   : HomePackage : com.sec.android.app.launcher, resumePackageName : com.example.lunchtray
+10-28 12:55:59.545 17800 17800 I DecorView: [INFO] isPopOver=false, config=true
+10-28 12:55:59.545 17800 17800 I DecorView: updateCaptionType >> DecorView@d6e7956[], isFloating=false, isApplication=true, hasWindowControllerCallback=true, hasWindowDecorCaption=false
+10-28 12:55:59.545 17800 17800 D DecorView: setCaptionType = 0, this = DecorView@d6e7956[]
+10-28 12:55:59.546 17800 17800 I DecorView: getCurrentDensityDpi: from real metrics. densityDpi=420 msg=resources_loaded
+10-28 12:55:59.547 26660 26793 I BadgeCountUpdaterImpl: reload badge with refresh
+10-28 12:55:59.549  1341  1341 D HidDeviceService: handleMessage(): msg.what=8
+10-28 12:55:59.552  2308 13564 I BadgeProvider: query, [selection] : null
+10-28 12:55:59.554 26660 26793 I BadgeCache: failed to query cursor is null
+10-28 12:55:59.554 26660 26793 I BadgeCache: reloadBadge size : 0
+10-28 12:55:59.554 26660 26660 I BadgeCountUpdaterImpl: refresh badge 0
+10-28 12:55:59.554 26660 26660 I FolderIconView: applyDotState FolderInfo : Samsung display : 1 count : 0
+10-28 12:55:59.555 26660 26660 I FolderIconView: applyDotState FolderInfo : Google display : 1 count : 0
+10-28 12:55:59.555 26660 26660 I FolderIconView: applyDotState FolderInfo : Microsoft aplikacije display : 1 count : 0
+10-28 12:55:59.555 26660 26660 I FolderIconView: applyDotState FolderInfo : Misc display : 1 count : 0
+10-28 12:55:59.555 17800 17800 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@29f9415 in: CREATED
+10-28 12:55:59.555 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.555 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.555 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.555 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.555 17800 17800 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.555 17800 17800 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.555 17800 17800 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.555 17800 17800 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.555 17800 17800 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.555 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.555 17800 17800 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.563 17800 17800 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@29f9415 in: STARTED
+10-28 12:55:59.563 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.563 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.563 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.563 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.563 17800 17800 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.563 17800 17800 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.563 17800 17800 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.563 17800 17800 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.563 17800 17800 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.564 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.564 17800 17800 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.564 17800 17800 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@29f9415 in: RESUMED
+10-28 12:55:59.564 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.564 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.564 26660 26660 I BadgeRenderer: Invalid count : 0
+10-28 12:55:59.564 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.565 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.565 26660 26660 I BadgeRenderer: Invalid count : 0
+10-28 12:55:59.565 17800 17800 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.565 26660 26660 I BadgeRenderer: Invalid count : 0
+10-28 12:55:59.565 17800 17800 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.565 17800 17800 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.565 26660 26660 I BadgeRenderer: Invalid count : 0
+10-28 12:55:59.565 17800 17800 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.565 17800 17800 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.565 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.565 17800 17800 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.lunchtray.MainActivity@29f9415
+10-28 12:55:59.569   954  2772 D InputTransport: Input channel constructed: '9c3c37f', fd=1241
+10-28 12:55:59.569   954  2772 D InputTransport: Input channel constructed: '9c3c37f', fd=1246
+10-28 12:55:59.569   954  2772 D InputTransport: Input channel constructed: '9c3c37f', fd=1267
+10-28 12:55:59.569   620  3677 I SurfaceFlinger: id=205152 createSurf (0x0),-1 flag=80004, 9c3c37f com.example.lunchtray/com.example.lunchtray.MainActivity#0
+10-28 12:55:59.570   954  2772 D InputTransport: Input channel destroyed: '9c3c37f', fd=1267
+10-28 12:55:59.571 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: setView = com.android.internal.policy.DecorView@d6e7956 TM=true
+10-28 12:55:59.572   954  1054 D AnalyticsContainerHandler: handleMessage : { when=0 what=1 target=com.android.server.knox.KnoxAnalyticsContainer$AnalyticsHandler }
+10-28 12:55:59.584   954  2772 V WindowManager: Relayout Window{9c3c37f u0 com.example.lunchtray/com.example.lunchtray.MainActivity}: viewVisibility=0 req=1080x2280 d0
+10-28 12:55:59.585   620  3677 I SurfaceFlinger: id=205153 createSurf (1x1),-3 flag=40004, com.example.lunchtray/com.example.lunchtray.MainActivity$_17800#0
+10-28 12:55:59.587   620  3677 I SurfaceFlinger: id=205154 createSurf (0x0),-1 flag=24000, Surface(name=2fa8401 StatusBar)/@0xf000e26 - animation-leash of insets_animation#0
+10-28 12:55:59.587   620  3677 I SurfaceFlinger: id=205155 createSurf (0x0),-1 flag=24000, Surface(name=be23078 NavigationBar0)/@0x50010bd - animation-leash of insets_animation#0
+10-28 12:55:59.588   954  2772 V WindowManager: Relayout hash=9c3c37f, pid=17800: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030303
+10-28 12:55:59.588   954  2772 V WindowManager:   fl=81810100
+10-28 12:55:59.588   954  2772 V WindowManager:   pfl=12020040
+10-28 12:55:59.588   954  2772 V WindowManager:   apr=LIGHT_NAVIGATION_BARS
+10-28 12:55:59.588   954  2772 V WindowManager:   bhv=DEFAULT
+10-28 12:55:59.588   954  2772 V WindowManager:   fitSides= naviIconColor=0
+10-28 12:55:59.588   954  2772 V WindowManager:   sfl=100000}
+10-28 12:55:59.590 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=5 res=0x7 s={true 515080419504} ch=true fn=-1
+10-28 12:55:59.591 17800 17884 D OpenGLRenderer: eglCreateWindowSurface
+10-28 12:55:59.593 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:11420 android.view.ViewRootImpl.performTraversals:4193 android.view.ViewRootImpl.doTraversal:2919
+10-28 12:55:59.600 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$addFrameCompleteCallbackIfNeeded$3$ViewRootImpl:4995 android.view.ViewRootImpl$$ExternalSyntheticLambda16.run:6 android.os.Handler.handleCallback:938
+10-28 12:55:59.600 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: [DP] rdf()
+10-28 12:55:59.600 17800 17800 D ViewRootImpl@e3730aa[MainActivity]: reportDrawFinished (fn: -1)
+10-28 12:55:59.603   620  3677 I SurfaceFlinger: id=205156 createSurf (0x0),-1 flag=24000, Surface(name=9c3c37f com.example.lunchtray/com.example.lunchtray.MainActivity)/@0x71c6c11 - animation-leash of starting_reveal#0
+10-28 12:55:59.604 17800 17800 D InsetsSourceConsumer: ensureControlAlpha: for ITYPE_NAVIGATION_BAR on com.example.lunchtray/com.example.lunchtray.MainActivity
+10-28 12:55:59.605   954  1012 I PkgPredictorService-SecIpmManagerServiceImpl: reportToNAP uid:10998 com.example.lunchtray/com.example.lunchtray.MainActivity thisTime:238
+10-28 12:55:59.605 17800 17800 D InsetsSourceConsumer: ensureControlAlpha: for ITYPE_STATUS_BAR on com.example.lunchtray/com.example.lunchtray.MainActivity
+10-28 12:55:59.605   954  1012 I ActivityTaskManager: Displayed com.example.lunchtray/.MainActivity: +238ms
+10-28 12:55:59.605   954  2750 I PkgPredictorService-NapClassifier: it's ready to run
+10-28 12:55:59.606 17800 17800 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+10-28 12:55:59.607  2946  2946 E pageboostd: Received HALT command code 2
+10-28 12:55:59.607   954  2772 I SemDvfsHyPerManager: acquire hyper - AMS_RESUME_TAIL/954@19, type = -999
+10-28 12:55:59.607   954  2772 I SemDvfsHyPerManager: acquire hyper - AMS_ACT_LAZY/954@20, type = -999
+10-28 12:55:59.607   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 473870  [954 / 19]    HINT : AMS_RESUME_TAIL    list :
+10-28 12:55:59.608   529   535 E statsd  : Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->10998[I] (10)0x30000->*launch*[S]
+10-28 12:55:59.608   566   611 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 475821
+10-28 12:55:59.608   529   535 E statsd  : Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->10998[I] (10)0x30000->*launch*[S]
+10-28 12:55:59.613   620   620 I Layer   : id=205149 removeFromCurrentState Surface(name=2fa8401 StatusBar)/@0xf000e26 - animation-leash of insets_animation#1 (180)
+10-28 12:55:59.613   620   620 I Layer   : id=205150 removeFromCurrentState Surface(name=be23078 NavigationBar0)/@0x50010bd - animation-leash of insets_animation#1 (180)
+10-28 12:55:59.614   620   620 I SurfaceFlinger: id=205149 Removed Surface(name=2fa8401 StatusBar)/@0xf000e26 - animation-leash of insets_animation#1 (180)
+10-28 12:55:59.614   620   620 I SurfaceFlinger: id=205150 Removed Surface(name=be23078 NavigationBar0)/@0x50010bd - animation-leash of insets_animation#1 (180)
+10-28 12:55:59.614   620   620 I Layer   : id=205149 Destroyed Surface(name=2fa8401 StatusBar)/@0xf000e26 - animation-leash of insets_animation#1
+10-28 12:55:59.614   620   620 I Layer   : id=205150 Destroyed Surface(name=be23078 NavigationBar0)/@0x50010bd - animation-leash of insets_animation#1
+10-28 12:55:59.615   954  1844 D InputDispatcher: Focus entered window (0): 9c3c37f com.example.lunchtray/com.example.lunchtray.MainActivity
+10-28 12:55:59.615 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+10-28 12:55:59.615  1348  2147 I ViewRootImpl@fed002d[lunchtray]: mWNT: t = android.view.SurfaceControl$Transaction@85f934f fN = 2 android.view.SyncRtSurfaceTransactionApplier.applyTransaction:94 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$SyncRtSurfaceTransactionApplier:71 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+10-28 12:55:59.615  1348  2147 I ViewRootImpl@fed002d[lunchtray]: mWNT: merge t to BBQ
+10-28 12:55:59.615  1348  2147 I ViewRootImpl@fed002d[lunchtray]: mWNT: t = android.view.SurfaceControl$Transaction@dadfadc fN = 2 android.view.SyncRtSurfaceTransactionApplier.applyTransaction:94 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$SyncRtSurfaceTransactionApplier:71 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+10-28 12:55:59.615  1348  2147 I ViewRootImpl@fed002d[lunchtray]: mWNT: merge t to BBQ
+10-28 12:55:59.616 17800 17800 D InputMethodManager: startInputInner - Id : 0
+10-28 12:55:59.616 17800 17800 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+10-28 12:55:59.617   954  1844 D InputMethodManagerService: DESKTOP MODE! : 2
+10-28 12:55:59.617   954  1844 D InputMethodManagerService: NOT IN KNOX DESKTOP MODE!
+10-28 12:55:59.617   954  1844 V InputMethodManagerService: getDisplayIdOfInputMethodWindowToBeAdded : 0
+10-28 12:55:59.617   954  1844 D InputMethodManagerService: checkDisplayOfStartInputAndUpdateKeyboard display Id 0last 0
+10-28 12:55:59.617   954  1844 D InputTransport: Input channel constructed: 'ClientS', fd=1267
+10-28 12:55:59.617   954  1844 D InputTransport: Input channel destroyed: 'ClientS', fd=1267
+10-28 12:55:59.619 26660 26700 I RecentModel: onTaskStackChangedBackground
+10-28 12:55:59.620   620   620 D SurfaceFlinger: Display 0 HWC layers:
+10-28 12:55:59.620   620   620 D SurfaceFlinger:      CLIENT | 0x7843da8ad0 | 0100 | RGBx_8888    |  589.0    0.0 1651.0 2240.0 |    0    0 1080 2280 | Wallpaper BBQ wrapper#0
+10-28 12:55:59.620   620   620 D SurfaceFlinger:      CLIENT |              | 0000 |  Unknown  |    0.0    0.0    0.0    0.0 |    0    0 1080 2280 | OneUiHome-BlurLayer#0 (backgroundBlurRadius)
+10-28 12:55:59.620   620   620 D SurfaceFlinger:      DEVICE | 0x7843dab110 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    0    0 1080 2280 | com.sec.android.app.launcher/com.sec[...]activities.LauncherActivity$_26660#0
+10-28 12:55:59.620   620   620 D SurfaceFlinger:      DEVICE | 0x7843d996b0 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |   14   30 1066 2250 | com.example.lunchtray/com.example.lunchtray.MainActivity$_17800#0
+10-28 12:55:59.620   620   620 D SurfaceFlinger:      DEVICE | 0x7843dbff30 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |   14   30 1066 2250 | Splash Screen com.example.lunchtray$_1348#0
+10-28 12:55:59.620   620   620 D SurfaceFlinger:      DEVICE | 0x7843dbca50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  112.0 |    0    0 1080  112 | StatusBar$_1348#0
+10-28 12:55:59.620   620   620 D SurfaceFlinger:      DEVICE | 0x7843dbc6f0 | 0100 | RGBA_8888    |    0.0    0.0   67.0  416.0 |    0  814   67 1230 | com.sams
+10-28 12:55:59.620   620   620 D SurfaceFlinger: ung.android.app.cocktailbars[...]arservice.CocktailBarService$_8198#0
+10-28 12:55:59.620   620   620 D SurfaceFlinger:      DEVICE | 0x7843dafd90 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2154 1080 2280 | NavigationBar0$_1348#0
+10-28 12:55:59.620   620   620 D SurfaceFlinger:
+10-28 12:55:59.620 19204 19204 D InputMethodService: checkDisplayOfStartInputAndUpdateKeyboard display Id 0last 0
+10-28 12:55:59.621 26660 26700 I RecentTasksList: getTaskKeys, numTasks :3 callback : com.android.quickstep.-$$Lambda$RecentsModel$k1Mm-BV64Bc89eJHYugywZmW_Js@505cfa9
+10-28 12:55:59.621   620  3677 I SurfaceFlinger: id=205157 createSurf (0x0),-1 flag=24004, Surface(name=2188bee InputMethod)/@0xe151908 - animation-leash of insets_animation#1
+10-28 12:55:59.622  3825  4192 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3825@21, type = 1090523139
+10-28 12:55:59.622  3825  4192 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3825@23, type = 1090523139
+10-28 12:55:59.623 26660 26792 I RecentTasksList: loadTasksInBackground() task id : 30394
+10-28 12:55:59.623 26660 26792 I RecentTasksList: loadTasksInBackground() task id : 30298
+10-28 12:55:59.623 26660 26792 I RecentTasksList: loadTasksInBackground() task id : 30474
+10-28 12:55:59.624   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7397802  [3825 / 21]    HINT :      list : [TABoost / 5]
+10-28 12:55:59.625   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7405499  [3825 / 23]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+10-28 12:55:59.630   620   620 I Layer   : id=205141 removeFromCurrentState Surface(name=2188bee InputMethod)/@0xe151908 - animation-leash of insets_animation#0 (179)
+10-28 12:55:59.631   620   620 I SurfaceFlinger: id=205141 Removed Surface(name=2188bee InputMethod)/@0xe151908 - animation-leash of insets_animation#0 (179)
+10-28 12:55:59.631   620   620 I Layer   : id=205141 Destroyed Surface(name=2188bee InputMethod)/@0xe151908 - animation-leash of insets_animation#0
+10-28 12:55:59.632   531   531 D Zygote  : Forked child process 19056
+10-28 12:55:59.634  1348  2148 I ViewRootImpl@fed002d[lunchtray]: mWNT: t = android.view.SurfaceControl$Transaction@7ab07e5 fN = 3 android.view.SyncRtSurfaceTransactionApplier.applyTransaction:94 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$SyncRtSurfaceTransactionApplier:71 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+10-28 12:55:59.634  1348  2148 I ViewRootImpl@fed002d[lunchtray]: mWNT: merge t to BBQ
+10-28 12:55:59.634   954  3923 D InputMethodManagerServicePhysicalKey: isConnectedDexOnPC false
+10-28 12:55:59.634   954  3923 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+10-28 12:55:59.635 17800 17800 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231207/com.example.lunchtray:id/start_order_btn>
+10-28 12:55:59.637   954  1844 D InputDispatcher: Inject motion (17800): action=0x0, time=851608431000000, f=0x0, d=0
+10-28 12:55:59.637   954  1162 I InputDispatcher: Delivering touch to (1348): action: 0x4, f=0x0, d=0, 'be23078', t=0
+10-28 12:55:59.637   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x0, f=0x0, d=0, '9c3c37f', t=0 +(-11,-76)*1.02
+10-28 12:55:59.638  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3825@21, type = 1090523139
+10-28 12:55:59.638  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3825@23, type = 1090523139
+10-28 12:55:59.638 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 0
+10-28 12:55:59.638   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7397802  [3825 / 21]    HINT :      list : [TABoost / 5]
+10-28 12:55:59.638   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7405499  [3825 / 23]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+10-28 12:55:59.646   566 19010 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 486623
+10-28 12:55:59.646 19056 19056 E m.facebook.orc: Not starting debugger since process cannot load the jdwp agent.
+10-28 12:55:59.649  1348  2147 I ViewRootImpl@fed002d[lunchtray]: mWNT: t = android.view.SurfaceControl$Transaction@5852ba fN = 4 android.view.SyncRtSurfaceTransactionApplier.applyTransaction:94 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$SyncRtSurfaceTransactionApplier:71 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+10-28 12:55:59.649  1348  2147 I ViewRootImpl@fed002d[lunchtray]: mWNT: merge t to BBQ
+10-28 12:55:59.650 19056 19056 E USNET   : USNET: appName: com.facebook.orca
+10-28 12:55:59.650 19204 19204 E FullInputEventModel: onStartInput event aborted: al1: could not obtain extracted text (class al1)
+10-28 12:55:59.651 19056 19056 D ProcessState: Binder ioctl to enable oneway spam detection failed: Invalid argument
+10-28 12:55:59.655 19056 19056 D ActivityThread: setConscryptValidator
+10-28 12:55:59.656 19056 19056 D ActivityThread: setConscryptValidator - put
+10-28 12:55:59.663  1341  1341 D HidDeviceService: handleMessage(): msg.what=8
+10-28 12:55:59.665  1348  1537 D OpenGLRenderer: setSurface called with nullptr
+10-28 12:55:59.665  1348  1537 D OpenGLRenderer: setSurface() destroyed EGLSurface
+10-28 12:55:59.665  1348  1537 D OpenGLRenderer: destroyEglSurface
+10-28 12:55:59.667 19056 19056 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10792; state: ENABLED
+10-28 12:55:59.668   954  3923 V WindowManager: Relayout Window{7c53e39 u0 Splash Screen com.example.lunchtray}: viewVisibility=8 req=1080x2280 d0
+10-28 12:55:59.668   620   810 I SurfaceFlinger: id=205158 createSurf (0x0),-1 flag=24000, Surface(name=7c53e39 Splash Screen com.example.lunchtray)/@0xe56a1de - animation-leash of window_animation#0
+10-28 12:55:59.670   954  3923 V WindowManager: Relayout hash=7c53e39, pid=1348: mAttrs={(0,0)(fillxfill) sim={adjust=pan} ty=APPLICATION_STARTING fmt=TRANSLUCENT wanim=0x1030001
+10-28 12:55:59.670   954  3923 V WindowManager:   fl=81030118
+10-28 12:55:59.670   954  3923 V WindowManager:   pfl=36000010
+10-28 12:55:59.670   954  3923 V WindowManager:   bhv=DEFAULT
+10-28 12:55:59.670   954  3923 V WindowManager:   fitSides= naviIconColor=0}
+10-28 12:55:59.671  1348  1474 I ViewRootImpl@fed002d[lunchtray]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)8 dur=4 res=0x5 s={false 0} ch=true fn=5
+10-28 12:55:59.671  1348  1474 I ViewRootImpl@fed002d[lunchtray]: dispatchDetachedFromWindow
+10-28 12:55:59.671   954  3923 D InputTransport: Input channel destroyed: '7c53e39', fd=1480
+10-28 12:55:59.671   954  3923 W InputManager-JNI: Input channel object '7c53e39 Splash Screen com.example.lunchtray (client)' was disposed without first being removed with the input manager!
+10-28 12:55:59.671   954  3923 D InputTransport: Input channel destroyed: '7c53e39', fd=1492
+10-28 12:55:59.672  1348  1474 D InputTransport: Input channel destroyed: '7c53e39', fd=204
+10-28 12:55:59.678   954  3923 D InputDispatcher: Inject motion (17800): action=0x1, time=851608473000000, f=0x0, d=0
+10-28 12:55:59.678   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x1, f=0x0, d=0, '9c3c37f', t=1 +(-6,-16)*1.01
+10-28 12:55:59.678 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 1
+10-28 12:55:59.680   620   620 I Layer   : id=205156 removeFromCurrentState Surface(name=9c3c37f com.example.lunchtray/com.example.lunchtray.MainActivity)/@0x71c6c11 - animation-leash of starting_reveal#0 (179)
+10-28 12:55:59.687 17800 17800 D ScrollView: initGoToTop
+10-28 12:55:59.712   954  1115 I SensorService: [REARLIGHT] lux value : 82, code value : 0
+10-28 12:55:59.723   954  3923 V WindowManager: Relayout Window{9c3c37f u0 com.example.lunchtray/com.example.lunchtray.MainActivity}: viewVisibility=0 req=1080x2280 d0
+10-28 12:55:59.724   954  3923 V WindowManager: Relayout hash=9c3c37f, pid=17800: mAttrs={(0,0)(fillxfill) sim={adjust=resize} ty=BASE_APPLICATION wanim=0x1030303
+10-28 12:55:59.724   954  3923 V WindowManager:   fl=81810100
+10-28 12:55:59.724   954  3923 V WindowManager:   pfl=12020040
+10-28 12:55:59.724   954  3923 V WindowManager:   apr=LIGHT_NAVIGATION_BARS
+10-28 12:55:59.724   954  3923 V WindowManager:   bhv=DEFAULT
+10-28 12:55:59.724   954  3923 V WindowManager:   fitSides= naviIconColor=0
+10-28 12:55:59.724   954  3923 V WindowManager:   sfl=100000}
+10-28 12:55:59.726 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=2 res=0x1 s={true 515080419504} ch=false fn=8
+10-28 12:55:59.726 17800 17800 D ScrollView:  onsize change changed
+10-28 12:55:59.733  1348  1348 D NavigationBar: onSystemBarAttributesChanged() -  displayId:0, appearance:16 (APPEARANCE_LIGHT_NAVIGATION_BARS ), navbarColorManagedByIme:false
+10-28 12:55:59.733  1348  1348 V Navbar.Store: handleEvent [EventType] GET_BOOL_REGION_SAMPLING_ENABLED [Module] LightBarController  KEYS_DEFAULT=false
+10-28 12:55:59.733  1348  1348 V Navbar.Store: --[Band]COLOR_PACK_GET_REGION_SAMPLING_ENABLED
+10-28 12:55:59.733  1348  1348 V Navbar.Store: ----getValue(BOOL_REGION_SAMPLING_ENABLED)=false
+10-28 12:55:59.736 19056 19056 W m.facebook.orc: Entry not found
+10-28 12:55:59.737 19056 19056 W m.facebook.orc: Entry not found
+10-28 12:55:59.742 19056 19056 W m.facebook.orc: JIT profile information will not be recorded: profile file does not exist.
+10-28 12:55:59.742 19056 19056 W m.facebook.orc: JIT profile information will not be recorded: profile file does not exist.
+10-28 12:55:59.747   620   620 I Layer   : id=205146 removeFromCurrentState Splash Screen com.example.lunchtray$_1348#0 (179)
+10-28 12:55:59.747   620   620 I Layer   : id=205145 removeFromCurrentState 7c53e39 Splash Screen com.example.lunchtray#0 (179)
+10-28 12:55:59.747   620   620 I Layer   : id=205158 removeFromCurrentState Surface(name=7c53e39 Splash Screen com.example.lunchtray)/@0xe56a1de - animation-leash of window_animation#0 (179)
+10-28 12:55:59.748   620   620 I SurfaceFlinger: id=205145 Removed 7c53e39 Splash Screen com.example.lunchtray#0 (179)
+10-28 12:55:59.748   620   620 I SurfaceFlinger: id=205146 Removed Splash Screen com.example.lunchtray$_1348#0 (179)
+10-28 12:55:59.748   620   620 I SurfaceFlinger: id=205158 Removed Surface(name=7c53e39 Splash Screen com.example.lunchtray)/@0xe56a1de - animation-leash of window_animation#0 (179)
+10-28 12:55:59.748   620   620 I Layer   : id=205158 Destroyed Surface(name=7c53e39 Splash Screen com.example.lunchtray)/@0xe56a1de - animation-leash of window_animation#0
+10-28 12:55:59.748   620   620 I Layer   : id=205145 Destroyed 7c53e39 Splash Screen com.example.lunchtray#0
+10-28 12:55:59.749   954  1024 I libprocessgroup: Successfully killed process cgroup uid 10814 pid 18961 in 5ms
+10-28 12:55:59.750   620   620 I Layer   : id=205146 Destroyed Splash Screen com.example.lunchtray$_1348#0
+10-28 12:55:59.751   620   620 D SurfaceFlinger: Display 0 HWC layers:
+10-28 12:55:59.751   620   620 D SurfaceFlinger:      CLIENT | 0x7843da8ad0 | 0100 | RGBx_8888    |  589.0    0.0 1651.0 2240.0 |    0    0 1080 2280 | Wallpaper BBQ wrapper#0
+10-28 12:55:59.751   620   620 D SurfaceFlinger:      CLIENT |              | 0000 |  Unknown  |    0.0    0.0    0.0    0.0 |    0    0 1080 2280 | OneUiHome-BlurLayer#0 (backgroundBlurRadius)
+10-28 12:55:59.751   620   620 D SurfaceFlinger:      DEVICE | 0x7843dab110 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    0    0 1080 2280 | com.sec.android.app.launcher/com.sec[...]activities.LauncherActivity$_26660#0
+10-28 12:55:59.751   620   620 D SurfaceFlinger:      DEVICE | 0x7843dc0710 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    1    2 1079 2278 | com.example.lunchtray/com.example.lunchtray.MainActivity$_17800#0
+10-28 12:55:59.751   620   620 D SurfaceFlinger:      DEVICE | 0x7843dbca50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  112.0 |    0    0 1080  112 | StatusBar$_1348#0
+10-28 12:55:59.751   620   620 D SurfaceFlinger:      DEVICE | 0x7843dbc6f0 | 0100 | RGBA_8888    |    0.0    0.0   67.0  416.0 |    0  814   67 1230 | com.samsung.android.app.cocktailbars[...]arservice.CocktailBarService$_8198#0
+10-28 12:55:59.751   620   620 D SurfaceFlinger:      DEVICE | 0x7843dafd90 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  126.
+10-28 12:55:59.751   620   620 D SurfaceFlinger: 0 |    0 2154 1080 2280 | NavigationBar0$_1348#0
+10-28 12:55:59.751   620   620 D SurfaceFlinger:
+10-28 12:55:59.754  3892  3892 I SCS@AiSearch user 0: (ObserverWorker::AOSP_MP) [main] entering in startWork():
+10-28 12:55:59.754  3892  3892 I SCS@AiSearch user 0: (BaseCollector::AOSP_MP) [main] entering in onChange():
+10-28 12:55:59.755  3892  4748 I SCS@AiSearch user 0: (BaseCollector::AOSP_MP) [pool-13-thread-1] entering in collectChanges():
+10-28 12:55:59.758   954  2772 D PackageManager: setEnabledSetting : userId = 0 packageName = com.samsung.android.scs cmp = androidx.work.impl.background.systemalarm.RescheduleReceiver newState = 1 callingPackage = 10347/com.samsung.android.scs
+10-28 12:55:59.764 19056 19056 V GraphicsEnvironment: ANGLE Developer option for 'com.facebook.orca' set to: 'default'
+10-28 12:55:59.764 19056 19056 V GraphicsEnvironment: App is not on the allowlist for updatable production driver.
+10-28 12:55:59.767 19056 19056 D NetworkSecurityConfig: Using Network Security Config from resource (name removed) debugBuild: false
+10-28 12:55:59.782 26660 26660 I ViewRootImpl@623994e[LauncherActivity]: handleAppVisibility mAppVisible=true visible=false
+10-28 12:55:59.783  1348  1489 D WallpaperService: dispatchAppVisibility onVisibilityChanged(): false
+10-28 12:55:59.783   620   620 D SurfaceFlinger: Display 0 HWC layers:
+10-28 12:55:59.783   620   620 D SurfaceFlinger:      DEVICE | 0x7843da6a30 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    0    0 1080 2280 | com.example.lunchtray/com.example.lunchtray.MainActivity$_17800#0
+10-28 12:55:59.783   620   620 D SurfaceFlinger:      DEVICE | 0x7843dbca50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  112.0 |    0    0 1080  112 | StatusBar$_1348#0
+10-28 12:55:59.783   620   620 D SurfaceFlinger:      DEVICE | 0x7843dbc6f0 | 0100 | RGBA_8888    |    0.0    0.0   67.0  416.0 |    0  814   67 1230 | com.samsung.android.app.cocktailbars[...]arservice.CocktailBarService$_8198#0
+10-28 12:55:59.783   620   620 D SurfaceFlinger:      DEVICE | 0x7843db1bf0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2154 1080 2280 | NavigationBar0$_1348#0
+10-28 12:55:59.783   620   620 D SurfaceFlinger:
+10-28 12:55:59.784  1348  1348 D WallpaperService: reportVisibility onVisibilityChanged visible: false
+10-28 12:55:59.785  1348  1535 I ImageWallpaper:  onVisibilityChanged false , 0
+10-28 12:55:59.788 17800 17800 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735 in: STOPPED
+10-28 12:55:59.788 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.788 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.788 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.788 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.788 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.788 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.789 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.789 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.789 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.789 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity (has extras) }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.789 17800 17800 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@3f25735
+10-28 12:55:59.797   620   620 I Layer   : id=205147 removeFromCurrentState Surface(name=Task=1)/@0x4cdbfdb - animation-leash of app_transition#0 (176)
+10-28 12:55:59.797   620   620 I Layer   : id=205148 removeFromCurrentState Surface(name=Task=30474)/@0x9527a9 - animation-leash of app_transition#0 (176)
+10-28 12:55:59.798   620   620 I SurfaceFlinger: id=205148 Removed Surface(name=Task=30474)/@0x9527a9 - animation-leash of app_transition#0 (176)
+10-28 12:55:59.798   620   620 I SurfaceFlinger: id=205147 Removed Surface(name=Task=1)/@0x4cdbfdb - animation-leash of app_transition#0 (176)
+10-28 12:55:59.798   620   620 I Layer   : id=205147 Destroyed Surface(name=Task=1)/@0x4cdbfdb - animation-leash of app_transition#0
+10-28 12:55:59.798   620   620 I Layer   : id=205148 Destroyed Surface(name=Task=30474)/@0x9527a9 - animation-leash of app_transition#0
+10-28 12:55:59.798  3892  4748 I SCS@AiSearch user 0: (BaseCollector::AOSP_MP) fetchInternal values : maxSyncId: 26647 indexCount: 2021 sourceCount: 2021
+10-28 12:55:59.800   954  2772 V WindowManager: Relayout Window{4ad90e6 u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity}: viewVisibility=8 req=1080x2280 d0
+10-28 12:55:59.802   954  2772 V WindowManager: Relayout hash=4ad90e6, pid=26660: mAttrs={(0,0)(fillxfill) sim={adjust=nothing} layoutInDisplayCutoutMode=shortEdges ty=BASE_APPLICATION fmt=TRANSPARENT wanim=0x10302f2
+10-28 12:55:59.802   954  2772 V WindowManager:   fl=81910100
+10-28 12:55:59.802   954  2772 V WindowManager:   pfl=1e020040
+10-28 12:55:59.802   954  2772 V WindowManager:   vsysui=1700
+10-28 12:55:59.802   954  2772 V WindowManager:   bhv=SHOW_TRANSIENT_BARS_BY_SWIPE
+10-28 12:55:59.802   954  2772 V WindowManager:   fitSides= naviIconColor=0}
+10-28 12:55:59.803 26660 26660 I ViewRootImpl@623994e[LauncherActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)8 dur=3 res=0x5 s={false 0} ch=true fn=27
+10-28 12:55:59.804 26660 26660 I ViewRootImpl@623994e[LauncherActivity]: stopped(true) old=false
+10-28 12:55:59.804 26660 26660 I BaseActivity: removeActivityFlags, flags : 17
+10-28 12:55:59.804 26660 26660 W LauncherAppWidgetHost: setShouldListenFlag, mFlags:7 flag:start on:false isFront:false
+10-28 12:55:59.804 26660 26792 I IMM_LC  : hsifw() - flags=0, caller=android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:1846 android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:1815 com.android.launcher3.util.UiThreadHelper$UiCallbacks.handleMessage:103 android.os.Handler.dispatchMessage:102 android.os.Looper.loopOnce:226
+10-28 12:55:59.804 26660 26792 I IMM_LC  : hideSoftInputFromWindow - mService.hideSoftInput
+10-28 12:55:59.805   954  3923 I AppWidgetServiceImpl: stopListening callbacks : null
+10-28 12:55:59.805 26660 26660 W LauncherAppWidgetHost: stopListening, mFlags:2 isFront:false
+10-28 12:55:59.805 26660 26660 W Launcher.NotificationListener: removeNotificationsChangedListener
+10-28 12:55:59.805 26660 26660 I BadgeCountUpdaterImpl: onNotificationsChangedDisConnected
+10-28 12:55:59.805 26660 26660 I Launcher.NotificationListener: unregisterObserver, this is not notificationService!!
+10-28 12:55:59.805 26660 26792 I LiveIconUpdateEventHandler: LiveIcon onStop
+10-28 12:55:59.805 26660 26792 I LiveIconUpdateEventHandler: cancelMinuteChangeAlarm
+10-28 12:55:59.806 26660 26792 I LiveIconUpdateEventHandler: cancelDateChangeAlarm
+10-28 12:55:59.806 26660 26792 I LiveIconUpdateEventHandler: unregisterReceiver
+10-28 12:55:59.809 19056 19056 D NetworkSecurityConfig: Using Network Security Config from resource (name removed) debugBuild: false
+10-28 12:55:59.814   620   620 D Layer   : setBackgroundBlurRadius ## OneUiHome-BlurLayer#0, backgroundBlurRadius=0
+10-28 12:55:59.815   620   620 I SurfaceFlinger: id=205136 Removed OneUiHome-BlurLayer#0 (174)
+10-28 12:55:59.815   954  1844 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(uid/pid:10814/18961, android.os.BinderProxy@9894662)
+10-28 12:55:59.815   620  2722 D NativeSemDvfsManager: acquire:: timeout = 2000 mIsAcquired = 1  mTagName : SurfaceFlinger
+10-28 12:55:59.816   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 1314010  [620 / 1000]    HINT : SF_GPU_MINLOCK    list : [TIMEOUT / 2000]
+10-28 12:55:59.816   954  1197 D ConnectivityService: releasing NetworkRequest [ REQUEST id=38340, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10814 RequestorUid: 10814 RequestorPkg: org.telegram.messenger] ] (release request)
+10-28 12:55:59.816   954  1197 D ConnectivityService:  Removing from current network [245 WIFI], leaving 173 requests.
+10-28 12:55:59.817   620  2722 E NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::acquire()
+10-28 12:55:59.818   531   531 I Zygote  : Process 18961 exited due to signal 9 (Killed)
+10-28 12:55:59.819  1341  1341 D HidDeviceService: handleMessage(): msg.what=8
+10-28 12:55:59.820   954  2750 D PkgPredictorService-IpmNapPreloadController: app:0_&_org.telegram.messenger die, remove from <launchTime:2022-10-28 12:55:59 hour:12 day:6 previous:[com.example.lunchtray, com.example.lunchtray, com.example.lunchtray] running:com.example.lunchtray/com.example.lunchtray.MainActivity apkVersion:1.0 userId:0 screenOrientation:1 wifi:3 bt:12 predictTime:1 launching Time:238 predicted:false prediction:[0_&_org.telegram.messenger, 0_&_com.facebook.orca, 0_&_com.instagram.android] preloaded:false preloading:[0_&_org.telegram.messenger, 0_&_com.facebook.orca]>
+10-28 12:55:59.831   620   620 I Layer   : id=205133 removeFromCurrentState com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_26660#0 (174)
+10-28 12:55:59.831   620   620 I Layer   : id=205136 removeFromCurrentState OneUiHome-BlurLayer#0 (174)
+10-28 12:55:59.831   620   620 I SurfaceFlinger: id=205133 Removed com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_26660#0 (174)
+10-28 12:55:59.831   620   620 I Layer   : id=205133 Destroyed com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_26660#0
+10-28 12:55:59.831   620   620 I Layer   : id=205136 Destroyed OneUiHome-BlurLayer#0
+10-28 12:55:59.833  3892  4748 I SCS@AiSearch user 0: (IndexManager) [pool-13-thread-1] entering in addIndex():
+10-28 12:55:59.834  3892  4748 I SCS@AiSearch user 0: (BaseCollector::AOSP_MP) fetch: fetching took  58 ms
+10-28 12:55:59.834  3892  4748 I SCS@AiSearch user 0: (BaseCollector::AOSP_MP) fetchChanges: applied 0 items
+10-28 12:55:59.834  3892  4748 I SCS@AiSearch user 0: (BaseCollector::AOSP_MP) Collect finished. Result: true
+10-28 12:55:59.834  8198  8198 I Utils   : isCurrentUser current = 0, ownerId = 0
+10-28 12:55:59.834  8198  8198 I TrayVisibilityController: getComputedTrayVisible : keyguardState = 1
+10-28 12:55:59.834  8198  8198 I TrayVisibilityController: updateTrayVisible: State=1 visible=1 mCurrentVisible=1 specificMode=0
+10-28 12:55:59.834  8198  8198 I TrayStateController: onNotifyUpdateTray: state=0
+10-28 12:55:59.834  3892  4748 I SCS@AiSearch user 0: (BaseCollector::DOCUMENTS) ObserverWorker run immediately with unique work name: DOCUMENTS
+10-28 12:55:59.835  3892  4748 I SCS@AiSearch user 0: (BaseCollector::AOSP_MP) enqueue ObserverWorker name: com.sec.android.app.myfiles, policy: APPEND_OR_REPLACE
+10-28 12:55:59.835  3892  3955 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=8cc133d7-7948-4614-928f-28cf97078c6b, tags={ com.sec.android.app.myfiles, com.samsung.android.scs.ai.search.data.collector.ObserverWorker } ]
+10-28 12:55:59.844   954  2451 D PackageManager: setEnabledSetting : userId = 0 packageName = com.samsung.android.scs cmp = androidx.work.impl.background.systemalarm.RescheduleReceiver newState = 1 callingPackage = 10347/com.samsung.android.scs
+10-28 12:55:59.854 19056 19082 W CrashLoopRemedyLog: unable to delete remedy log, instaCrash: false
+10-28 12:55:59.855 19056 19082 W CrashLoopRemedyLog: unable to delete remedy log, instaCrash: true
+10-28 12:55:59.866 19056 19082 W MessengerLacrimaConfig: MessengerLacrimaConfig.earlyInit
+10-28 12:55:59.874   954  3923 D PackageManager: setEnabledSetting : userId = 0 packageName = com.samsung.android.scs cmp = androidx.work.impl.background.systemalarm.RescheduleReceiver newState = 1 callingPackage = 10347/com.samsung.android.scs
+10-28 12:55:59.890   511   511 E audit   : type=1400 audit(1666954559.885:342521): avc:  denied  { read } for  pid=19056 comm="EnsureDelegate" name="zoneinfo" dev="proc" ino=4026531860 scontext=u:r:untrusted_app:s0:c24,c259,c512,c768 tcontext=u:object_r:proc_zoneinfo:s0 tclass=file permissive=0 SEPF_SM-G973F_12_0001 audit_filtered
+10-28 12:55:59.891   511   511 E audit   : type=1300 audit(1666954559.885:342521): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=767d259510 a2=0 a3=0 items=0 ppid=531 pid=19056 auid=4294967295 uid=10792 gid=10792 euid=10792 suid=10792 fsuid=10792 egid=10792 sgid=10792 fsgid=10792 tty=(none) ses=4294967295 comm="EnsureDelegate" exe="/system/bin/app_process64" subj=u:r:untrusted_app:s0:c24,c259,c512,c768 key=(null)
+10-28 12:55:59.891   511   511 E audit   : type=1327 audit(1666954559.885:342521): proctitle="com.facebook.orca"
+10-28 12:55:59.892 19056 19082 W lacrima : Start JavaAppDeathCrashDetector... X.0Uq
+10-28 12:55:59.893  3892  3892 I SCS@AiSearch user 0: (ObserverWorker::DOCUMENTS) [main] entering in startWork():
+10-28 12:55:59.894  3892  3892 I SCS@AiSearch user 0: (BaseCollector::DOCUMENTS) [main] entering in onChange():
+10-28 12:55:59.895  3892  3961 I SCS@AiSearch user 0: (BaseCollector::DOCUMENTS) [pool-8-thread-1] entering in collectChanges():
+10-28 12:55:59.895  3892  3961 E SCS@AiSearch user 0: (BaseCollector::DOCUMENTS) canSkipCurrentList:
+10-28 12:55:59.896  3892  3961 I SCS@AiSearch user 0: (BaseCollector::DOCUMENTS) fetch: fetching took  1 ms
+10-28 12:55:59.896  3892  3961 I SCS@AiSearch user 0: (BaseCollector::DOCUMENTS) fetchChanges: applied 0 items
+10-28 12:55:59.896  3892  3961 I SCS@AiSearch user 0: (BaseCollector::DOCUMENTS) Collect finished. Result: true
+10-28 12:55:59.897 19056 19082 W lacrima : Sending pending reports
+10-28 12:55:59.898   954  1401 D PackageManager: setEnabledSetting : userId = 0 packageName = com.samsung.android.scs cmp = androidx.work.impl.background.systemalarm.RescheduleReceiver newState = 1 callingPackage = 10347/com.samsung.android.scs
+10-28 12:55:59.904  3892  3935 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=f3569467-b470-472c-a972-a8265eead25c, tags={ com.samsung.android.scs.documents, com.samsung.android.scs.ai.search.data.collector.ObserverWorker } ]
+10-28 12:55:59.907 19056 19082 W MessengerLacrimaConfig: MessengerLacrimaConfig.earlyNativeInit
+10-28 12:55:59.908   566 19055 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 473870
+10-28 12:55:59.927   511   511 E audit   : type=1400 audit(1666954559.921:342522): avc:  granted  { execute } for  pid=19056 comm="EnsureDelegate" path="/data/data/com.facebook.orca/lib-compressed/libbreakpad.so" dev="sda31" ino=3283522 scontext=u:r:untrusted_app:s0:c24,c259,c512,c768 tcontext=u:object_r:app_data_file:s0:c24,c259,c512,c768 tclass=file SEPF_SM-G973F_12_0001 audit_filtered
+10-28 12:55:59.927   511   511 E audit   : type=1300 audit(1666954559.921:342522): arch=c00000b7 syscall=222 success=yes exit=508124311552 a0=764e91b000 a1=18b80 a2=5 a3=12 items=0 ppid=531 pid=19056 auid=4294967295 uid=10792 gid=10792 euid=10792 suid=10792 fsuid=10792 egid=10792 sgid=10792 fsgid=10792 tty=(none) ses=4294967295 comm="EnsureDelegate" exe="/system/bin/app_process64" subj=u:r:untrusted_app:s0:c24,c259,c512,c768 key=(null)
+10-28 12:55:59.945 19056 19091 D fb-distract: Distracting /apex/com.android.runtime/lib64/bionic/libc.so!kill (0x0x7963158fe0) with /data/data/com.facebook.orca/lib-compressed/libappstatelogger2.so!<unknown> (0x0x764eb77c8c)
+10-28 12:55:59.945 19056 19091 D fb-distract: Distracting /apex/com.android.runtime/lib64/bionic/libc.so!raise (0x0x79631178a8) with /data/data/com.facebook.orca/lib-compressed/libappstatelogger2.so!<unknown> (0x0x764eb77ccc)
+10-28 12:55:59.945 19056 19091 D fb-distract: Distracting /apex/com.android.runtime/lib64/bionic/libc.so!pthread_kill (0x0x796316e680) with /data/data/com.facebook.orca/lib-compressed/libappstatelogger2.so!<unknown> (0x0x764eb77d24)
+10-28 12:55:59.945 19056 19091 D fb-distract: Distracting /apex/com.android.runtime/lib64/bionic/libc.so!killpg (0x0x7963113e78) with /data/data/com.facebook.orca/lib-compressed/libappstatelogger2.so!<unknown> (0x0x764eb77d58)
+10-28 12:55:59.945 19056 19091 D fb-distract: Distracting /apex/com.android.runtime/lib64/bionic/libc.so!tgkill (0x0x7963159000) with /data/data/com.facebook.orca/lib-compressed/libappstatelogger2.so!<unknown> (0x0x764eb77dc0)
+10-28 12:55:59.945 19056 19091 D fb-distract: Distracting /apex/com.android.runtime/lib64/bionic/libc.so!_Exit (0x0x796315a4c0) with /data/data/com.facebook.orca/lib-compressed/libappstatelogger2.so!<unknown> (0x0x764eb77dfc)
+10-28 12:55:59.948 19056 19091 W lacrima : The minidump file is empty!
+10-28 12:55:59.951 19056 19091 W lacrima : Start AnrAppDeathDetector... X.0JR
+10-28 12:55:59.951 17800 17800 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230844/com.example.lunchtray:id/cauliflower>
+10-28 12:55:59.952   954  3923 D InputDispatcher: Inject motion (17800): action=0x0, time=851608747000000, f=0x0, d=0
+10-28 12:55:59.953   954  1162 I InputDispatcher: Delivering touch to (1348): action: 0x4, f=0x0, d=0, 'be23078', t=0
+10-28 12:55:59.953   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x0, f=0x0, d=0, '9c3c37f', t=0
+10-28 12:55:59.953  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3825@21, type = 1090523139
+10-28 12:55:59.953 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 0
+10-28 12:55:59.953  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3825@23, type = 1090523139
+10-28 12:55:59.954   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7397802  [3825 / 21]    HINT :      list : [TABoost / 5]
+10-28 12:55:59.954   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7405499  [3825 / 23]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+10-28 12:55:59.967 19056 19082 W DexLibLoader: disabling background optimization
+10-28 12:55:59.974 19056 19082 W dalvik-internals: sigaction64 succeeded
+10-28 12:55:59.975 19056 19082 D dalvik-internals: SuspendAndroid11: Found all symbols
+10-28 12:55:59.976 19056 19082 D dalvik-internals: SuspendAndroid11: Suspending threads.
+10-28 12:55:59.976 19056 19082 D dalvik-internals: SuspendAndroid11: Resuming threads.
+10-28 12:55:59.976 19056 19082 W dalvik-internals: ignoring failure to find _ZN3art12FaultManager35EnsureArtActionInFrontOfSignalChainEv: could not hook _ZN3art12FaultManager35EnsureArtActionInFrontOfSignalChainEv
+10-28 12:55:59.977 19056 19082 D fb-distract: Distracting /apex/com.android.art/lib64/libsigchain.so!signal (0x0x795d5b4838) with /data/data/com.facebook.orca/lib-compressed/libdexload.so!<unknown> (0x0x75d9f11ee4)
+10-28 12:55:59.977 19056 19082 V dalvik-internals: hooked signal using trap ()
+10-28 12:55:59.977 19056 19082 D fb-distract: Distracting /apex/com.android.art/lib64/libsigchain.so!sigaction (0x0x795d5b4548) with /data/data/com.facebook.orca/lib-compressed/libdexload.so!<unknown> (0x0x75d9f12060)
+10-28 12:55:59.977 19056 19082 V dalvik-internals: hooked sigaction using trap ()
+10-28 12:55:59.977 19056 19082 D dalvik-internals: SuspendAndroid11: Found all symbols
+10-28 12:55:59.977 19056 19082 D dalvik-internals: SuspendAndroid11: Suspending threads.
+10-28 12:55:59.978 19056 19082 V dalvik-internals: Hooking function _ZN3art11annotations16GetLineNumFromPCEPKNS_7DexFileEPNS_9ArtMethodEj
+10-28 12:55:59.978 19056 19082 D fb-distract: Distracting /apex/com.android.art/lib64/libart.so!_ZN3art11annotations16GetLineNumFromPCEPKNS_7DexFileEPNS_9ArtMethodEj (0x0x766bcfea20) with /data/data/com.facebook.orca/lib-compressed/libdexload.so!<unknown> (0x0x75d9f12750)
+10-28 12:55:59.979 19056 19082 V dalvik-internals: hooked _ZN3art11annotations16GetLineNumFromPCEPKNS_7DexFileEPNS_9ArtMethodEj using jump ()
+10-28 12:55:59.979 19056 19082 D dalvik-internals: SuspendAndroid11: Resuming threads.
+10-28 12:55:59.982 19056 19082 W MultiDexClassLoader: unable to use native MDCL: falling back to Java impl
+10-28 12:55:59.982 19056 19082 W MultiDexClassLoader: java.lang.Exception: MDCLAN bailing: Failed to start last time
+10-28 12:55:59.982 19056 19082 W MultiDexClassLoader: 	at com.facebook.common.dextricks.MultiDexClassLoaderArtNative.maybeBail(:66)
+10-28 12:55:59.982 19056 19082 W MultiDexClassLoader: 	at com.facebook.common.dextricks.MultiDexClassLoaderArtNative.<init>(:6)
+10-28 12:55:59.982 19056 19082 W MultiDexClassLoader: 	at com.facebook.common.dextricks.MultiDexClassLoader.createMultiDexClassLoader(:56)
+10-28 12:55:59.982 19056 19082 W MultiDexClassLoader: 	at com.facebook.common.dextricks.MultiDexClassLoader.install(:93)
+10-28 12:55:59.982 19056 19082 W MultiDexClassLoader: 	at com.facebook.common.dextricks.DexStore.loadDexFiles(:89)
+10-28 12:55:59.982 19056 19082 W MultiDexClassLoader: 	at com.facebook.common.dextricks.DexStore.loadAllImpl(:638)
+10-28 12:55:59.982 19056 19082 W MultiDexClassLoader: 	at com.facebook.common.dextricks.DexStore.loadAll(:1)
+10-28 12:55:59.982 19056 19082 W MultiDexClassLoader: 	at com.facebook.common.dextricks.DexLibLoader.loadAllImpl(:142)
+10-28 12:55:59.982 19056 19082 W MultiDexClassLoader: 	at com.facebook.common.dextricks.DexLibLoader.loadAll(:9)
+10-28 12:55:59.982 19056 19082 W MultiDexClassLoader: 	at com.facebook.common.dextricks.DexLibLoader.loadAll(:268435460)
+10-28 12:55:59.982 19056 19082 W MultiDexClassLoader: 	at X.0Qu.ANr(:1271)
+10-28 12:55:59.982 19056 19082 W MultiDexClassLoader: 	at X.0Rb.run(:2)
+10-28 12:55:59.984 19056 19082 W DexLibLoader: Comparing new 1666949910392 to old 1666949910392
+10-28 12:55:59.986 19056 19091 W MessengerLacrimaConfig: MessengerLacrimaConfig.laterInit
+10-28 12:55:59.992   954  3923 D InputDispatcher: Inject motion (17800): action=0x1, time=851608787000000, f=0x0, d=0
+10-28 12:55:59.993   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x1, f=0x0, d=0, '9c3c37f', t=1
+10-28 12:55:59.993 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 1
+10-28 12:56:00.001  1348  1960 D QSClockBellTower: onReceive(android.intent.action.TIME_TICK) mTimeZoneString:null
+10-28 12:56:00.002  1348  1348 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+10-28 12:56:00.003  1348  1348 D QSClockBellTower: He is ready to ring the bell. (((QSClockBellSound - TimeText:12:56, TimeContentDescription:12:56, DateText:Fri, October 28, ShortDateText:Fri, Oct 28, Demofalse)))
+10-28 12:56:00.003 19056 19091 W lacrima : Start AnrDetector... com.facebook.acra.anr.multisignal.MultiSignalANRDetector
+10-28 12:56:00.003 19056 19091 W MultiSignalANRDetectorLacrima: Starting
+10-28 12:56:00.003 19056 19091 W ProcessAnrErrorMonitor: startMonitoring with delay: 0
+10-28 12:56:00.004  1348  1348 D QSClockHomeIndicatorView: Home Indicator status_bar_clock notifyTimeChanged(QSClockBellSound - TimeText:12:56, TimeContentDescription:12:56, DateText:Fri, October 28, ShortDateText:Fri, Oct 28, Demofalse) ClockVisibleByPolicy:true, ClockVisibleByUser:true, visible?true, parent:android.widget.LinearLayout{9d29706 V.E...... ......ID 0,0-97,88 #7f0b0472 app:id/left_clock_container}
+10-28 12:56:00.004  1348  1348 D QSClockBellTower: Everyone heard the bell. run(currentTime:1666954560002,   getTime():Fri Oct 28 12:56:00 GMT+02:00 2022,   getTimeZone():libcore.util.ZoneInfo[mDstSavings=3600000,mUseDst=true,mDelegate=[id="Europe/Belgrade",mRawOffset=3600000,mEarliestRawOffset=4920000,transitions=121]])
+10-28 12:56:00.004  1348  1348 D KeyguardUpdateMonitor: handleTimeUpdate
+10-28 12:56:00.004  1348  1348 D FaceWidgetPagesController: onTimeChanged()
+10-28 12:56:00.004 19056 19083 W ComponentDiscovery: Class com.google.firebase.dynamicloading.DynamicLoadingRegistrar is not an found.
+10-28 12:56:00.017   954  1253 D SemNscXgbMsL1: Probability - Cloud gaming: [0.026405118]
+10-28 12:56:00.017   954  1253 D SemNscXgbMsL1: Probability - Real time: [0.012172791]
+10-28 12:56:00.017   954  1253 D SemNscXgbMsL1: Probability - Non real time: [0.9944792]
+10-28 12:56:00.017   954  1253 D SemNscXgbMsL1: 1 sample inference time: 0.255077 msecs
+10-28 12:56:00.017   954  1253 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 0.305692 msecs
+10-28 12:56:00.018   954  1253 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 0.261731 msecs
+10-28 12:56:00.018  1348  1348 D QS      : setQSExpansion 0.0 -113.924995
+10-28 12:56:00.019  1348  1348 D QS      : setQSExpansion 0.0 -113.924995
+10-28 12:56:00.019  1348  1348 V SecQSFragmentAnimatorBase: setQsExpansionPosition 0.0
+10-28 12:56:00.019  1348  1348 V QsExpandAnimator: setQsExpansionPosition 0.0 0
+10-28 12:56:00.019 19056 19101 W ProcessAnrErrorMonitor: Starting process monitor checks for process 'com.facebook.orca'
+10-28 12:56:00.019  1348  1348 D QS      : setQSExpansion 0.0 -113.924995
+10-28 12:56:00.020 19056 19101 W MultiSignalANRDetectorLacrima: Started monitoring
+10-28 12:56:00.020  1348  1348 D IndicatorGardenInputProperty: updateRotation() prv:-1 >> new:0
+10-28 12:56:00.020  1348  1348 D DeviceState: getDeviceResolutionPixelSize - currentDensity = 420 deviceDensity = 420 initialDisplaySizeFactor = 1440 currentDisplaySizeFactor = 1080 initialDisplayDensity = 560 proportionalDensity = 420 proportionalPixel = 66
+10-28 12:56:00.020  1348  1348 D DeviceState: getDeviceResolutionPixelSize - currentDensity = 420 deviceDensity = 420 initialDisplaySizeFactor = 1440 currentDisplaySizeFactor = 1080 initialDisplayDensity = 560 proportionalDensity = 420 proportionalPixel = 27
+10-28 12:56:00.020  1348  1348 D DeviceState: getDeviceResolutionPixelSize - currentDensity = 420 deviceDensity = 420 initialDisplaySizeFactor = 1440 currentDisplaySizeFactor = 1080 initialDisplayDensity = 560 proportionalDensity = 420 proportionalPixel = 24
+10-28 12:56:00.021  1348  1348 V QsExpandAnimator: updateAnimators
+10-28 12:56:00.021  1348  1348 V QsExpandAnimator: clearAnimationState
+10-28 12:56:00.022  1348  1348 V QsExpandAnimator: setQsExpansionPosition 0.0 0
+10-28 12:56:00.032   620   620 I SurfaceFlinger: SFWD update time=851608827066833
+10-28 12:56:00.048 19056 19091 D fb-distract: Distracting /apex/com.android.runtime/lib64/bionic/libc.so!abort (0x0x796310a2b8) with /data/data/com.facebook.orca/lib-compressed/libreliabilitymerged.so!<unknown> (0x0x764fc3087c)
+10-28 12:56:00.048 19056 19100 W SigquitDetectorLacrima: nativeInit
+10-28 12:56:00.051 19056 19091 D fb-distract: Distracting /system/lib64/liblog.so!__android_log_assert (0x0x7970ab4d08) with /data/data/com.facebook.orca/lib-compressed/libreliabilitymerged.so!<unknown> (0x0x764fc30728)
+10-28 12:56:00.055 19056 19091 D fb-distract: Distracting /apex/com.android.runtime/lib64/bionic/libc.so!android_set_abort_message (0x0x7963105c80) with /data/data/com.facebook.orca/lib-compressed/libreliabilitymerged.so!<unknown> (0x0x764fc30490)
+10-28 12:56:00.076 19056 19056 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+10-28 12:56:00.085 19056 19091 W msgr.NightwatchConfig: saveExitStatus true, useMmap true, monitorResources true, tickInfo 0, detectLmkd false, needNightWatch true
+10-28 12:56:00.091 19056 19091 D Nightwatch: Got fb jni native method for com/facebook/errorreporting/nightwatch/Nightwatch$NightwatchNative.nRecordDataInNightWatch (JI)I with native method: recordDataInNightWatch (0x7649c6ef1c). try use crit jni: no try use fast jni: no Used crit: no Used fast: no Used norm: yes crit jni supported: yes fast jni supported: no config is fast: no config is crit: no
+10-28 12:56:00.091 19056 19091 D Nightwatch: Got fb jni native method for com/facebook/errorreporting/nightwatch/Nightwatch$NightwatchNative.nRecordTickInNightWatch (JJJJ)I with native method: recordTickInNightWatch (0x7649c6ef18). try use crit jni: no try use fast jni: no Used crit: no Used fast: no Used norm: yes crit jni supported: yes fast jni supported: no config is fast: no config is crit: no
+10-28 12:56:00.091 19056 19091 D Nightwatch: Got fb jni native method for com/facebook/errorreporting/nightwatch/Nightwatch$NightwatchNative.nSaveResourceData ()Z with native method: saveResourceData (0x7649c6ef00). try use crit jni: no try use fast jni: no Used crit: no Used fast: no Used norm: yes crit jni supported: yes fast jni supported: no config is fast: no config is crit: no
+10-28 12:56:00.091 19056 19091 D _FB_    : Registering method com/facebook/errorreporting/nightwatch/Nightwatch$NightwatchNative.nRecordDataInNightWatch (JI)I with native method: recordDataInNightWatch (0x7649c6ef1c)
+10-28 12:56:00.091 19056 19091 D _FB_    : Succeeded registering method com/facebook/errorreporting/nightwatch/Nightwatch$NightwatchNative.nRecordDataInNightWatch (JI)I with native method: recordDataInNightWatch (0x7649c6ef1c)
+10-28 12:56:00.091 19056 19091 D _FB_    : Registering method com/facebook/errorreporting/nightwatch/Nightwatch$NightwatchNative.nRecordTickInNightWatch (JJJJ)I with native method: recordTickInNightWatch (0x7649c6ef18)
+10-28 12:56:00.091 19056 19091 D _FB_    : Succeeded registering method com/facebook/errorreporting/nightwatch/Nightwatch$NightwatchNative.nRecordTickInNightWatch (JJJJ)I with native method: recordTickInNightWatch (0x7649c6ef18)
+10-28 12:56:00.091 19056 19091 D _FB_    : Registering method com/facebook/errorreporting/nightwatch/Nightwatch$NightwatchNative.nSaveResourceData ()Z with native method: saveResourceData (0x7649c6ef00)
+10-28 12:56:00.091 19056 19091 D _FB_    : Succeeded registering method com/facebook/errorreporting/nightwatch/Nightwatch$NightwatchNative.nSaveResourceData ()Z with native method: saveResourceData (0x7649c6ef00)
+10-28 12:56:00.092 19056 19091 D Nightwatch: Starting NightWatch. Using fast [yes] or critical [yes] native methods
+10-28 12:56:00.092 19056 19091 D Nightwatch: NightWatch using: Binary path: /data/app/~~gGKxs4-vdAFYFZZ0Fk4dug==/com.facebook.orca-YrzPqbUUeHsoJUQxcYcCTg==/lib/arm64/libwatcher_binary.so log path: /data/data/com.facebook.orca/app_errorreporting/sess__000001207-1666954559865-3417465d-d73f-f088-6b47-bb9a036f9329/nightwatch.txt
+10-28 12:56:00.092 19056 19091 D Nightwatch: Got fb jni native method for com/facebook/errorreporting/nightwatch/NightwatchOreo.nRecordDataInNightWatch (IIJI)I with native method: recordDataInNightWatch_64_type_adaptor__ ::adaptor_func (0x7649c6ef3c). try use crit jni: yes try use fast jni: no Used crit: yes Used fast: no Used norm: no crit jni supported: yes fast jni supported: no config is fast: no config is crit: yes
+10-28 12:56:00.092 19056 19091 D Nightwatch: Got fb jni native method for com/facebook/errorreporting/nightwatch/NightwatchOreo.nRecordTickInNightWatch (IIJJJJ)I with native method: recordTickInNightWatch_64_type_adaptor__ ::adaptor_func (0x7649c6ef38). try use crit jni: yes try use fast jni: no Used crit: yes Used fast: no Used norm: no crit jni supported: yes fast jni supported: no config is fast: no config is crit: yes
+10-28 12:56:00.092 19056 19091 D Nightwatch: Got fb jni native method for com/facebook/errorreporting/nightwatch/NightwatchOreo.nSaveResourceData (II)Z with native method: saveResourceData_64_type_adaptor__ ::adaptor_func (0x7649c6ef20). try use crit jni: yes try use fast jni: no Used crit: yes Used fast: no Used norm: no crit jni supported: yes fast jni supported: no config is fast: no config is crit: yes
+10-28 12:56:00.092 19056 19091 D _FB_    : Registering method com/facebook/errorreporting/nightwatch/NightwatchOreo.nRecordDataInNightWatch (IIJI)I with native method: recordDataInNightWatch_64_type_adaptor__ ::adaptor_func (0x7649c6ef3c)
+10-28 12:56:00.092 19056 19091 D _FB_    : Succeeded registering method com/facebook/errorreporting/nightwatch/NightwatchOreo.nRecordDataInNightWatch (IIJI)I with native method: recordDataInNightWatch_64_type_adaptor__ ::adaptor_func (0x7649c6ef3c)
+10-28 12:56:00.092 19056 19091 D _FB_    : Registering method com/facebook/errorreporting/nightwatch/NightwatchOreo.nRecordTickInNightWatch (IIJJJJ)I with native method: recordTickInNightWatch_64_type_adaptor__ ::adaptor_func (0x7649c6ef38)
+10-28 12:56:00.092 19056 19091 D _FB_    : Succeeded registering method com/facebook/errorreporting/nightwatch/NightwatchOreo.nRecordTickInNightWatch (IIJJJJ)I with native method: recordTickInNightWatch_64_type_adaptor__ ::adaptor_func (0x7649c6ef38)
+10-28 12:56:00.092 19056 19091 D _FB_    : Registering method com/facebook/errorreporting/nightwatch/NightwatchOreo.nSaveResourceData (II)Z with native method: saveResourceData_64_type_adaptor__ ::adaptor_func (0x7649c6ef20)
+10-28 12:56:00.092 19056 19091 D _FB_    : Succeeded registering method com/facebook/errorreporting/nightwatch/NightwatchOreo.nSaveResourceData (II)Z with native method: saveResourceData_64_type_adaptor__ ::adaptor_func (0x7649c6ef20)
+10-28 12:56:00.095 19056 19091 I nightwatch-lib: watcher succeeded mmap /data/data/com.facebook.orca/app_errorreporting/sess__000001207-1666954559865-3417465d-d73f-f088-6b47-bb9a036f9329/nightwatch.txt.subsecond
+10-28 12:56:00.096 19056 19091 I nightwatch-lib: watcher succeeded mmap /data/data/com.facebook.orca/app_errorreporting/sess__000001207-1666954559865-3417465d-d73f-f088-6b47-bb9a036f9329/nightwatch.txt.second
+10-28 12:56:00.097 19056 19056 W msgr.OnApplicationInitInvoker: Ignored missing AppInit dependency: 38:Fb4aUIQREnvironment
+10-28 12:56:00.097 19056 19056 W msgr.OnApplicationInitInvoker: Ignored missing AppInit dependency: 131:NetworkEagerInit
+10-28 12:56:00.097 19056 19056 W msgr.OnApplicationInitInvoker: Ignored missing AppInit dependency: 139:PreloadWordmark
+10-28 12:56:00.098 19056 19091 I nightwatch-lib: watcher succeeded mmap /data/data/com.facebook.orca/app_errorreporting/sess__000001207-1666954559865-3417465d-d73f-f088-6b47-bb9a036f9329/nightwatch.txt
+10-28 12:56:00.098 19056 19091 D nightwatch-fd: Attempting to open file /proc/self/oom_adj
+10-28 12:56:00.099 19056 19091 D nightwatch-fd: Opened file /proc/self/oom_adj (91)
+10-28 12:56:00.099 19056 19091 D nightwatch-fd: Attempting to open file /proc/self/oom_score_adj
+10-28 12:56:00.099 19056 19091 D nightwatch-fd: Opened file /proc/self/oom_score_adj (92)
+10-28 12:56:00.102 19056 19091 I nightwatch-target: created thread to monitor process resources
+10-28 12:56:00.110 19056 19111 W Profilo/TraceControl: START PROFILO_TRACEID: HJ9NcT8yOhx
+10-28 12:56:00.112 19056 19120 D nightwatch-fd: Attempting to open file /proc/self/oom_score
+10-28 12:56:00.114 19056 19120 D nightwatch-fd: Opened file /proc/self/oom_score (96)
+10-28 12:56:00.117 19056 19120 I nightwatch-target: monitor resources interval 20 ms
+10-28 12:56:00.118 19056 19120 E nightwatch-target: /proc/zoneinfo open: errno=13
+10-28 12:56:00.119 19056 19120 E nightwatch-target: sysmeminfo parse failed
+10-28 12:56:00.147 19056 19120 E nightwatch-target: /proc/zoneinfo open: errno=13
+10-28 12:56:00.147 19056 19120 E nightwatch-target: sysmeminfo parse failed
+10-28 12:56:00.150 19056 19121 I nightwatch-target: waiting on child pid 19125
+10-28 12:56:00.177 19125 19125 I nightwatch-watcher: I have arisen! pid: 19125
+10-28 12:56:00.177 19125 19125 I nightwatch-lib: watcher succeeded mmap /data/data/com.facebook.orca/app_errorreporting/sess__000001207-1666954559865-3417465d-d73f-f088-6b47-bb9a036f9329/nightwatch.txt
+10-28 12:56:00.178 19125 19125 I nightwatch-watcher: attached to tid 19121 in pid 19056, ptrace_ret: 0
+10-28 12:56:00.178 19125 19125 D nightwatch-fd: Attempting to open file /proc/19056/oom_adj
+10-28 12:56:00.178 19125 19125 D nightwatch-fd: Opened file /proc/19056/oom_adj (5)
+10-28 12:56:00.178 19125 19125 D nightwatch-fd: Attempting to open file /proc/19056/oom_score_adj
+10-28 12:56:00.178 19125 19125 D nightwatch-fd: Opened file /proc/19056/oom_score_adj (6)
+10-28 12:56:00.178 19125 19125 I nightwatch-watcher: target tid 19121 stopped with signal 19. continuing and delivering signal 0
+10-28 12:56:00.223 19056 19056 W msgr.QuickPerformanceLoggerModule: Providing QPL...
+10-28 12:56:00.245 19056 19056 W msgr.SadDataOverlayUtils: No data to parse in MC.android_internal_sad_data_overlay.thresholds
+10-28 12:56:00.251 17800 17800 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231080/com.example.lunchtray:id/next_button>
+10-28 12:56:00.254   954  1401 D InputDispatcher: Inject motion (17800): action=0x0, time=851609048000000, f=0x0, d=0
+10-28 12:56:00.254   954  1162 I InputDispatcher: Delivering touch to (1348): action: 0x4, f=0x0, d=0, 'be23078', t=0
+10-28 12:56:00.254   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x0, f=0x0, d=0, '9c3c37f', t=0
+10-28 12:56:00.255  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3825@21, type = 1090523139
+10-28 12:56:00.255  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3825@23, type = 1090523139
+10-28 12:56:00.255 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 0
+10-28 12:56:00.257   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7397802  [3825 / 21]    HINT :      list : [TABoost / 5]
+10-28 12:56:00.257   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7405499  [3825 / 23]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+10-28 12:56:00.267  8198  8421 I AppsEdge.Badge: getBadgeIconType 0
+10-28 12:56:00.269  2308 13564 I BadgeProvider: query, [selection] : null
+10-28 12:56:00.289   954  1259 D SemWifiSwitchForIndividualAppsService: isPackageException - result:3, com.example.lunchtray
+10-28 12:56:00.295   954  1401 D InputDispatcher: Inject motion (17800): action=0x1, time=851609089000000, f=0x0, d=0
+10-28 12:56:00.295   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x1, f=0x0, d=0, '9c3c37f', t=1
+10-28 12:56:00.295 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 1
+10-28 12:56:00.305 19056 19115 W msgr.EndToEndAnalyticsEventListener: WRITE_ANALYTICS_TO_LOGCAT = null, EndToEnd.isRunningEndToEndTest() = false
+10-28 12:56:00.309 17800 17800 D ScrollView: initGoToTop
+10-28 12:56:00.315 19056 19119 E FeatureUtil: filePath /product/omc/SEE/system/customer_carrier_feature.json carrierGroup SEE canonicalId -1
+10-28 12:56:00.316 19056 19119 D SemCarrierFeature: update carrier default features : 0
+10-28 12:56:00.316 19056 19119 D SemCarrierFeature: update carrier features : 0:30581
+10-28 12:56:00.316 19056 19119 E FeatureUtil: filePath /product/omc/SEE/system/customer_carrier_feature.json carrierGroup SEE canonicalId 30581
+10-28 12:56:00.317 19056 19119 E FeatureUtil: filePath /product/omc/SEE/system/customer_carrier_feature.json carrierGroup SEE canonicalId -1
+10-28 12:56:00.319 19056 19119 D SemCarrierFeature: update carrier default features : 1
+10-28 12:56:00.319 19056 19119 D SemCarrierFeature: update carrier features : 1:-1
+10-28 12:56:00.319 19056 19119 E FeatureUtil: filePath /product/omc/SEE/system/customer_carrier_feature.json carrierGroup SEE canonicalId -1
+10-28 12:56:00.320 19056 19111 W msgr.FrscLanguagePackLoader: Loading FRSC strings for locale (en)
+10-28 12:56:00.322 19056 19115 W msgr.AppStateLoggerCore: Application needs to be registered before setting app state manager bridge
+10-28 12:56:00.333 19056 19056 W msgr.QuickPerformanceLoggerModule: Provided QPL: 192876326
+10-28 12:56:00.343 17800 17800 D ScrollView:  onsize change changed
+10-28 12:56:00.353 19056 19145 W msgr.FrscLanguagePackLoader: FRSC English strings buffer size - (limit : 395272, capacity : 395272)
+10-28 12:56:00.357 19056 19138 W m.facebook.orc: Accessing hidden method Lcom/samsung/android/os/SemPerfManager;->onScrollEvent(Z)V (blocked, reflection, denied)
+10-28 12:56:00.388   566 18956 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 472896
+10-28 12:56:00.439 19056 19091 W msgr.crashloop: CrashLoopDetector... start
+10-28 12:56:00.486 19056 19098 D fb-distract: Distracting /apex/com.android.art/lib64/libart.so!_ZN3art13SignalCatcher6OutputERKNSt3__112basic_stringIcNS1_11char_traitsIcEENS1_9allocatorIcEEEE (0x0x766c056590) with /data/data/com.facebook.orca/lib-compressed/libsigquit.so!<unknown> (0x0x7649cb8f24)
+10-28 12:56:00.520   954  1253 D SemNscXgbMsL1: Probability - Cloud gaming: [0.054481488]
+10-28 12:56:00.520   954  1253 D SemNscXgbMsL1: Probability - Real time: [0.032798678]
+10-28 12:56:00.521   954  1253 D SemNscXgbMsL1: Probability - Non real time: [0.9882852]
+10-28 12:56:00.521   954  1253 D SemNscXgbMsL1: 1 sample inference time: 1.848346 msecs
+10-28 12:56:00.523   954  1253 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.810231 msecs
+10-28 12:56:00.525   954  1253 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.4895 msecs
+10-28 12:56:00.561 19056 19139 W m.facebook.orc: JNI RegisterNativeMethods: attempt to register 0 native methods for com.facebook.msys.mci.EventLoggingData
+10-28 12:56:00.566 19056 19139 W msgr.ZoneModule: Policy Zone is disabled. No-op Zone is returned
+10-28 12:56:00.579 17800 17800 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231137/com.example.lunchtray:id/salad>
+10-28 12:56:00.585   954  1401 D InputDispatcher: Inject motion (17800): action=0x0, time=851609377000000, f=0x0, d=0
+10-28 12:56:00.586   954  1162 I InputDispatcher: Delivering touch to (1348): action: 0x4, f=0x0, d=0, 'be23078', t=0
+10-28 12:56:00.586   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x0, f=0x0, d=0, '9c3c37f', t=0
+10-28 12:56:00.588 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 0
+10-28 12:56:00.589  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3825@21, type = 1090523139
+10-28 12:56:00.589  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3825@23, type = 1090523139
+10-28 12:56:00.589   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7397802  [3825 / 21]    HINT :      list : [TABoost / 5]
+10-28 12:56:00.589   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7405499  [3825 / 23]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+10-28 12:56:00.627   954  1401 D InputDispatcher: Inject motion (17800): action=0x1, time=851609420000000, f=0x0, d=0
+10-28 12:56:00.627   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x1, f=0x0, d=0, '9c3c37f', t=1
+10-28 12:56:00.629 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 1
+10-28 12:56:00.812 19056 19139 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+10-28 12:56:00.872   566 18952 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 7370894
+10-28 12:56:00.891 17800 17800 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231080/com.example.lunchtray:id/next_button>
+10-28 12:56:00.895   954  1401 D InputDispatcher: Inject motion (17800): action=0x0, time=851609688000000, f=0x0, d=0
+10-28 12:56:00.895   954  1162 I InputDispatcher: Delivering touch to (1348): action: 0x4, f=0x0, d=0, 'be23078', t=0
+10-28 12:56:00.895   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x0, f=0x0, d=0, '9c3c37f', t=0
+10-28 12:56:00.896 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 0
+10-28 12:56:00.897  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3825@21, type = 1090523139
+10-28 12:56:00.897  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3825@23, type = 1090523139
+10-28 12:56:00.898   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7397802  [3825 / 21]    HINT :      list : [TABoost / 5]
+10-28 12:56:00.898   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7405499  [3825 / 23]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+10-28 12:56:00.903 26660 26792 I QuickstepModelDelegate: Widget predictions updated
+10-28 12:56:00.916 26660 26793 I WidgetsPredictionUpdateTask: execute(), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.widgetapp.digitalclock.DigitalClockWidgetProvider} screen=-1 cell(-1,-1) span(2,1) minSpan(2,1) rank=0 rankOfList=-1 user=UserHandle{0} title=null hidden=0 screenType=0 componentName=ComponentInfo{com.sec.android.app.clockpackage/com.sec.android.widgetapp.digitalclock.DigitalClockWidgetProvider}), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{com.google.android.gm/com.google.android.gm.widget.GmailWidgetProvider} screen=-1 cell(-1,-1) span(3,2) minSpan(2,2) rank=0 rankOfList=-1 user=UserHandle{0} title=null hidden=0 screenType=0 componentName=ComponentInfo{com.google.android.gm/com.google.android.gm.widget.GmailWidgetProvider}), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{org.telegram.messenger/org.telegram.messenger.ContactsWidgetProvider} screen=-1 cell(-1,-1) span(2,2) minSpan(2,1) rank=0 rankOfList=-1 user=UserHandle{0} title=null hidden=0 screenType=0 componentName=ComponentInfo{org.telegram.messenger/org.telegram.messenger.ContactsWidgetProvider}), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{deezer.android.app/com.deezer.android.appwidget.ShortcutFlowAppWidgetProvider} screen=-1 cell(-1,-1) span(1,1) minSpan(1,1) rank=0 rankOfList=-1 user=UserHandle{0} title=null hidden=0 screenType=0 componentName=ComponentInfo{deezer.android.app/com.deezer.android.appwidget.ShortcutFlowAppWidgetProvider}), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{com.android.chrome/org.chromium.chrome.browser.searchwidget.SearchWidgetProvider} screen=-1 cell(-1,-1) span(3,1) minSpan(3,1) rank=0 rankOfList=-1 user=UserHandle{0} title=null hidden=0 screenType=0 componentName=ComponentInfo{com.android.chrome/org.chromium.chrome.browser.searchwidget.SearchWidgetProvider}), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{com.google.android.apps.maps/com.google.android.apps.gmm.widget.traffic.TrafficWidgetProvider} screen=-1 cell(-1,-1) span(3,2) minSpan(2,2) rank=0 rankOfList=-1 user=UserHandle{0} title=null hidden=0 screenType=0 componentName=ComponentInfo{com.google.android.apps.maps/com.google.android.apps.gmm.widget.traffic.TrafficWidgetProvider}), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{com.trello/com.trello.widget.MyCardsWidgetProvider} screen=-1 cell(-1,-1) span(3,3) minSpan(3,2) rank=0 rankOfList=-1 user=UserHandle{0} title=null hidden=0 screenType=0 componentName=ComponentInfo{com.trello/com.trello.widget.MyCardsWidgetProvider}), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{hr.asseco.android.jimba.mUCI.rs/hr.asseco.android.muci.ui.appwidget.FastCheckWidget} screen=-1 cell(-1,-1) span(4,2) minSpan(4,2) rank=0 rankOfList=-1 user=UserHandle{0} title=null hidden=0 screenType=0 componentName=ComponentInfo{hr.asseco.android.jimba.mUCI.rs/hr.asseco.android.muci.ui.appwidget.FastCheckWidget}), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{com.whatsapp/com.whatsapp.appwidget.WidgetProvider} screen=-1 cell(-1,-1) span(4,2) minSpan(1,1) rank=0 rankOfList=-1 user=UserHandle{0} title=null hidden=0 screenType=0 componentName=ComponentInfo{com.whatsapp/com.whatsapp.appwidge
+10-28 12:56:00.928 19056 19166 W msgr.msys: W[D setup]_MCIDatabaseConnectionExecute(498)=>Ignoring invocation of 'MCIDatabaseConnectionExecute()' connection is NULL
+10-28 12:56:00.936   954  3923 D InputDispatcher: Inject motion (17800): action=0x1, time=851609730000000, f=0x0, d=0
+10-28 12:56:00.937   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x1, f=0x0, d=0, '9c3c37f', t=1
+10-28 12:56:00.937 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 1
+10-28 12:56:00.939 19056 19166 E msgr.msys: E[D SqliteError]sqliteErrorLogCallback(363)=>(283) recovered 270 frames from WAL file /data/data/com.facebook.orca/databases/msys_database_100000537475601-wal
+10-28 12:56:00.940 19056 19166 E msgr.msys: E[D SqliteError]sqliteErrorLogCallback(363)=>(28) double-quoted string literal: "sqlite_%"
+10-28 12:56:00.940 19056 19166 E msgr.msys: E[D SqliteError]sqliteErrorLogCallback(363)=>(28) double-quoted string literal: "table"
+10-28 12:56:00.956   511   511 E audit   : type=1400 audit(1666954560.949:342553): avc:  granted  { execute } for  pid=19056 comm="DiskIOContext" path="/data/data/com.facebook.orca/lib-compressed/libmsys_mailbox_messenger_config.so" dev="sda31" ino=3284728 scontext=u:r:untrusted_app:s0:c24,c259,c512,c768 tcontext=u:object_r:app_data_file:s0:c24,c259,c512,c768 tclass=file SEPF_SM-G973F_12_0001 audit_filtered
+10-28 12:56:00.956   511   511 E audit   : type=1300 audit(1666954560.949:342553): arch=c00000b7 syscall=222 success=yes exit=507998339072 a0=76470f8000 a1=9b0 a2=5 a3=12 items=0 ppid=531 pid=19056 auid=4294967295 uid=10792 gid=10792 euid=10792 suid=10792 fsuid=10792 egid=10792 sgid=10792 fsgid=10792 tty=(none) ses=4294967295 comm="DiskIOContext" exe="/system/bin/app_process64" subj=u:r:untrusted_app:s0:c24,c259,c512,c768 key=(null)
+10-28 12:56:00.956   511   511 E audit   : type=1327 audit(1666954560.949:342553): proctitle="com.facebook.orca"
+10-28 12:56:00.969 17800 17800 D ScrollView: initGoToTop
+10-28 12:56:00.973 19056 19166 E msgr.msys: E[D SqliteError]sqliteErrorLogCallback(363)=>(28) double-quoted string literal: "table"
+10-28 12:56:00.973 19056 19166 E msgr.msys: E[D SqliteError]sqliteErrorLogCallback(363)=>(28) double-quoted string literal: "avatar_effect_generation_errors"
+10-28 12:56:01.010 17800 17800 D ScrollView:  onsize change changed
+10-28 12:56:01.027   954  1253 D SemNscXgbMsL1: Probability - Cloud gaming: [0.006599746]
+10-28 12:56:01.027   954  1253 D SemNscXgbMsL1: Probability - Real time: [0.07095163]
+10-28 12:56:01.027   954  1253 D SemNscXgbMsL1: Probability - Non real time: [0.98216736]
+10-28 12:56:01.027   954  1253 D SemNscXgbMsL1: 1 sample inference time: 1.133462 msecs
+10-28 12:56:01.030   954  1253 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.095654 msecs
+10-28 12:56:01.032   954  1253 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.395153 msecs
+10-28 12:56:01.035   620   620 I SurfaceFlinger: SFWD update time=851609830739256
+10-28 12:56:01.159 19056 19120 E nightwatch-target: /proc/zoneinfo open: errno=13
+10-28 12:56:01.159 19056 19120 E nightwatch-target: sysmeminfo parse failed
+10-28 12:56:01.159   511   511 E audit   : type=1400 audit(1666954561.153:342554): avc:  denied  { read } for  pid=19056 comm="Lacrima_startup" name="zoneinfo" dev="proc" ino=4026531860 scontext=u:r:untrusted_app:s0:c24,c259,c512,c768 tcontext=u:object_r:proc_zoneinfo:s0 tclass=file permissive=0 SEPF_SM-G973F_12_0001 audit_filtered
+10-28 12:56:01.214   954  1115 I SensorService: [REARLIGHT] lux value : 81, code value : 0
+10-28 12:56:01.239 17800 17800 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230835/com.example.lunchtray:id/bread>
+10-28 12:56:01.243   954  3923 D InputDispatcher: Inject motion (17800): action=0x0, time=851610035000000, f=0x0, d=0
+10-28 12:56:01.243   954  1162 I InputDispatcher: Delivering touch to (1348): action: 0x4, f=0x0, d=0, 'be23078', t=0
+10-28 12:56:01.243   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x0, f=0x0, d=0, '9c3c37f', t=0
+10-28 12:56:01.244 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 0
+10-28 12:56:01.244 19056 19166 E msgr.msys: E[D SqliteError]sqliteErrorLogCallback(363)=>(11) database corruption at line 28736 of [872ba256cb]
+10-28 12:56:01.245  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3825@21, type = 1090523139
+10-28 12:56:01.245  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3825@23, type = 1090523139
+10-28 12:56:01.246 19056 19166 E msgr.msys: E[D SqliteError]sqliteErrorLogCallback(363)=>(11) database corruption at line 28736 of [872ba256cb]
+10-28 12:56:01.246   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7397802  [3825 / 21]    HINT :      list : [TABoost / 5]
+10-28 12:56:01.246   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7405499  [3825 / 23]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+10-28 12:56:01.247 19056 19166 E msgr.msys: E[D SqliteError]sqliteErrorLogCallback(363)=>(11) database corruption at line 28736 of [872ba256cb]
+10-28 12:56:01.249 19056 19166 E msgr.msys: E[D SqliteError]sqliteErrorLogCallback(363)=>(11) database corruption at line 28736 of [872ba256cb]
+10-28 12:56:01.250 19056 19166 E msgr.msys: E[D SqliteError]sqliteErrorLogCallback(363)=>(11) database corruption at line 28736 of [872ba256cb]
+10-28 12:56:01.251 19056 19166 E msgr.msys: E[D SqliteError]sqliteErrorLogCallback(363)=>(11) database corruption at line 28736 of [872ba256cb]
+10-28 12:56:01.257 19056 19166 E msgr.msys: E[D SqliteError]sqliteErrorLogCallback(363)=>(11) database corruption at line 28736 of [872ba256cb]
+10-28 12:56:01.259 19056 19166 E msgr.msys: E[D SqliteError]sqliteErrorLogCallback(363)=>(11) database corruption at line 28736 of [872ba256cb]
+10-28 12:56:01.260 19056 19166 E msgr.msys: E[D SqliteError]sqliteErrorLogCallback(363)=>(11) database corruption at line 28736 of [872ba256cb]
+10-28 12:56:01.261 19056 19166 E msgr.msys: E[D SqliteError]sqliteErrorLogCallback(363)=>(11) database corruption at line 28736 of [872ba256cb]
+10-28 12:56:01.283   954  3923 D InputDispatcher: Inject motion (17800): action=0x1, time=851610076000000, f=0x0, d=0
+10-28 12:56:01.283   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x1, f=0x0, d=0, '9c3c37f', t=1
+10-28 12:56:01.284 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 1
+10-28 12:56:01.364   954  1244 D SemCellularStateManager: onSignalStrengthsChanged: mCellularSignalLevel=3
+10-28 12:56:01.366  1348  1502 D MobileStatusTracker(0/1): onSignalStrengthsChanged signalStrength=SignalStrength:{mCdma=Invalid,mGsm=Invalid,mWcdma=Invalid,mTdscdma=Invalid,mLte=CellSignalStrengthLte: rssi=-105 rsrp=-105 rsrq=-17 rssnr=-6 cqiTableIndex=2147483647 cqi=4 ta=2147483647 level=3 parametersUseForLevel=0,mNr=Invalid,SignalBarInfo{ lteLevel=2 },rat=14,primary=CellSignalStrengthLte} level=2
+10-28 12:56:01.366  1348  1502 D CscParser: OMC path : /product/omc/SEE/conf/customer.xml
+10-28 12:56:01.366  1348  1502 I CscParser: getCustomerPath : omc customer file can read
+10-28 12:56:01.366  1348  1502 E CscParser: update(): xml file exist
+10-28 12:56:01.373  1348  1502 D NetworkController: SignalStrength from intent slotId=0
+10-28 12:56:01.376 19056 19166 E msgr.msys: E[D SqliteError]sqliteErrorLogCallback(363)=>(11) database corruption at line 28736 of [872ba256cb]
+10-28 12:56:01.394 19056 19139 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+10-28 12:56:01.456   954  2451 D PackageManager: setEnabledSetting : userId = 0 packageName = com.facebook.orca cmp = com.facebook.mqttlite.MqttService newState = 1 callingPackage = 10792/com.facebook.orca
+10-28 12:56:01.470 19056 19175 D CompatibilityChangeReporter: Compat change id reported: 160794467; UID 10792; state: ENABLED
+10-28 12:56:01.525 19056 19167 W m.facebook.orc: JNI RegisterNativeMethods: attempt to register 0 native methods for com.facebook.omnistore.OmnistoreCollectionFrontendHolder
+10-28 12:56:01.534   954  1253 D SemNscXgbMsL1: Probability - Cloud gaming: [0.009767771]
+10-28 12:56:01.534   954  1253 D SemNscXgbMsL1: Probability - Real time: [0.011334045]
+10-28 12:56:01.535   954  1253 D SemNscXgbMsL1: Probability - Non real time: [0.9734571]
+10-28 12:56:01.535   954  1253 D SemNscXgbMsL1: 1 sample inference time: 1.276 msecs
+10-28 12:56:01.537   954  1253 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.423961 msecs
+10-28 12:56:01.538   954  1253 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.197461 msecs
+10-28 12:56:01.541 17800 17800 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231080/com.example.lunchtray:id/next_button>
+10-28 12:56:01.544   954  3923 D InputDispatcher: Inject motion (17800): action=0x0, time=851610337000000, f=0x0, d=0
+10-28 12:56:01.544   954  1162 I InputDispatcher: Delivering touch to (1348): action: 0x4, f=0x0, d=0, 'be23078', t=0
+10-28 12:56:01.544   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x0, f=0x0, d=0, '9c3c37f', t=0
+10-28 12:56:01.545 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 0
+10-28 12:56:01.547  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3825@21, type = 1090523139
+10-28 12:56:01.547  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3825@23, type = 1090523139
+10-28 12:56:01.547   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7397802  [3825 / 21]    HINT :      list : [TABoost / 5]
+10-28 12:56:01.547   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7405499  [3825 / 23]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+10-28 12:56:01.553 19056 19167 E msgr.msys: E[N data-request]_HandleDataResponse(1574)=>Data request error: (null): Error Domain=mqtt Code=2002 UserInfo=0x771d25dcd0 {MCFErrorDirectDescriptionKey=SEND_FAILURE}
+10-28 12:56:01.554 19056 19167 E msgr.msys: E[N rtchannel]_rt_mqtt_publish_callback(441)=>Failed to publish the request over MQTT. token:a06cc6b2-7cd5-43ab-983a-81a30627d01f, category:mcd-send-data-task-category, requestId:51850, error:Error Domain=mqtt Code=2002 UserInfo=0x771d25dcd0 {MCFErrorDirectDescriptionKey=SEND_FAILURE}
+10-28 12:56:01.554 19056 19167 E msgr.msys: E[N rtchannel]_rt_mqtt_publish_callback(441)=>Failed to publish the request over MQTT. token:1dccc918-5152-4783-b5f9-d9f0fbeaf8b2, category:mcd-sync-data-task-category, requestId:98, error:Error Domain=mqtt Code=2002 UserInfo=0x771d298cb0 {MCFErrorDirectDescriptionKey=SEND_FAILURE}
+10-28 12:56:01.556 19056 19166 E msgr.msys: E[S task_queue_handling]MCDLightSpeedTaskExecutorNetworkCompletionCallback(944)=>Handling send error for taskId=34 batchSize=5 queue=contact_sharing_settings
+10-28 12:56:01.564 19056 19166 W msgr.msys: W[S task_queue_processing]_MCDTaskCoordinatorMaybeScheduleQueueProcessing(203)=>Scheduling queue contact_sharing_settings for reprocessing in 1 seconds
+10-28 12:56:01.584   954  1271 D NetdEventListenerService: DNS Requested by : 245, 10792, 0
+10-28 12:56:01.584   954  1844 D InputDispatcher: Inject motion (17800): action=0x1, time=851610377000000, f=0x0, d=0
+10-28 12:56:01.584   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x1, f=0x0, d=0, '9c3c37f', t=1
+10-28 12:56:01.585 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 1
+10-28 12:56:01.600 17800 17800 D ScrollView: initGoToTop
+10-28 12:56:01.629 17800 17800 D ScrollView:  onsize change changed
+10-28 12:56:01.812   954  1115 I SensorService: [REARLIGHT] lux value : 82, code value : 0
+10-28 12:56:01.816   566 18678 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 1314010
+10-28 12:56:01.827 19056 19066 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: X.04C
+10-28 12:56:01.827 19056 19066 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+10-28 12:56:01.858 17800 17800 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230842/com.example.lunchtray:id/cancel_button>
+10-28 12:56:01.861   954  1844 D InputDispatcher: Inject motion (17800): action=0x0, time=851610654000000, f=0x0, d=0
+10-28 12:56:01.862   954  1162 I InputDispatcher: Delivering touch to (1348): action: 0x4, f=0x0, d=0, 'be23078', t=0
+10-28 12:56:01.862   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x0, f=0x0, d=0, '9c3c37f', t=0
+10-28 12:56:01.863 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 0
+10-28 12:56:01.865  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3825@21, type = 1090523139
+10-28 12:56:01.865  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3825@23, type = 1090523139
+10-28 12:56:01.865   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7397802  [3825 / 21]    HINT :      list : [TABoost / 5]
+10-28 12:56:01.866   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7405499  [3825 / 23]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+10-28 12:56:01.901   954  1844 D InputDispatcher: Inject motion (17800): action=0x1, time=851610694000000, f=0x0, d=0
+10-28 12:56:01.902   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x1, f=0x0, d=0, '9c3c37f', t=1
+10-28 12:56:01.903 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 1
+10-28 12:56:01.932   954  1844 V WindowManager: Relayout Window{9c3c37f u0 com.example.lunchtray/com.example.lunchtray.MainActivity}: viewVisibility=0 req=1080x2280 d0
+10-28 12:56:01.940   954  1844 V WindowManager: Relayout hash=9c3c37f, pid=17800: mAttrs={(0,0)(fillxfill) sim={adjust=pan} ty=BASE_APPLICATION wanim=0x1030303
+10-28 12:56:01.940   954  1844 V WindowManager:   fl=81810100
+10-28 12:56:01.940   954  1844 V WindowManager:   pfl=12020040
+10-28 12:56:01.940   954  1844 V WindowManager:   apr=LIGHT_NAVIGATION_BARS
+10-28 12:56:01.940   954  1844 V WindowManager:   bhv=DEFAULT
+10-28 12:56:01.940   954  1844 V WindowManager:   fitSides= naviIconColor=0
+10-28 12:56:01.940   954  1844 V WindowManager:   sfl=100000}
+10-28 12:56:01.943 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=10 res=0x1 s={true 515080419504} ch=false fn=79
+10-28 12:56:02.041   954  1253 D SemNscXgbMsL1: Probability - Cloud gaming: [0.019668946]
+10-28 12:56:02.042   954  1253 D SemNscXgbMsL1: Probability - Real time: [0.0073882216]
+10-28 12:56:02.043   954  1253 D SemNscXgbMsL1: Probability - Non real time: [0.9799747]
+10-28 12:56:02.043   954  1253 D SemNscXgbMsL1: 1 sample inference time: 2.597692 msecs
+10-28 12:56:02.046   954  1253 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.514577 msecs
+10-28 12:56:02.048   954  1253 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.793846 msecs
+10-28 12:56:02.050 19056 19098 W msgr.MultiSignalANRDetectorLacrima: Pausing error state checks
+10-28 12:56:02.144 24288 16695 D ConnectivityManager: StackLog: [android.net.ConnectivityManager.unregisterNetworkCallback(ConnectivityManager.java:4598)] [vrc.run(:com.google.android.gms@224113044@22.41.13 (190400-480714934):15)] [zyp.run(:com.google.android.gms@224113044@22.41.13 (190400-480714934):5)] [java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)] [java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)] [aadw.run(:com.google.android.gms@224113044@22.41.13 (190400-480714934):0)] [java.lang.Thread.run(Thread.java:920)]
+10-28 12:56:02.146 24288 16695 I CastDatabase: Saving the database
+10-28 12:56:02.157 24288 16695 I SQLiteCastStore: [CastNetworkInfo] saved: 1, skipped: 0, [CastDeviceInfo]: saved 1, skipped 0, [Paired Guest Mode DeviceInfo] saved: 0, skipped: 0. [ProbedNetworks]: saved 0, skipped: 0, [ProbedSocketAddress]: saved 4, skipped: 0, [Network-Device pairs]: saved: 1
+10-28 12:56:02.161 19056 19120 E nightwatch-target: /proc/zoneinfo open: errno=13
+10-28 12:56:02.162 19056 19120 E nightwatch-target: sysmeminfo parse failed
+10-28 12:56:02.162   511   511 E audit   : type=1400 audit(1666954562.157:342558): avc:  denied  { read } for  pid=19056 comm="Lacrima_startup" name="zoneinfo" dev="proc" ino=4026531860 scontext=u:r:untrusted_app:s0:c24,c259,c512,c768 tcontext=u:object_r:proc_zoneinfo:s0 tclass=file permissive=0 SEPF_SM-G973F_12_0001 audit_filtered
+10-28 12:56:02.162   511   511 E audit   : type=1300 audit(1666954562.157:342558): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=764fcdec16 a2=0 a3=0 items=0 ppid=531 pid=19056 auid=4294967295 uid=10792 gid=10792 euid=10792 suid=10792 fsuid=10792 egid=10792 sgid=10792 fsgid=10792 tty=(none) ses=4294967295 comm="Lacrima_startup" exe="/system/bin/app_process64" subj=u:r:untrusted_app:s0:c24,c259,c512,c768 key=(null)
+10-28 12:56:02.162   511   511 E audit   : type=1327 audit(1666954562.157:342558): proctitle="com.facebook.orca"
+10-28 12:56:02.171 17800 17800 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231207/com.example.lunchtray:id/start_order_btn>
+10-28 12:56:02.174   954  1844 D InputDispatcher: Inject motion (17800): action=0x0, time=851610967000000, f=0x0, d=0
+10-28 12:56:02.175   954  1162 I InputDispatcher: Delivering touch to (1348): action: 0x4, f=0x0, d=0, 'be23078', t=0
+10-28 12:56:02.175   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x0, f=0x0, d=0, '9c3c37f', t=0
+10-28 12:56:02.177  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3825@21, type = 1090523139
+10-28 12:56:02.177 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 0
+10-28 12:56:02.177  3825  3825 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3825@23, type = 1090523139
+10-28 12:56:02.178   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7397802  [3825 / 21]    HINT :      list : [TABoost / 5]
+10-28 12:56:02.178   566   611 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 7405499  [3825 / 23]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+10-28 12:56:02.206   620   620 I SurfaceFlinger: SFWD update time=851611001473139
+10-28 12:56:02.215   954  1844 D InputDispatcher: Inject motion (17800): action=0x1, time=851611009000000, f=0x0, d=0
+10-28 12:56:02.216   954  1162 I InputDispatcher: Delivering touch to (17800): action: 0x1, f=0x0, d=0, '9c3c37f', t=1
+10-28 12:56:02.216 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: ViewPostIme pointer 1
+10-28 12:56:02.228 17800 17800 D ScrollView: initGoToTop
+10-28 12:56:02.267   954  1844 V WindowManager: Relayout Window{9c3c37f u0 com.example.lunchtray/com.example.lunchtray.MainActivity}: viewVisibility=0 req=1080x2280 d0
+10-28 12:56:02.274   954  1844 V WindowManager: Relayout hash=9c3c37f, pid=17800: mAttrs={(0,0)(fillxfill) sim={adjust=resize} ty=BASE_APPLICATION wanim=0x1030303
+10-28 12:56:02.274   954  1844 V WindowManager:   fl=81810100
+10-28 12:56:02.274   954  1844 V WindowManager:   pfl=12020040
+10-28 12:56:02.274   954  1844 V WindowManager:   apr=LIGHT_NAVIGATION_BARS
+10-28 12:56:02.274   954  1844 V WindowManager:   bhv=DEFAULT
+10-28 12:56:02.274   954  1844 V WindowManager:   fitSides= naviIconColor=0
+10-28 12:56:02.274   954  1844 V WindowManager:   sfl=100000}
+10-28 12:56:02.275 17800 17800 I ViewRootImpl@e3730aa[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=9 res=0x1 s={true 515080419504} ch=false fn=86
+10-28 12:56:02.276 17800 17800 D ScrollView:  onsize change changed
+10-28 12:56:02.510 17800 17800 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Subtotal: $0.00"
+10-28 12:56:02.511 17800 17832 I TestRunner: finished: order_reset_after_cancel_from_checkout(com.example.lunchtray.OrderFunctionalityTests)
