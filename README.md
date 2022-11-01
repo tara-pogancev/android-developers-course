@@ -19,7 +19,7 @@ You can download **[PureRef](https://www.pureref.com/)** here.
  7. **Dogglers** - 123
  8. **Dessert Clicker** - 123
  9. **Tip Time Instrumentation Tests** - 123
- 10. **Words App** - 123
+ 10. **Words App** - Preferences, Layouts Linear and Grid
  11. **Unscramble** - 123
  12. **Training Sports** - 123
  13. **Lunch Tray** - 123
@@ -29,3 +29,4 @@ You can download **[PureRef](https://www.pureref.com/)** here.
  17. **Parks Database** - 123
  18. **Bus Schedule** - Database introduction with read operation
  19. **Inventory App** - CRUD operations with Room Database
+ 20. **Forage App** - CRUD operations with foraged items (Project)
