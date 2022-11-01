@@ -1,5 +1,5 @@
 # Android Developers Course - Kotlin 
-This repository contains a set of excercise projects for the Android Basics in Kotlin course. The course is made by Google and consists of 6 Units going over the fundamentals of Android development.
+This repository contains a set of exercise projects for the Android Basics in Kotlin course. The course is made by Google and consists of 6 Units going over the fundamentals of Android development.
 
 **[Android Basics in Kotlin](https://developer.android.com/courses/android-basics-kotlin/course)**
 
