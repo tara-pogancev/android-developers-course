@@ -10,25 +10,25 @@ You can download **[PureRef](https://www.pureref.com/)** here.
 
 ## Projects
 
- 1. **Happy Birthday** - 123
- 2. **Dice Roller** - 123
- 3. **Debugging** - 123
- 4. **Lemonade App** - 123
- 5. **Tip Time** - 123
- 6. **Affirmations** - 123
- 7. **Dogglers** - 123
- 8. **Dessert Clicker** - 123
- 9. **Tip Time Instrumentation Tests** - 123
+ 1. **Happy Birthday** - Basic Layout Introduction
+ 2. **Dice Roller** - Images, Button, Unit Tests
+ 3. **Debugging** - Dice Roller Debugging intro
+ 4. **Lemonade App** - Switching between states and changing pictures on click *(Project 1)*
+ 5. **Tip Time** - User Input
+ 6. **Affirmations** - Scrollable list of items
+ 7. **Dogglers** - Scrollable list of items with pictures and details view *(Project 2)*
+ 8. **Dessert Clicker** - Lifecycle examples
+ 9. **Tip Time Instrumentation Tests** - Instrumentation tests with user input
  10. **Words App** - Preferences, Layouts Linear and Grid
- 11. **Unscramble** - 123
- 12. **Training Sports** - 123
- 13. **Lunch Tray** - 123
- 14. **Cupcake App** - 123
- 15. **Mars Photos** - 123
- 16. **Amphibians App** - 123
- 17. **Parks Database** - 123
+ 11. **Unscramble** - View Model Introduction
+ 12. **Training Sports** - Adaptive Layouts
+ 13. **Cupcake App** - Navigation, ViewModel, Binding
+ 14. **Lunch Tray** - View Model, Data Binding, Navigation *(Project 3)*
+ 15. **Mars Photos** - Display pictures from the Internet
+ 16. **Amphibians App** - Display informations and details from the Internet *(Project 4)*
+ 17. **Parks Database** - Display parks and their locations from the database
  18. **Bus Schedule** - Database introduction with read operation
  19. **Inventory App** - CRUD operations with Room Database
- 20. **Forage App** - CRUD operations with foraged items (Project)
+ 20. **Forage App** - CRUD operations with foraged items *(Project 5)*
  21. **WorkManager** - Background work with WorkManager
- 22. **Water Me App** - Background workers (Project)
+ 22. **Water Me App** - Background workers *(Project 6)*
